@@ -5,90 +5,89 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>22957</tokens><words>22957</words><fused>0</fused></total>
+    <total><sentences>1000</sentences><tokens>16584</tokens><words>16584</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="5767" /><!-- ., 의, 을, 이, 에, 는, 를, 은, 가, 에서, ,, 한, 그, 했다, 으로 -->
+  <lemmas unique="2616" /><!-- ., ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 이, 고, 자신, 1 -->
+  <forms unique="8258" /><!-- ., ,, 인, 년, 그, 수, ", 는, 이다, (, ), 있다, 것, 이, 있는 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="12">
-    <tag name="ADJ">647</tag><!-- _ -->
-    <tag name="ADV">528</tag><!-- _ -->
-    <tag name="AFFIX">1537</tag><!-- _ -->
-    <tag name="CONJ">125</tag><!-- _ -->
-    <tag name="DET">457</tag><!-- _ -->
-    <tag name="NOUN">9728</tag><!-- _ -->
-    <tag name="NUM">513</tag><!-- _ -->
-    <tag name="PRON">374</tag><!-- _ -->
-    <tag name="PRT">5288</tag><!-- _ -->
-    <tag name="PUNCT">1595</tag><!-- _ -->
-    <tag name="VERB">2162</tag><!-- _ -->
+  <tags unique="13">
+    <tag name="ADJ">643</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
+    <tag name="ADV">529</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
+    <tag name="AUX">458</tag><!-- _ -->
+    <tag name="CCONJ">125</tag><!-- _ -->
+    <tag name="DET">465</tag><!-- _, 있는가, 총 -->
+    <tag name="NOUN">8082</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
+    <tag name="NUM">513</tag><!-- 1, _, 10, 3, 2, 4, 6, 20, 8, 5 -->
+    <tag name="PART">496</tag><!-- 는, 의, 고, 에, 도, 라고, 가, 와, 에서, 이 -->
+    <tag name="PRON">374</tag><!-- 그, 그녀, 자신, 그것, _, 그들, 이, 나, 우리, 이것 -->
+    <tag name="PROPN">1676</tag><!-- _, 중국, 영국, 미국, 러시아, 마케도니아, 유럽, 프랑스, 그리스, 독일 -->
+    <tag name="PUNCT">1595</tag><!-- ., ,, ", (, ), “, ”, ', -, ? -->
+    <tag name="VERB">1625</tag><!-- _ -->
     <tag name="X">3</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="25">
-    <feat name="ko/case" value="acc" upos="NOUN,PRT">1006</feat><!-- 을, 를, 걸, 날 -->
-    <feat name="ko/case" value="advb" upos="PRT">1461</feat><!-- 에, 에서, 으로, 로, 에게, 과, 와, 에는, 보다, 로서 -->
-    <feat name="ko/case" value="comp" upos="NOUN,PRON,PRT">64</feat><!-- 이, 가, 게, 누가, 은 -->
-    <feat name="ko/case" value="gen" upos="PRON,PRT">656</feat><!-- 의, 내 -->
-    <feat name="ko/case" value="nom" upos="NOUN,PRON,PRT">1525</feat><!-- 이, 는, 은, 가, 게, 누가, 건, 아버진 -->
-    <feat name="ko/form" value="adn" upos="ADJ,AFFIX,VERB">1585</feat><!-- 한, 인, 할, 하는, 있는, 된, 대한, 같은, 될, 새로운 -->
-    <feat name="ko/form" value="aux" upos="ADJ,AFFIX,VERB">317</feat><!-- 하고, 하지, 해, 해야, 되지, 되어, 만들어, 갖고, 되고, 그렇지 -->
-    <feat name="ko/form" value="compl" upos="ADJ,AFFIX,VERB">919</feat><!-- 해, 하고, 대해, 했으며, 위해, 통해, 하게, 하면서, 따르면, 있으며 -->
-    <feat name="ko/form" value="fin" upos="ADJ,AFFIX,VERB">1173</feat><!-- 했다, 있다, 이다, 하였다, 되었다, 한다, 이었다, 된다, 이라, 있었다 -->
-    <feat name="ko/form" value="ger" upos="ADJ,AFFIX,VERB">134</feat><!-- 하기, 함, 있기, 되기, 있었기, 했기, 만들기, 시키기, 않기, 이기 -->
-    <feat name="ko/formality" value="fml" upos="PRT">4868</feat><!-- 의, 을, 에, 이, 는, 를, 은, 가, 에서, 으로 -->
-    <feat name="ko/honorific" value="hon" upos="PRON,PRT,VERB">19</feat><!-- 요, 저, 눈여겨보셔야, 이세요, 제 -->
-    <feat name="ko/mood" value="imp" upos="VERB">8</feat><!-- 달라, 말라, 떨어뜨려라, 쓰라, 합시다 -->
-    <feat name="ko/mood" value="ind" upos="ADJ,AFFIX,VERB">1105</feat><!-- 했다, 있다, 이다, 하였다, 되었다, 한다, 이었다, 된다, 이라, 있었다 -->
-    <feat name="ko/mood" value="inter" upos="ADJ,AFFIX,VERB">24</feat><!-- 가, 인가, 있는가, 나뉘어졌는가, 나왔나, 되었나, 아닌가, 어떠한가, 어떤가, 일까 -->
-    <feat name="ko/number" value="plur" upos="NOUN,PRON">238</feat><!-- 사람들, 그들, 이들, 투자자들, 학생들, 국민들, 원주민들, 자신들, 회사들, 의원들 -->
-    <feat name="ko/person" value="1" upos="PRON">55</feat><!-- 우리, 나, 내, 저, 제 -->
-    <feat name="ko/person" value="2" upos="PRON">4</feat><!-- 여러분, 너희들, 당신 -->
-    <feat name="ko/person" value="3" upos="PRON">174</feat><!-- 그, 그녀, 그들, 이들 -->
-    <feat name="ko/proper" value="false" upos="ADJ,ADV,AFFIX,CONJ,DET,NOUN,NUM,PRON,PRT,PUNCT,VERB,X">20778</feat><!-- ., 의, 을, 이, 에, 는, 를, 은, 가, 에서 -->
-    <feat name="ko/proper" value="true" upos="ADJ,ADV,AFFIX,DET,NOUN,NUM,PRON,PRT,PUNCT,VERB,X">2179</feat><!-- 영국, 미국, 중국, 세, 프랑스, 유럽, 트럼프, 독일, 그리스, 로마 -->
-    <feat name="ko/tense" value="fut" upos="ADJ,AFFIX,VERB">57</feat><!-- 할, 될, 하겠다, 일어날, 있을, 나갈, 날, 내리겠다, 내릴, 늦추어질 -->
-    <feat name="ko/tense" value="past" upos="ADJ,AFFIX,VERB">1243</feat><!-- 했다, 한, 하였다, 되었다, 된, 이었다, 했으며, 있었다, 였다, 않았다 -->
-    <feat name="ko/voice" value="cau" upos="AFFIX,VERB">71</feat><!-- 시켰다, 시킨, 시킬, 남겨, 보였다, 시키기, 남긴, 덧붙였다, 세웠다, 태우고 -->
-    <feat name="ko/voice" value="pass" upos="AFFIX,VERB">273</feat><!-- 된, 되었다, 된다, 될, 되는, 되지, 되고, 되어, 되었고, 되었으며 -->
+  <feats unique="24">
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PART,PRON,PROPN">1006</feat><!-- 것을, 를, 영향을, 을, 모습을, 일을, 역할을, 이를, %를, 강을 -->
+    <feat name="Case" value="Advb" upos="ADJ,DET,NOUN,NUM,PART,PRON,PROPN">1461</feat><!-- 때문에, 에, 것으로, 에서, 와, 월에, 년에, 사이에, 로, 방식으로 -->
+    <feat name="Case" value="Comp" upos="NOUN,PART,PRON,PROPN">64</feat><!-- 대통령이, 도움이, 것이, 게, 대상이, 도구가, 계획이, 곳은, 공간이, 공급원이 -->
+    <feat name="Case" value="Gen" upos="NOUN,PART,PRON,PROPN">656</feat><!-- 의, 자신의, 그의, 지역의, 명의, 개의, 그녀의, 중국의, 다수의, 그들의 -->
+    <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PART,PRON,PROPN">1525</feat><!-- 그는, 는, 가, 그녀는, 나는, 것이, 것은, 은, 이, 그것은 -->
+    <feat name="Form" value="Adn" upos="ADJ,AUX,VERB">1118</feat><!-- 인, 있는, 대한, 같은, 새로운, 큰, 많은, 이러한, 라는, 위한 -->
+    <feat name="Form" value="Aux" upos="ADJ,AUX,NOUN,PART,VERB">210</feat><!-- 하지, 되어, 만들어, 하고, 갖고, 그렇지, 남겨, 남아, 받고, 알려져 -->
+    <feat name="Form" value="Compl" upos="ADJ,AUX,PART,VERB">642</feat><!-- 대해, 위해, 통해, 따르면, 있으며, 이며, 따라, 이고, 되면, 있고 -->
+    <feat name="Mood" value="Imp" upos="PART,VERB">8</feat><!-- 달라고, 말라고, 떨어뜨려라, 쓰라고, 합시다 -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,PART,VERB">703</feat><!-- 이다, 있다, 이었다, 되었다, 한다, 이라, 였다, 있었다, 했다, 않았다 -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,PROPN">238</feat><!-- 그들은, 사람들이, 그들의, 사람들에게, 그들이, 사람들의, 투자자들이, 사람들은, 원주민들이, 의원들에게 -->
+    <feat name="NumType" value="Card" upos="NUM">513</feat><!-- 1, 10, 3, 2, 4, 6, 20, 8, 5, 9 -->
+    <feat name="Person" value="1" upos="PRON">55</feat><!-- 나는, 내가, 우리는, 우리가, 우리, 우리를, 내, 우리에게, 저는, 나도 -->
+    <feat name="Person" value="2" upos="PRON">4</feat><!-- 너희들, 당신이, 여러분, 여러분의 -->
+    <feat name="Person" value="3" upos="PRON">174</feat><!-- 그는, 그의, 그녀는, 그들은, 그녀가, 그녀의, 그가, 그들의, 그들이, 그녀에게 -->
+    <feat name="Polarity" value="Neg" upos="ADV">7</feat><!-- 안, 못 -->
+    <feat name="Polite" value="Form" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">4884</feat><!-- 그는, 의, 는, 때문에, 에, 자신의, 것으로, 그의, 가, 그녀는 -->
+    <feat name="PronType" value="Int" upos="AUX,DET,PART,VERB">22</feat><!-- 가, 인가, 있는가, 나뉘어졌는가를, 나왔나요, 되었나, 아닌가, 어떠한가, 어떤가, 일까 -->
+    <feat name="Tense" value="Fut" upos="ADJ,PART,VERB">32</feat><!-- 될, 일어날, 있을, 나갈, 날, 내리겠다고, 내릴, 늦추어질, 다가올, 돌아올 -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,PART,VERB">641</feat><!-- 이었다, 되었다, 였다, 있었다, 했다, 않았다, 된, 못했다, 받았다, 한 -->
+    <feat name="VerbForm" value="Fin" upos="ADJ,AUX,DET,PART,VERB">762</feat><!-- 이다, 있다, 이었다, 되었다, 한다, 이라, 였다, 있었다, 했다, 않았다 -->
+    <feat name="VerbForm" value="Ger" upos="ADJ,AUX,PART,VERB">79</feat><!-- 있기, 있었기, 만들기, 이기, 있음을, 그럼에, 그렇기, 높기, 벗어나기, 않기로 -->
+    <feat name="Voice" value="Cau" upos="PART,VERB">44</feat><!-- 남겨, 남긴, 덧붙였다, 보였다, 세웠다, 태우고, 끝냈으며, 날리게, 낮추거나, 낮추는 -->
+    <feat name="Voice" value="Pass" upos="PART,VERB">64</feat><!-- 열린, 보인다, 낮아지게, 놓여, 되었고, 만들어졌다, 보였던, 걸러졌고, 걸린, 꾸며져 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
-    <dep name="ROOT">1000</dep>
+  <deps unique="34">
+    <dep name="acl:relcl">1188</dep>
     <dep name="advcl">998</dep>
-    <dep name="advmod">2337</dep>
+    <dep name="advmod">2344</dep>
     <dep name="amod">208</dep>
     <dep name="appos">90</dep>
-    <dep name="attr">458</dep>
     <dep name="aux">323</dep>
     <dep name="cc">79</dep>
     <dep name="ccomp">68</dep>
-    <dep name="conj">405</dep>
+    <dep name="compound">2282</dep>
+    <dep name="compound:lvc">77</dep>
+    <dep name="conj">409</dep>
+    <dep name="cop">458</dep>
     <dep name="csubj">19</dep>
-    <dep name="csubjpass">1</dep>
-    <dep name="dep">195</dep>
-    <dep name="det">338</dep>
+    <dep name="csubj:pass">1</dep>
+    <dep name="dep">193</dep>
+    <dep name="dep:prt">404</dep>
+    <dep name="det">339</dep>
     <dep name="discourse">1</dep>
-    <dep name="dobj">1030</dep>
+    <dep name="fixed">4</dep>
+    <dep name="flat">61</dep>
+    <dep name="flat:name">269</dep>
+    <dep name="goeswith">45</dep>
     <dep name="iobj">23</dep>
-    <dep name="mwe">4</dep>
-    <dep name="neg">7</dep>
-    <dep name="nn">2551</dep>
+    <dep name="nmod:poss">655</dep>
     <dep name="nsubj">1546</dep>
-    <dep name="nsubjpass">160</dep>
-    <dep name="num">567</dep>
-    <dep name="number">38</dep>
-    <dep name="numc">61</dep>
-    <dep name="p">1595</dep>
-    <dep name="poss">656</dep>
-    <dep name="precomp">77</dep>
-    <dep name="pref">27</dep>
-    <dep name="prt">5285</dep>
-    <dep name="rcmod">1188</dep>
-    <dep name="remnant">8</dep>
-    <dep name="suff">1509</dep>
-    <dep name="tmod">104</dep>
+    <dep name="nsubj:pass">160</dep>
+    <dep name="nummod">605</dep>
+    <dep name="obj">1030</dep>
+    <dep name="obl">1</dep>
+    <dep name="obl:tmod">104</dep>
+    <dep name="orphan">4</dep>
+    <dep name="punct">1595</dep>
+    <dep name="root">1000</dep>
     <dep name="vocative">1</dep>
   </deps>
 </treebank>
