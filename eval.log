@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-PUD:
-commit 8f28b2446646b9729222ffb318a436d071695dee
-Merge: 5a471f1 73fed78
+commit a618a24e6ae53cb7ee15d0b7df244a7f3574b60c
+Merge: b91f9c1 6bcf927
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 16584 of 16584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.61687675026696.
