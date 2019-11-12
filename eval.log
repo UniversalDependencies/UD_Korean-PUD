@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-PUD:
-commit a618a24e6ae53cb7ee15d0b7df244a7f3574b60c
-Merge: b91f9c1 6bcf927
+commit a306b6fab3668db2fc4db1e20f4ab0ba776786cf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:27:47 2019 +0200
 Size: counted 16584 of 16584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.61687675026696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 2668 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16584 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ko --max-err=10 UD_Korean-PUD/ko_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 14 Sent n01001011 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 26 Sent n01001011 Node 21]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADJ'
+[Line 31 Sent n01001011 Node 26]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 45 Sent n01001013 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 61 Sent n01002017 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 64 Sent n01002017 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 77 Sent n01002017 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 106 Sent n01002032 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 108 Sent n01002032 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+...suppressing further errors regarding Syntax
+Syntax errors: 2207
+*** FAILED *** with 2207 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.611764705882353) = 0.0470588235294118
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.258976473691108) * (availability=1) * (validity=1) = 0.258976473691108
-STARS = 1.5
-UD_Korean-PUD	0.258976473691108	1.5
+(TOTAL score=0.258976473691108) * (availability=1) * (validity=0.01) = 0.00258976473691108
+STARS = 0
+UD_Korean-PUD	0.00258976473691108	0
