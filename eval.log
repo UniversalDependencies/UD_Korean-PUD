@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Korean-PUD:
-commit a306b6fab3668db2fc4db1e20f4ab0ba776786cf
+commit 8af7a41bb32e7f34f4a5436034f0bad156311c29
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:27:47 2019 +0200
+Date:   Tue Nov 12 17:25:55 2019 +0100
 Size: counted 16584 of 16584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.61687675026696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 8210 out of 16584 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 2668 bugs.
+Udapi: found 2669 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16584 words.
 Genres: found 2 out of 17 known.
 validate.py --lang ko --max-err=10 UD_Korean-PUD/ko_pud-ud-test.conllu
