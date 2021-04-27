@@ -30,10 +30,8 @@
     <tag name="X">3</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="24">
+  <feats unique="22">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PART,PRON,PROPN">1006</feat><!-- 것을, 를, 영향을, 을, 모습을, 일을, 역할을, 이를, %를, 강을 -->
-    <feat name="Case" value="Advb" upos="ADJ,DET,NOUN,NUM,PART,PRON,PROPN">1461</feat><!-- 때문에, 에, 것으로, 에서, 와, 월에, 년에, 사이에, 로, 방식으로 -->
-    <feat name="Case" value="Comp" upos="NOUN,PART,PRON,PROPN">64</feat><!-- 대통령이, 도움이, 것이, 게, 대상이, 도구가, 계획이, 곳은, 공간이, 공급원이 -->
     <feat name="Case" value="Gen" upos="NOUN,PART,PRON,PROPN">656</feat><!-- 의, 자신의, 그의, 지역의, 명의, 개의, 그녀의, 중국의, 다수의, 그들의 -->
     <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PART,PRON,PROPN">1525</feat><!-- 그는, 는, 가, 그녀는, 나는, 것이, 것은, 은, 이, 그것은 -->
     <feat name="Form" value="Adn" upos="ADJ,AUX,VERB">1118</feat><!-- 인, 있는, 대한, 같은, 새로운, 큰, 많은, 이러한, 라는, 위한 -->
