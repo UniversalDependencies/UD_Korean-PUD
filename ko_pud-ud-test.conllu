@@ -17830,8 +17830,8 @@
 5	정적이	정적	NOUN	NN+CM	Case=Nom|Polite=Form	6	nsubj:pass	_	MSeg=정적-이|Translit=.jeong.jeog.i|LTranslit=.jeong.jeog
 6	당선된다면	_	NOUN	NN	_	17	advcl	_	SpaceAfter=No|Translit=.dang.seon.doen.da.myeon|LTranslit=_
 7	그녀는	그녀	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	14	nsubj	_	MSeg=그녀-는|Translit=.geu.nyeo.neun|LTranslit=.geu.nyeo
-8	'수	_	PUNCT	``	_	7	punct	_	OrigForm='|Translit='.su|LTranslit=_
-9	년간	_	NOUN	NN	_	10	compound	_	OrigForm=수년간|Translit=.nyeon.gan|LTranslit=_
+8	'수	_	PUNCT	``	_	7	punct	_	LTranslit=_|Translit='.su
+9	년간	_	NOUN	NN	_	10	compound	_	LTranslit=_|Translit=.nyeon.gan
 10	조사	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=.jo.sa|LTranslit=_
 11	'	'	PUNCT	''	_	12	punct	_	SpaceAfter=No|Translit='|LTranslit=_
 12	를	를	PART	CM	Case=Acc|Polite=Form	10	case	_	Translit=.reul|LTranslit=_
