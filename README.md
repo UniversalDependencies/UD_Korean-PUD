@@ -99,6 +99,8 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed right-headed apposition and non-projective punctuation.
 * 2020-05-15 v2.8
   * Removed undocumented Case values Advb and Comp. They are not used in
     the other Korean treebanks.

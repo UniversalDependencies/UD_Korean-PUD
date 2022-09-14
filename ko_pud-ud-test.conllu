@@ -193,7 +193,7 @@
 21	of	_	X	FW	_	20	dep	_	Proper=True|Translit=of|LTranslit=_
 22	America	_	PROPN	NNP	_	21	dep	_	SpaceAfter=No|Translit=America|LTranslit=_
 23	)	)	PUNCT	)	_	20	punct	_	SpaceAfter=No|Translit=)|LTranslit=_
-24	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
+24	,	,	PUNCT	,	_	28	punct	_	Translit=,|LTranslit=_
 25	전미	_	PROPN	NNP	_	26	compound	_	SpaceAfter=No|Translit=.jeon.mi|LTranslit=_
 26	소비자	_	NOUN	NN	_	27	compound	_	SpaceAfter=No|Proper=True|Translit=.so.bi.ja|LTranslit=_
 27	기술	_	NOUN	NN	_	28	compound	_	SpaceAfter=No|Proper=True|Translit=.gi.sul|LTranslit=_
@@ -1099,7 +1099,7 @@
 6	레딧	_	PROPN	NNP	_	11	advmod	_	SpaceAfter=No|Translit=.re.dis|LTranslit=_
 7	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
 8	트위터	_	PROPN	NNP	_	6	conj	_	SpaceAfter=No|Translit=.teu.wi.teo|LTranslit=_
-9	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+9	,	,	PUNCT	,	_	10	punct	_	Translit=,|LTranslit=_
 10	스포티파이와	스포티파이	PROPN	NNP+CM	Polite=Form	6	conj	_	MSeg=스포티파이-와|Translit=.seu.po.ti.pa.i.wa|LTranslit=.seu.po.ti.pa.i
 11	같은	_	ADJ	JJ	Form=Adn	15	acl:relcl	_	Translit=.gat.eun|LTranslit=_
 12	여러	_	DET	DT	_	15	det	_	Translit=.yeo.reo|LTranslit=_
@@ -1771,7 +1771,7 @@
 2	경찰서에	경찰서	NOUN	NN+CM	Polite=Form	3	advmod	_	MSeg=경찰서-에|Translit=.gyeong.chal.seo.e|LTranslit=.gyeong.chal.seo
 3	따르면	_	VERB	VV	Form=Compl	24	advcl	_	SpaceAfter=No|Translit=.dda.reu.myeon|LTranslit=_
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=_
-5	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No|Translit="|LTranslit=_
+5	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No|Translit="|LTranslit=_
 6	지역	_	NOUN	NN	_	7	compound	_	Translit=.ji.yeog|LTranslit=_
 7	당국	_	NOUN	NN	_	8	compound	_	Translit=.dang.gug|LTranslit=_
 8	소속	_	NOUN	NN	_	12	advcl	_	SpaceAfter=No|Translit=.so.sog|LTranslit=_
@@ -2233,7 +2233,7 @@
 8	남아프리카	_	PROPN	NNP	_	6	conj	_	SpaceAfter=No|Translit=.nam.a.peu.ri.ka|LTranslit=_
 9	,	,	PUNCT	,	_	10	punct	_	Translit=,|LTranslit=_
 10	인도	_	PROPN	NNP	_	6	conj	_	SpaceAfter=No|Translit=.in.do|LTranslit=_
-11	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+11	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 12	중국과	중국	PROPN	NNP+CM	Polite=Form	6	conj	_	MSeg=중국-과|Translit=.jung.gug.gwa|LTranslit=.jung.gug
 13	같은	_	ADJ	JJ	Form=Adn	16	acl:relcl	_	Translit=.gat.eun|LTranslit=_
 14	신흥	_	NOUN	NN	_	16	compound	_	Translit=.sin.heung|LTranslit=_
@@ -2509,7 +2509,7 @@
 4	억	_	DET	DT	_	5	nummod	_	Translit=.eog|LTranslit=_
 5	달러를	달러	NOUN	NNB+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=달러-를|Translit=.dal.reo.reul|LTranslit=.dal.reo
 6	넘고	_	VERB	VV	Form=Compl	0	root	_	SpaceAfter=No|Translit=.neom.go|LTranslit=_
-7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 8	직원	_	NOUN	NN	_	9	compound	_	Translit=.jig.weon|LTranslit=_
 9	수는	수	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=수-는|Translit=.su.neun|LTranslit=.su
 10	6,000	6,000	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No|Translit=6,000|LTranslit=_
@@ -3043,7 +3043,7 @@
 10	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No|Translit="|LTranslit=_
 11	사랑스럽고	_	NOUN	NN	_	8	conj	_	SpaceAfter=No|Translit=.sa.rang.seu.reob.go|LTranslit=_
 12	훌륭한	_	ADJ	JJ	Form=Adn	8	conj	_	SpaceAfter=No|Translit=.hul.ryung.han|LTranslit=_
-13	"	"	PUNCT	''	_	8	punct	_	Translit="|LTranslit=_
+13	"	"	PUNCT	''	_	12	punct	_	Translit="|LTranslit=_
 14	여성으로	여성	NOUN	NN+CM	Polite=Form	15	advmod	_	MSeg=여성-으로|Translit=.yeo.seong.eu.ro|LTranslit=.yeo.seong
 15	묘사했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.myo.sa.haess.da|LTranslit=_
 16	.	.	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=_
@@ -3437,7 +3437,7 @@
 4	가	_	AUX	VC	PronType=Int|VerbForm=Fin	3	cop	_	Translit=.ga|LTranslit=_
 5	다른	_	ADJ	JJ	Form=Adn	6	acl:relcl	_	Translit=.da.reun|LTranslit=_
 6	일	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=.il|LTranslit=_
-7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 8	더	_	ADV	RB	_	9	advmod	_	Translit=.deo|LTranslit=_
 9	잘할	_	ADV	RB	_	10	acl:relcl	_	Translit=.jal.hal|LTranslit=_
 10	수	_	NOUN	NNB	_	11	nsubj	_	Translit=.su|LTranslit=_
@@ -3651,7 +3651,7 @@
 7	불편함	_	NOUN	NN	_	14	compound	_	SpaceAfter=No|Translit=.bul.pyeon.ham|LTranslit=_
 8	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
 9	성장	_	NOUN	NN	_	7	conj	_	SpaceAfter=No|Translit=.seong.jang|LTranslit=_
-10	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=_
+10	,	,	PUNCT	,	_	13	punct	_	Translit=,|LTranslit=_
 11	의미	_	NOUN	NN	_	12	nsubj	_	Translit=.yi.mi|LTranslit=_
 12	있는	_	ADJ	JJ	Form=Adn	13	acl:relcl	_	Translit=.iss.neun|LTranslit=_
 13	연결	_	NOUN	NN	_	7	conj	_	Translit=.yeon.gyeol|LTranslit=_
@@ -4632,7 +4632,7 @@
 11	있고	_	ADJ	JJ	Form=Compl	0	root	_	Translit=.iss.go|LTranslit=_
 12	12,000	12,000	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No|Translit=12,000|LTranslit=_
 13	파운드	_	NOUN	NNB	_	18	nmod:poss	_	Translit=.pa.un.deu|LTranslit=_
-14	–	–	PUNCT	HYPH	_	13	punct	_	Translit=–|LTranslit=_
+14	–	–	PUNCT	HYPH	_	15	punct	_	Translit=–|LTranslit=_
 15	360	360	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No|Translit=360|LTranslit=_
 16	파운드의	파운드	NOUN	NNB+CM	Case=Gen|Polite=Form	13	flat	_	MSeg=파운드-의|Translit=.pa.un.deu.yi|LTranslit=.pa.un.deu
 17	은행	_	NOUN	NN	_	18	compound	_	Translit=.eun.haeng|LTranslit=_
@@ -4667,7 +4667,7 @@
 14	후	_	NOUN	NN	_	26	advmod	_	Translit=.hu|LTranslit=_
 15	3,000	3,000	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No|Translit=3,000|LTranslit=_
 16	파운드	_	NOUN	NNB	_	21	nmod:poss	_	SpaceAfter=No|Translit=.pa.un.deu|LTranslit=_
-17	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
 18	5,000	5,000	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No|Translit=5,000|LTranslit=_
 19	파운드의	파운드	NOUN	NNB+CM	Case=Gen|Polite=Form	16	flat	_	MSeg=파운드-의|Translit=.pa.un.deu.yi|LTranslit=.pa.un.deu
 20	은행	_	NOUN	NN	_	21	compound	_	Translit=.eun.haeng|LTranslit=_
@@ -4712,7 +4712,7 @@
 9	사이에	사이	NOUN	NN+CM	Polite=Form	15	advmod	_	MSeg=사이-에|Translit=.sa.i.e|LTranslit=.sa.i
 10	15,001	15,001	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No|Translit=15,001|LTranslit=_
 11	파운드	_	NOUN	NNB	_	15	obj	_	SpaceAfter=No|Translit=.pa.un.deu|LTranslit=_
-12	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
 13	19,999	19,999	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=19,999|LTranslit=_
 14	파운드를	파운드	NOUN	NNB+CM	Case=Acc|Polite=Form	11	flat	_	MSeg=파운드-를|Translit=.pa.un.deu.reul|LTranslit=.pa.un.deu
 15	대출하려는	_	NOUN	NN	_	18	acl:relcl	_	SpaceAfter=No|Translit=.dae.chul.ha.ryeo.neun|LTranslit=_
@@ -5239,7 +5239,7 @@
 10	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 11	작은	_	ADJ	JJ	Form=Adn	12	amod	_	Translit=.jag.eun|LTranslit=_
 12	넙치	_	NOUN	NN	_	5	conj	_	SpaceAfter=No|Translit=.neob.chi|LTranslit=_
-13	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=_
+13	,	,	PUNCT	,	_	14	punct	_	Translit=,|LTranslit=_
 14	대구류	_	NOUN	NN	_	5	conj	_	Translit=.dae.gu.ryu|LTranslit=_
 15	수확량이	수확량	NOUN	NN+CM	Case=Nom|Polite=Form	17	nsubj	_	MSeg=수확량-이|Translit=.su.hwag.ryang.i|LTranslit=.su.hwag.ryang
 16	크게	_	ADJ	JJ	Form=Compl	17	advmod	_	Translit=.keu.ge|LTranslit=_
@@ -5549,7 +5549,7 @@
 7	시	_	NOUN	NNB	_	3	appos	_	SpaceAfter=No|Translit=.si|LTranslit=_
 8	30	30	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No|Translit=30|LTranslit=_
 9	분	_	NOUN	NNB	_	7	flat	_	SpaceAfter=No|Translit=.bun|LTranslit=_
-10	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
 11	10	10	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No|Translit=10|LTranslit=_
 12	시	_	NOUN	NNB	_	7	flat	_	SpaceAfter=No|Translit=.si|LTranslit=_
 13	)	)	PUNCT	)	_	7	punct	_	SpaceAfter=No|Translit=)|LTranslit=_
@@ -6431,7 +6431,7 @@
 3	사드	_	PROPN	NNP	_	2	conj	_	SpaceAfter=No|Translit=.sa.deu|LTranslit=_
 4	(	(	PUNCT	(	_	5	punct	_	SpaceAfter=No|Translit=(|LTranslit=_
 5	Marat	_	PROPN	NNP	_	3	appos	_	SpaceAfter=No|Translit=Marat|LTranslit=_
-6	/	/	PUNCT	/	_	5	punct	_	SpaceAfter=No|Proper=True|Translit=/|LTranslit=_
+6	/	/	PUNCT	/	_	7	punct	_	SpaceAfter=No|Proper=True|Translit=/|LTranslit=_
 7	Sade	_	PROPN	NNP	_	5	conj	_	SpaceAfter=No|Translit=Sade|LTranslit=_
 8	)	)	PUNCT	)	_	5	punct	_	SpaceAfter=No|Translit=)|LTranslit=_
 9	에서	에서	PART	CM	Polite=Form	3	case	_	Translit=.e.seo|LTranslit=_
@@ -7250,7 +7250,7 @@
 22	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No|Translit=)|LTranslit=_
 23	"	"	PUNCT	''	_	16	punct	_	SpaceAfter=No|Translit="|LTranslit=_
 24	과	과	PART	CP	Polite=Form	16	case	_	Translit=.gwa|LTranslit=_
-25	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No|Translit="|LTranslit=_
+25	"	"	PUNCT	``	_	27	punct	_	SpaceAfter=No|Translit="|LTranslit=_
 26	봄의	봄	NOUN	NN+CM	Case=Gen|Polite=Form	27	nmod:poss	_	Proper=True|MSeg=봄-의|Translit=.bom.yi|LTranslit=.bom
 27	꿈	_	NOUN	NN	_	16	conj	_	SpaceAfter=No|Proper=True|Translit=.ggum|LTranslit=_
 28	(	(	PUNCT	(	_	29	punct	_	SpaceAfter=No|Translit=(|LTranslit=_
@@ -7259,7 +7259,7 @@
 31	of	_	PROPN	NNP	_	29	flat:name	_	Translit=of|LTranslit=_
 32	Spring	_	PROPN	NNP	_	29	flat:name	_	SpaceAfter=No|Translit=Spring|LTranslit=_
 33	)	)	PUNCT	)	_	29	punct	_	SpaceAfter=No|Translit=)|LTranslit=_
-34	"	"	PUNCT	''	_	16	punct	_	SpaceAfter=No|Translit="|LTranslit=_
+34	"	"	PUNCT	''	_	27	punct	_	SpaceAfter=No|Translit="|LTranslit=_
 35	을	을	PART	CM	Case=Acc|Polite=Form	27	case	_	Translit=.eul|LTranslit=_
 36	아직	_	ADV	RB	_	38	advmod	_	Translit=.a.jig|LTranslit=_
 37	탈고하지	_	NOUN	NN	_	38	aux	_	SpaceAfter=No|Translit=.tal.go.ha.ji|LTranslit=_
@@ -7511,7 +7511,7 @@
 2	인사	_	NOUN	NN	_	22	advmod	_	SpaceAfter=No|Translit=.in.sa|LTranslit=_
 3	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=_
 4	팬	_	NOUN	NN	_	2	conj	_	SpaceAfter=No|Translit=.paen|LTranslit=_
-5	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=_
+5	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
 6	심지어	_	ADV	RB	_	8	advmod	_	Translit=.sim.ji.eo|LTranslit=_
 7	CNN	_	PROPN	NNP	_	8	compound	_	Translit=CNN|LTranslit=_
 8	기자들까지	기자들	NOUN	NN+AP	Number=Plur	2	conj	_	MSeg=기자들-까지|Translit=.gi.ja.deul.gga.ji|LTranslit=.gi.ja.deul
@@ -8841,7 +8841,7 @@
 11	슬로바키아	_	PROPN	NNP	_	12	compound	_	Translit=.seul.ro.ba.ki.a|LTranslit=_
 12	남서부의	남서부	NOUN	NN+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=남서부-의|Translit=.nam.seo.bu.yi|LTranslit=.nam.seo.bu
 13	자호리	_	PROPN	NNP	_	9	conj	_	SpaceAfter=No|Translit=.ja.ho.ri|LTranslit=_
-14	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
+14	,	,	PUNCT	,	_	16	punct	_	Translit=,|LTranslit=_
 15	오스트리아	_	PROPN	NNP	_	16	compound	_	Translit=.o.seu.teu.ri.a|LTranslit=_
 16	남부로	남부	NOUN	NN+CM	Polite=Form	9	conj	_	MSeg=남부-로|Translit=.nam.bu.ro|LTranslit=.nam.bu
 17	퍼져	_	VERB	VV	Form=Aux	18	aux	_	Translit=.peo.jyeo|LTranslit=_
@@ -8974,7 +8974,7 @@
 6	스웨덴에서	스웨덴	PROPN	NNP+CM	Polite=Form	8	orphan	_	SpaceAfter=No|orig_deprel=advmod|MSeg=스웨덴-에서|Translit=.seu.we.den.e.seo|LTranslit=.seu.we.den
 7	는	는	PART	AP	_	6	case	_	Translit=.neun|LTranslit=_
 8	메엔키엘리어	_	PROPN	NNP	_	0	root	_	SpaceAfter=No|orig_deprel=nsubj|Translit=.me.en.ki.el.ri.eo|LTranslit=_
-9	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
+9	,	,	PUNCT	,	_	14	punct	_	Translit=,|LTranslit=_
 10	노르웨이에서	노르웨이	PROPN	NNP+CM	Polite=Form	14	advmod	_	SpaceAfter=No|MSeg=노르웨이-에서|Translit=.no.reu.we.i.e.seo|LTranslit=.no.reu.we.i
 11	는	는	PART	AP	_	10	case	_	Translit=.neun|LTranslit=_
 12	크벤어가	크벤어	PROPN	NNP+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=크벤어-가|Translit=.keu.ben.eo.ga|LTranslit=.keu.ben.eo
@@ -11537,7 +11537,7 @@
 4	노년까지	노년	NOUN	NN+AP	_	5	advmod	_	MSeg=노년-까지|Translit=.no.nyeon.gga.ji|LTranslit=.no.nyeon
 5	살다가	_	VERB	VV	Form=Compl	6	advcl	_	Translit=.sal.da.ga|LTranslit=_
 6	죽든가	_	VERB	VV	Form=Compl	18	advcl	_	SpaceAfter=No|Translit=.jug.deun.ga|LTranslit=_
-7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	15	punct	_	Translit=,|LTranslit=_
 8	아니면	_	ADJ	JJ	Form=Compl	15	advmod	_	Translit=.a.ni.myeon|LTranslit=_
 9	전장에서	전장	NOUN	NN+CM	Polite=Form	10	advmod	_	MSeg=전장-에서|Translit=.jeon.jang.e.seo|LTranslit=.jeon.jang
 10	요절하여	_	NOUN	NN	_	14	advcl	_	SpaceAfter=No|Translit=.yo.jeol.ha.yeo|LTranslit=_
@@ -13354,7 +13354,7 @@
 5	이탈리아	_	PROPN	NNP	_	4	conj	_	SpaceAfter=No|Translit=.i.tal.ri.a|LTranslit=_
 6	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No|Translit=(|LTranslit=_
 7	피테카우스	_	PROPN	NNP	_	5	appos	_	SpaceAfter=No|Translit=.pi.te.ka.u.seu|LTranslit=_
-8	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=_
+8	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
 9	큐메	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No|Translit=.kyu.me|LTranslit=_
 10	)	)	PUNCT	)	_	7	punct	_	Translit=)|LTranslit=_
 11	방향으로	방향	NOUN	NN+CM	Polite=Form	13	advmod	_	MSeg=방향-으로|Translit=.bang.hyang.eu.ro|LTranslit=.bang.hyang
@@ -13373,14 +13373,14 @@
 # text = 처음에 동남아시아, 아마 파푸아뉴기니에서 재배가 이뤄지던 바나나와 플랜테인은 이미 약 5천년 전 아프리카에서도 재경작이 이뤄졌다.
 # text_en = Bananas and plantains, which were first domesticated in Southeast Asia, most likely Papua New Guinea, were re-domesticated in Africa possibly as early as 5,000 years ago.
 # translit = .cheo.eum.e .dong.nam.a.si.a, .a.ma .pa.pu.a.nyu.gi.ni.e.seo .jae.bae.ga .i.rweo.ji.deon .ba.na.na.wa .peul.raen.te.in.eun .i.mi .yag 5.cheon.nyeon .jeon .a.peu.ri.ka.e.seo.do .jae.gyeong.jag.i .i.rweo.jyeoss.da.
-1	처음에	처음	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=처음-에|Translit=.cheo.eum.e|LTranslit=.cheo.eum
-2	동남아시아	_	PROPN	NNP	_	8	appos	_	SpaceAfter=No|Translit=.dong.nam.a.si.a|LTranslit=_
+1	처음에	처음	NOUN	NN+CM	Polite=Form	2	advmod	_	MSeg=처음-에|Translit=.cheo.eum.e|LTranslit=.cheo.eum
+2	동남아시아	_	PROPN	NNP	_	10	acl:relcl	_	SpaceAfter=No|Translit=.dong.nam.a.si.a|LTranslit=_
 3	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=_
 4	아마	_	ADV	RB	_	2	advmod	_	Translit=.a.ma|LTranslit=_
 5	파푸아뉴기니	_	PROPN	NNP	_	2	flat:name	_	SpaceAfter=No|Translit=.pa.pu.a.nyu.gi.ni|LTranslit=_
 6	에서	에서	PART	CM	Polite=Form	2	case	_	Translit=.e.seo|LTranslit=_
-7	재배가	재배	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=재배-가|Translit=.jae.bae.ga|LTranslit=.jae.bae
-8	이뤄지던	_	VERB	VV	Form=Adn	10	acl:relcl	_	Translit=.i.rweo.ji.deon|LTranslit=_
+7	재배가	재배	NOUN	NN+CM	Case=Nom|Polite=Form	2	nsubj	_	MSeg=재배-가|Translit=.jae.bae.ga|LTranslit=.jae.bae
+8	이뤄지던	_	VERB	VV	Form=Adn	2	appos	_	Translit=.i.rweo.ji.deon|LTranslit=_
 9	바나나와	바나나	NOUN	NN+CP	Polite=Form	20	nsubj	_	MSeg=바나나-와|Translit=.ba.na.na.wa|LTranslit=.ba.na.na
 10	플랜테인은	플랜테인	NOUN	NN+CM	Case=Nom|Polite=Form	9	conj	_	MSeg=플랜테인-은|Translit=.peul.raen.te.in.eun|LTranslit=.peul.raen.te.in
 11	이미	_	ADV	RB	_	20	advmod	_	Translit=.i.mi|LTranslit=_
@@ -13871,7 +13871,7 @@
 3	이	이	PART	CM	Case=Nom|Polite=Form	1	case	_	Translit=.i|LTranslit=_
 4	영국에	영국	PROPN	NNP+CM	Polite=Form	5	advmod	_	MSeg=영국-에|Translit=.yeong.gug.e|LTranslit=.yeong.gug
 5	양도되었으며	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.yang.do.doe.eoss.eu.myeo|LTranslit=_
-6	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=_
+6	,	,	PUNCT	,	_	19	punct	_	Translit=,|LTranslit=_
 7	상하이	_	PROPN	NNP	_	10	obj	_	Translit=.sang.ha.i|LTranslit=_
 8	및	_	CCONJ	CC	_	9	cc	_	ToDo=cc-after-conj|Translit=.mich|LTranslit=_
 9	광저우를	광저우	PROPN	NNP+CM	Case=Acc|Polite=Form	7	conj	_	MSeg=광저우-를|Translit=.gwang.jeo.u.reul|LTranslit=.gwang.jeo.u
@@ -13907,7 +13907,7 @@
 13	년	_	NOUN	NNB	_	15	orphan	_	orig_deprel=obl:tmod|Translit=.nyeon|LTranslit=_
 14	톈진	_	PROPN	NNP	_	15	compound	_	Translit=.tyen.jin|LTranslit=_
 15	조약	_	NOUN	NN	_	22	acl:relcl	_	SpaceAfter=No|orig_deprel=obj|Proper=True|Translit=.jo.yag|LTranslit=_
-16	,	,	PUNCT	,	_	15	punct	_	Translit=,|LTranslit=_
+16	,	,	PUNCT	,	_	21	punct	_	Translit=,|LTranslit=_
 17	1860	1860	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No|Translit=1860|LTranslit=_
 18	년	_	NOUN	NNB	_	21	obl:tmod	_	Translit=.nyeon|LTranslit=_
 19	베이징	_	PROPN	NNP	_	20	compound	_	Translit=.be.i.jing|LTranslit=_
@@ -14187,7 +14187,7 @@
 # translit = .si.seu.tem.eun .dan.sun.ha.go, .jig.gwan.jeog.i.myeo .i.jeon.e .hun.ryeon.eul .bad.eun .jeog.i .eobs.neun .jo.jong.sa.e.ge.do .jal .sseu.yeoss.da.
 1	시스템은	시스템	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=시스템-은|Translit=.si.seu.tem.eun|LTranslit=.si.seu.tem
 2	단순하고	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.dan.sun.ha.go|LTranslit=_
-3	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=_
+3	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=_
 4	직관적	_	NOUN	NN	_	2	conj	_	SpaceAfter=No|Translit=.jig.gwan.jeog|LTranslit=_
 5	이며	_	AUX	VC	Form=Compl	4	cop	_	Translit=.i.myeo|LTranslit=_
 6	이전에	이전	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=이전-에|Translit=.i.jeon.e|LTranslit=.i.jeon
@@ -14562,7 +14562,7 @@
 4	년에는	년	NOUN	NNB+CM	Polite=Form	0	root	_	orig_deprel=advmod|MSeg=년-에는|Translit=.nyeon.e.neun|LTranslit=.nyeon
 5	다섯	_	DET	DT	_	6	nummod	_	Translit=.da.seos|LTranslit=_
 6	개	_	NOUN	NNB	_	4	orphan	_	SpaceAfter=No|orig_deprel=nmod:poss|Translit=.gae|LTranslit=_
-7	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	15	punct	_	Translit=,|LTranslit=_
 8	2014	2014	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=2014|LTranslit=_
 9	년에는	년	NOUN	NNB+CM	Polite=Form	15	advmod	_	MSeg=년-에는|Translit=.nyeon.e.neun|LTranslit=.nyeon
 10	네	_	DET	DT	_	11	nummod	_	Translit=.ne|LTranslit=_
@@ -14911,7 +14911,7 @@
 7	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
 8	인용적	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=.in.yong.jeog|LTranslit=_
 9	관용성	_	NOUN	NN	_	6	conj	_	SpaceAfter=No|Translit=.gwan.yong.seong|LTranslit=_
-10	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+10	,	,	PUNCT	,	_	13	punct	_	Translit=,|LTranslit=_
 11	사회	_	NOUN	NN	_	12	compound	_	Translit=.sa.hoe|LTranslit=_
 12	계층	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=.gye.cheung|LTranslit=_
 13	구조는	구조	NOUN	NN+CM	Case=Nom|Polite=Form	6	conj	_	MSeg=구조-는|Translit=.gu.jo.neun|LTranslit=.gu.jo
@@ -14936,7 +14936,7 @@
 4	당시	_	NOUN	NN	_	5	advmod	_	Translit=.dang.si|LTranslit=_
 5	보였던	_	VERB	VV	Form=Adn|Tense=Past|Voice=Cau	6	acl:relcl	_	Translit=.bo.yeoss.deon|LTranslit=_
 6	저항	_	NOUN	NN	_	17	advmod	_	SpaceAfter=No|Translit=.jeo.hang|LTranslit=_
-7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	16	punct	_	Translit=,|LTranslit=_
 8	그리고	_	CCONJ	CC	_	16	cc	_	ToDo=cc-after-conj|Translit=.geu.ri.go|LTranslit=_
 9	폴란드의	폴란드	PROPN	NNP+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=폴란드-의|Translit=.pol.ran.deu.yi|LTranslit=.pol.ran.deu
 10	공산	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=.gong.san|LTranslit=_
@@ -16721,7 +16721,7 @@
 10	베테랑을	베테랑	NOUN	NN+CM	Case=Acc|Polite=Form	18	obj	_	MSeg=베테랑-을|Translit=.be.te.rang.eul|LTranslit=.be.te.rang
 11	Mohammed	_	PROPN	NNP	_	17	compound	_	Translit=Mohammed|LTranslit=_
 12	al	_	PROPN	NNP	_	11	flat:name	_	SpaceAfter=No|Translit=al|LTranslit=_
-13	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No|Proper=True|Translit=-|LTranslit=_
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No|Proper=True|Translit=-|LTranslit=_
 14	Jadaan	_	PROPN	NNP	_	11	flat:name	_	Translit=Jadaan|LTranslit=_
 15	금융	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Proper=True|Translit=.geum.yung|LTranslit=_
 16	감독부	_	NOUN	NN	_	17	compound	_	Proper=True|Translit=.gam.dog.bu|LTranslit=_
@@ -17029,7 +17029,7 @@
 7	체계	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No|Translit=.che.gye|LTranslit=_
 8	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
 9	교육	_	NOUN	NN	_	7	conj	_	SpaceAfter=No|Translit=.gyo.yug|LTranslit=_
-10	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=_
+10	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 11	해외	_	NOUN	NN	_	12	compound	_	Translit=.hae.oe|LTranslit=_
 12	무역이	무역	NOUN	NN+CM	Case=Nom|Polite=Form	7	conj	_	MSeg=무역-이|Translit=.mu.yeog.i|LTranslit=.mu.yeog
 13	이렇게까지	이렇게	ADJ	JJ+AP	Form=Compl	14	advmod	_	MSeg=이렇게-까지|Translit=.i.reoh.ge.gga.ji|LTranslit=.i.reoh.ge
@@ -18041,9 +18041,9 @@
 17	장관	_	NOUN	NN	_	9	conj	_	SpaceAfter=No|Translit=.jang.gwan|LTranslit=_
 18	'	'	PUNCT	''	_	17	punct	_	Translit='|LTranslit=_
 19	및	_	CCONJ	CC	_	21	cc	_	ToDo=cc-after-conj|Translit=.mich|LTranslit=_
-20	'	'	PUNCT	``	_	9	punct	_	SpaceAfter=No|Translit='|LTranslit=_
+20	'	'	PUNCT	``	_	21	punct	_	SpaceAfter=No|Translit='|LTranslit=_
 21	폭력배	_	NOUN	NN	_	9	conj	_	SpaceAfter=No|Translit=.pog.ryeog.bae|LTranslit=_
-22	'	'	PUNCT	''	_	9	punct	_	SpaceAfter=No|Translit='|LTranslit=_
+22	'	'	PUNCT	''	_	21	punct	_	SpaceAfter=No|Translit='|LTranslit=_
 23	라고	라고	PART	QP	_	21	case	_	Translit=.ra.go|LTranslit=_
 24	비난하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.bi.nan.ha.yeoss.da|LTranslit=_
 25	.	.	PUNCT	.	_	24	punct	_	Translit=.|LTranslit=_
@@ -19192,7 +19192,7 @@
 5	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=_
 6	퉁명스러운	_	NOUN	NN	_	7	amod	_	SpaceAfter=No|Translit=.tung.myeong.seu.reo.un|LTranslit=_
 7	풍자	_	NOUN	NN	_	1	conj	_	SpaceAfter=No|Translit=.pung.ja|LTranslit=_
-8	,	,	PUNCT	,	_	1	punct	_	Translit=,|LTranslit=_
+8	,	,	PUNCT	,	_	14	punct	_	Translit=,|LTranslit=_
 9	그	_	DET	DT	_	10	det	_	Translit=.geu|LTranslit=_
 10	외에	외	NOUN	NNB+CM	Polite=Form	12	advmod	_	MSeg=외-에|Translit=.oe.e|LTranslit=.oe
 11	잘	_	ADV	RB	_	12	advmod	_	Translit=.jal|LTranslit=_
@@ -19341,7 +19341,7 @@
 8	일어날	_	VERB	VV	Form=Adn|Tense=Fut	9	dep	_	Translit=.il.eo.nal|LTranslit=_
 9	것	_	NOUN	NNB	_	17	advcl	_	SpaceAfter=No|Translit=.geos|LTranslit=_
 10	이며	_	AUX	VC	Form=Compl	9	cop	_	SpaceAfter=No|Translit=.i.myeo|LTranslit=_
-11	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
+11	,	,	PUNCT	,	_	16	punct	_	Translit=,|LTranslit=_
 12	이미	_	ADV	RB	_	16	advmod	_	Translit=.i.mi|LTranslit=_
 13	다	_	ADV	RB	_	16	advmod	_	Translit=.da|LTranslit=_
 14	계획이	계획	NOUN	NN+CM	Polite=Form	16	compound:lvc	_	MSeg=계획-이|Translit=.gye.hoeg.i|LTranslit=.gye.hoeg
@@ -19615,7 +19615,7 @@
 11	,	,	PUNCT	,	_	13	punct	_	Translit=,|LTranslit=_
 12	일본식	_	PROPN	NNP	_	13	compound	_	SpaceAfter=No|Translit=.il.bon.sig|LTranslit=_
 13	정원	_	NOUN	NN	_	8	conj	_	SpaceAfter=No|Translit=.jeong.weon|LTranslit=_
-14	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
+14	,	,	PUNCT	,	_	15	punct	_	Translit=,|LTranslit=_
 15	수족관으로	수족관	NOUN	NN+CM	Polite=Form	8	conj	_	MSeg=수족관-으로|Translit=.su.jog.gwan.eu.ro|LTranslit=.su.jog.gwan
 16	꾸며져	_	VERB	VV	Form=Aux|Voice=Pass	17	aux	_	Translit=.ggu.myeo.jyeo|LTranslit=_
 17	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da|LTranslit=_
@@ -20015,7 +20015,7 @@
 4	세계	_	NOUN	NN	_	5	compound	_	Translit=.se.gye|LTranslit=_
 5	속에서	속	NOUN	NN+CM	Polite=Form	14	advmod	_	MSeg=속-에서|Translit=.sog.e.seo|LTranslit=.sog
 6	영국	_	PROPN	NNP	_	9	advmod	_	SpaceAfter=No|Translit=.yeong.gug|LTranslit=_
-7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+7	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
 8	프랑스	_	PROPN	NNP	_	6	conj	_	Translit=.peu.rang.seu|LTranslit=_
 9	같은	_	ADJ	JJ	Form=Adn	12	acl:relcl	_	Translit=.gat.eun|LTranslit=_
 10	구	_	DET	DT	_	12	det	_	Translit=.gu|LTranslit=_
@@ -20063,7 +20063,7 @@
 6	핀란드	_	PROPN	NNP	_	13	compound	_	SpaceAfter=No|Translit=.pin.ran.deu|LTranslit=_
 7	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=_
 8	폴란드	_	PROPN	NNP	_	6	conj	_	SpaceAfter=No|Translit=.pol.ran.deu|LTranslit=_
-9	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=_
+9	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=_
 10	발트	_	PROPN	NNP	_	11	compound	_	SpaceAfter=No|Translit=.bal.teu|LTranslit=_
 11	해	_	NOUN	NN	_	12	compound	_	Translit=.hae|LTranslit=_
 12	국가	_	NOUN	NN	_	6	conj	_	Translit=.gug.ga|LTranslit=_
@@ -20976,7 +20976,7 @@
 # ToDoOrigText = 인도-호주 단층에 위치하고 있으며, 인도와 호주판의 충돌로 인해 단층이 상승하였다.
 # translit = .in.do-.ho.ju .dan.cheung.e .wi.chi.ha.go.iss.eu.myeo, .in.do.wa .ho.ju.pan.yi .chung.dol.ro .in.hae.dan.cheung.i .sang.seung.ha.yeoss.da.
 1	인도	_	PROPN	NNP	_	4	compound	_	SpaceAfter=No|Translit=.in.do|LTranslit=_
-2	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No|Translit=-|LTranslit=_
 3	호주	_	PROPN	NNP	_	1	conj	_	Translit=.ho.ju|LTranslit=_
 4	단층에	단층	NOUN	NN+CM	Polite=Form	6	advmod	_	MSeg=단층-에|Translit=.dan.cheung.e|LTranslit=.dan.cheung
 5	위치하고	_	NOUN	NN	_	6	aux	_	SpaceAfter=No|Translit=.wi.chi.ha.go|LTranslit=_
@@ -21448,7 +21448,7 @@
 1	이들	_	PRON	PRD	Number=Plur	2	compound	_	Translit=.i.deul|LTranslit=_
 2	사이에는	사이	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=사이-에는|Translit=.sa.i.e.neun|LTranslit=.sa.i
 3	직업적	_	NOUN	NN	_	7	acl:relcl	_	SpaceAfter=No|Translit=.jig.eob.jeog|LTranslit=_
-4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=_
+4	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=_
 5	개인적	_	NOUN	NN	_	3	conj	_	SpaceAfter=No|Translit=.gae.in.jeog|LTranslit=_
 6	인	_	AUX	VC	Form=Adn	5	cop	_	Translit=.in|LTranslit=_
 7	친분이	친분	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=친분-이|Translit=.chin.bun.i|LTranslit=.chin.bun
@@ -21666,7 +21666,7 @@
 2	그와	그	PRON	PRP+CP	Person=3|Polite=Form	4	nmod:poss	_	MSeg=그-와|Translit=.geu.wa|LTranslit=.geu
 3	리나레스의	리나레스	PROPN	NNP+CM	Case=Gen|Polite=Form	2	conj	_	MSeg=리나레스-의|Translit=.ri.na.re.seu.yi|LTranslit=.ri.na.re.seu
 4	결별	_	NOUN	NN	_	10	advmod	_	SpaceAfter=No|Translit=.gyeol.byeol|LTranslit=_
-5	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=_
+5	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
 6	그리고	_	CCONJ	CC	_	9	cc	_	ToDo=cc-after-conj|Translit=.geu.ri.go|LTranslit=_
 7	진보	_	NOUN	NN	_	8	compound	_	Translit=.jin.bo|LTranslit=_
 8	성향의	성향	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=성향-의|Translit=.seong.hyang.yi|LTranslit=.seong.hyang
@@ -22111,7 +22111,7 @@
 8	철수할	_	NOUN	NN	_	9	dep	_	SpaceAfter=No|Translit=.cheol.su.hal|LTranslit=_
 9	것	_	NOUN	NNB	_	18	ccomp	_	SpaceAfter=No|Translit=.geos|LTranslit=_
 10	인지	_	AUX	VC	Form=Compl	9	cop	_	SpaceAfter=No|Translit=.in.ji|LTranslit=_
-11	,	,	PUNCT	,	_	9	punct	_	Translit=,|LTranslit=_
+11	,	,	PUNCT	,	_	16	punct	_	Translit=,|LTranslit=_
 12	아니면	_	ADJ	JJ	Form=Compl	16	advmod	_	Translit=.a.ni.myeon|LTranslit=_
 13	공공의	공공	NOUN	NN+CM	Case=Gen|Polite=Form	14	nmod:poss	_	MSeg=공공-의|Translit=.gong.gong.yi|LTranslit=.gong.gong
 14	적이	적	NOUN	NN+CM	Polite=Form	15	compound:lvc	_	MSeg=적-이|Translit=.jeog.i|LTranslit=.jeog
