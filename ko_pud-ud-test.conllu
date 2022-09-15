@@ -324,7 +324,7 @@
 15	1	1	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
 16	억	_	NUM	CD	NumType=Card	18	nummod	_	Translit=.eog
 17	370	370	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No|Translit=370|LTranslit=370
-18	만	_	DET	DT	_	19	nummod	_	Translit=.man
+18	만	_	DET	DT	_	19	det	_	OrigDeprel=nummod|Translit=.man
 19	달러가	달러	NOUN	NNB+CM	Case=Nom|Polite=Form	20	nsubj:pass	_	MSeg=달러-가|Translit=.dal.reo.ga|LTranslit=.dal.reo
 20	소요되었다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.so.yo.doe.eoss.da
 21	.	.	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
@@ -391,7 +391,7 @@
 # text = 한 목격자의 경찰 진술에 따르면 피해자가 4월에 용의자를 공격했었다고 한다.
 # translit = .han .mog.gyeog.ja.yi .gyeong.chal .jin.sul.e .dda.reu.myeon .pi.hae.ja.ga 4.weol.e .yong.yi.ja.reul .gong.gyeog.haess.eoss.da.go .han.da.
 # text_en = A witness told police that the victim had attacked the suspect in April.
-1	한	_	DET	DT	_	2	nummod	_	Translit=.han
+1	한	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.han
 2	목격자의	목격자	NOUN	NN+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=목격자-의|Translit=.mog.gyeog.ja.yi|LTranslit=.mog.gyeog.ja
 3	경찰	_	NOUN	NN	_	4	compound	_	Translit=.gyeong.chal
 4	진술에	진술	NOUN	NN+CM	Polite=Form	5	advmod	_	MSeg=진술-에|Translit=.jin.sul.e|LTranslit=.jin.sul
@@ -594,7 +594,7 @@
 1	야지디	_	PROPN	NNP	_	2	compound	_	Translit=.ya.ji.di
 2	여성들	_	NOUN	NN	Number=Plur	3	compound	_	Translit=.yeo.seong.deul
 3	중	_	NOUN	NNB	_	5	compound	_	Translit=.jung
-4	한	_	DET	DT	_	5	nummod	_	Translit=.han
+4	한	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.han
 5	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 6	처음으로	처음	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=처음-으로|Translit=.cheo.eum.eu.ro|LTranslit=.cheo.eum
 7	울기	_	VERB	VV	VerbForm=Ger	8	ccomp	_	Translit=.ul.gi
@@ -604,7 +604,7 @@
 11	그녀의	그녀	PRON	PRP+CM	Case=Gen|Person=3|Polite=Form	12	nmod:poss	_	MSeg=그녀-의|Translit=.geu.nyeo.yi|LTranslit=.geu.nyeo
 12	친구	_	NOUN	NN	_	13	compound	_	Translit=.chin.gu
 13	중	_	NOUN	NNB	_	15	compound	_	Translit=.jung
-14	한	_	DET	DT	_	15	nummod	_	Translit=.han
+14	한	_	DET	DT	_	15	det	_	OrigDeprel=nummod|Translit=.han
 15	명	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.myeong
 16	이었다	_	AUX	VC	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	SpaceAfter=No|Translit=.i.eoss.da
 17	.	.	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
@@ -646,7 +646,7 @@
 8	시작으로	시작	NOUN	NN+CM	Polite=Form	18	advcl	_	MSeg=시작-으로|Translit=.si.jag.eu.ro|LTranslit=.si.jag
 9	2035	2035	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No|Translit=2035|LTranslit=2035
 10	년까지	년	NOUN	NNB+AP	_	18	advmod	_	MSeg=년-까지|Translit=.nyeon.gga.ji|LTranslit=.nyeon
-11	수백만	_	DET	DT	_	12	nummod	_	Translit=.su.baeg.man
+11	수백만	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.su.baeg.man
 12	개의	개	NOUN	NNB+CM	Case=Gen|Polite=Form	14	nmod:poss	_	MSeg=개-의|Translit=.gae.yi|LTranslit=.gae
 13	숙련직	_	NOUN	NN	_	14	compound	_	Translit=.sug.ryeon.jig
 14	일자리가	일자리	NOUN	NN+CM	Case=Nom|Polite=Form	15	nsubj:pass	_	MSeg=일자리-가|Translit=.il.ja.ri.ga|LTranslit=.il.ja.ri
@@ -1028,7 +1028,7 @@
 # text_en = And with China set to become the world's biggest aviation market in the next decade, the show is an opportunity for Beijing to demonstrate its ambitions in civil aviation as well as defence.
 1	그리고	_	CCONJ	CC	_	27	advmod	_	Translit=.geu.ri.go
 2	향후	_	NOUN	NN	_	4	compound	_	Translit=.hyang.hu
-3	십	_	DET	DT	_	4	nummod	_	Translit=.sib
+3	십	_	DET	DT	_	4	det	_	OrigDeprel=nummod|Translit=.sib
 4	년	_	NOUN	NNB	_	5	compound	_	Translit=.nyeon
 5	후	_	NOUN	NN	_	10	advmod	_	Translit=.hu
 6	세계	_	NOUN	NN	_	8	compound	_	Translit=.se.gye
@@ -1266,7 +1266,7 @@
 11	2	2	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No|Translit=2|LTranslit=2
 12	백	_	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No|Translit=.baeg
 13	1	1	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
-14	십억	_	DET	DT	_	15	nummod	_	Translit=.sib.eog
+14	십억	_	DET	DT	_	15	det	_	OrigDeprel=nummod|Translit=.sib.eog
 15	달러를	달러	NOUN	NNB+CM	Case=Acc|Polite=Form	16	obj	_	MSeg=달러-를|Translit=.dal.reo.reul|LTranslit=.dal.reo
 16	기록했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gi.rog.haess.da
 17	.	.	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
@@ -2028,7 +2028,7 @@
 9	애버츠포드	_	PROPN	NNP	_	11	compound	_	Translit=.ae.beo.cheu.po.deu
 10	고등	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Proper=True|Translit=.go.deung
 11	학교	_	NOUN	NN	_	14	compound	_	Proper=True|Translit=.hag.gyo
-12	십	_	DET	DT	_	13	nummod	_	SpaceAfter=No|Translit=.sib
+12	십	_	DET	DT	_	13	det	_	OrigDeprel=nummod|SpaceAfter=No|Translit=.sib
 13	대	_	NOUN	NNB	_	14	compound	_	Translit=.dae
 14	여학생을	여학생	NOUN	NN+CM	Case=Acc|Polite=Form	16	obj	_	MSeg=여학생-을|Translit=.yeo.hag.saeng.eul|LTranslit=.yeo.hag.saeng
 15	칼로	칼	NOUN	NN+CM	Polite=Form	16	advmod	_	MSeg=칼-로|Translit=.kal.ro|LTranslit=.kal
@@ -2178,7 +2178,7 @@
 1	현재	_	ADV	RB	_	12	advmod	_	SpaceAfter=No|Translit=.hyeon.jae
 2	,	,	PUNCT	,	_	1	punct	_	Translit=,|LTranslit=,
 3	RECO가	RECO	PROPN	NNP+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=RECO-가|Translit=RECO.ga|LTranslit=RECO
-4	한	_	DET	DT	_	5	nummod	_	Translit=.han
+4	한	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.han
 5	중개인에게	중개인	NOUN	NN+CM	Polite=Form	6	advmod	_	MSeg=중개인-에게|Translit=.jung.gae.in.e.ge|LTranslit=.jung.gae.in
 6	물릴	_	VERB	VV	Form=Adn|Voice=Cau	7	acl:relcl	_	Translit=.mul.ril
 7	수	_	NOUN	NNB	_	8	nsubj	_	Translit=.su
@@ -2478,7 +2478,7 @@
 6	달성한	_	NOUN	NN	_	7	acl:relcl	_	SpaceAfter=No|Translit=.dal.seong.han
 7	공로로	공로	NOUN	NN+CM	Polite=Form	27	advmod	_	MSeg=공로-로|Translit=.gong.ro.ro|LTranslit=.gong.ro
 8	150	150	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=150|LTranslit=150
-9	만	_	DET	DT	_	10	nummod	_	Translit=.man
+9	만	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.man
 10	달러의	달러	NOUN	NNB+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=달러-의|Translit=.dal.reo.yi|LTranslit=.dal.reo
 11	거금을	거금	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=거금-을|Translit=.geo.geum.eul|LTranslit=.geo.geum
 12	나눠	_	VERB	VV	Form=Compl	13	advcl	_	Translit=.na.nweo
@@ -2506,7 +2506,7 @@
 1	연간	_	NOUN	NN	_	2	compound	_	Translit=.yeon.gan
 2	예산이	예산	NOUN	NN+CM	Case=Nom|Polite=Form	6	nsubj	_	MSeg=예산-이|Translit=.ye.san.i|LTranslit=.ye.san
 3	14	14	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No|Translit=14|LTranslit=14
-4	억	_	DET	DT	_	5	nummod	_	Translit=.eog
+4	억	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.eog
 5	달러를	달러	NOUN	NNB+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=달러-를|Translit=.dal.reo.reul|LTranslit=.dal.reo
 6	넘고	_	VERB	VV	Form=Compl	0	root	_	SpaceAfter=No|Translit=.neom.go
 7	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=,
@@ -2560,7 +2560,7 @@
 5	상여금	_	NOUN	NN	_	3	conj	_	Translit=.sang.yeo.geum
 6	총액은	총액	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=총액-은|Translit=.chong.aeg.eun|LTranslit=.chong.aeg
 7	150	150	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No|Translit=150|LTranslit=150
-8	만	_	DET	DT	_	9	nummod	_	Translit=.man
+8	만	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.man
 9	달러	_	NOUN	NNB	_	17	advcl	_	SpaceAfter=No|Translit=.dal.reo
 10	였고	_	AUX	VC	Form=Compl|Tense=Past	9	cop	_	Translit=.yeoss.go
 11	이는	이	PRON	PRD+CM	Case=Nom|Polite=Form	17	nsubj	_	MSeg=이-는|Translit=.i.neun|LTranslit=.i
@@ -2615,7 +2615,7 @@
 1	그	_	DET	DT	_	2	det	_	Translit=.geu
 2	일로	일	NOUN	NN+CM	Polite=Form	21	advmod	_	MSeg=일-로|Translit=.il.ro|LTranslit=.il
 3	최소	_	NOUN	NN	_	5	compound	_	Translit=.choe.so
-4	여섯	_	DET	DT	_	5	nummod	_	Translit=.yeo.seos
+4	여섯	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.yeo.seos
 5	명	_	NOUN	NNB	_	6	compound	_	Translit=.myeong
 6	이상의	이상	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=이상-의|Translit=.i.sang.yi|LTranslit=.i.sang
 7	다른	_	DET	DT	_	9	det	_	Translit=.da.reun
@@ -3004,7 +3004,7 @@
 3	35,000	35,000	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No|Translit=35,000|LTranslit=35,000
 4	명	_	NOUN	NNB	_	5	compound	_	Translit=.myeong
 5	중	_	NOUN	NNB	_	7	compound	_	Translit=.jung
-6	한	_	DET	DT	_	7	nummod	_	Translit=.han
+6	한	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.han
 7	명	_	NOUN	NNB	_	10	advmod	_	Translit=.myeong
 8	꼴	_	NOUN	_	_	7	goeswith	_	SpaceAfter=No|Translit=.ggol
 9	로	로	PART	CM	Polite=Form	7	case	_	Translit=.ro|LTranslit=.ro
@@ -3063,7 +3063,7 @@
 9	보노도	보노	PROPN	NNP+AP	_	13	nsubj	_	MSeg=보노-도|Translit=.bo.no.do|LTranslit=.bo.no
 10	그	_	NOUN	NN	_	13	compound	_	Translit=.geu
 11	중	_	NOUN	_	_	10	goeswith	_	Translit=.jung
-12	한	_	DET	DT	_	13	nummod	_	Translit=.han
+12	한	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.han
 13	사람	_	NOUN	NN	_	16	advcl	_	SpaceAfter=No|Translit=.sa.ram
 14	이라	_	AUX	VC	Mood=Ind|VerbForm=Fin	13	cop	_	SpaceAfter=No|Translit=.i.ra
 15	고	고	PART	QP	_	13	case	_	Translit=.go|LTranslit=.go
@@ -4079,7 +4079,7 @@
 # translit = .geu.neun .sib .nyeon .gan BBC.e.seo .il.haess.da.
 # text_en = He worked for the BBC for a decade.
 1	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	6	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
-2	십	_	DET	DT	_	3	nummod	_	Translit=.sib
+2	십	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.sib
 3	년	_	NOUN	NNB	_	6	advmod	_	Translit=.nyeon
 4	간	_	NOUN	_	_	3	goeswith	_	Translit=.gan
 5	BBC에서	BBC	PROPN	NNP+CM	Polite=Form	6	advmod	_	MSeg=BBC-에서|Translit=BBC.e.seo|LTranslit=BBC
@@ -4116,7 +4116,7 @@
 23	했을	_	VERB	VX	Form=Adn	24	acl:relcl	_	Translit=.haess.eul
 24	법한	_	NOUN	NNB	_	27	acl:relcl	_	SpaceAfter=No|Translit=.beob.han
 25	글	_	NOUN	NN	_	27	compound	_	Translit=.geul
-26	한	_	DET	DT	_	27	nummod	_	Translit=.han
+26	한	_	DET	DT	_	27	det	_	OrigDeprel=nummod|Translit=.han
 27	줄이	줄	NOUN	NN+CM	Case=Nom|Polite=Form	28	nsubj	_	MSeg=줄-이|Translit=.jul.i|LTranslit=.jul
 28	있었다	_	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.eoss.da
 29	.	.	PUNCT	.	_	28	punct	_	Translit=.|LTranslit=.
@@ -4157,7 +4157,7 @@
 # translit = .geu.deul.eun .han .beon.yi .ban.gyeog.eu.ro .yeong.gug.eul .i.gyeoss.da.
 # text_en = They have one crack at redemption, beating England.
 1	그들은	그들	PRON	PRP+CM	Case=Nom|Number=Plur|Person=3|Polite=Form	6	nsubj	_	MSeg=그들-은|Translit=.geu.deul.eun|LTranslit=.geu.deul
-2	한	_	DET	DT	_	3	nummod	_	Translit=.han
+2	한	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.han
 3	번의	번	NOUN	NNB+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=번-의|Translit=.beon.yi|LTranslit=.beon
 4	반격으로	반격	NOUN	NN+CM	Polite=Form	6	advmod	_	MSeg=반격-으로|Translit=.ban.gyeog.eu.ro|LTranslit=.ban.gyeog
 5	영국을	영국	PROPN	NNP+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=영국-을|Translit=.yeong.gug.eul|LTranslit=.yeong.gug
@@ -4250,7 +4250,7 @@
 3	뒤집어	_	VERB	VV	Form=Aux	4	aux	_	Translit=.dwi.jib.eo
 4	놓은	_	VERB	VX	Form=Adn|Tense=Past	7	acl:relcl	_	Translit=.noh.eun
 5	컵	_	NOUN	NN	_	7	compound	_	Translit=.keob
-6	세	_	DET	DT	_	7	nummod	_	Translit=.se
+6	세	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.se
 7	잔	_	NOUN	NN	_	8	compound	_	Translit=.jan
 8	밑으로	밑	NOUN	NN+CM	Polite=Form	13	advmod	_	MSeg=밑-으로|Translit=.mit.eu.ro|LTranslit=.mit
 9	공을	공	NOUN	NN+CM	Case=Acc|Polite=Form	13	obj	_	MSeg=공-을|Translit=.gong.eul|LTranslit=.gong
@@ -4407,7 +4407,7 @@
 10	나는	나	PRON	PRP+CM	Case=Nom|Person=1|Polite=Form	22	nsubj	_	MSeg=나-는|Translit=.na.neun|LTranslit=.na
 11	그녀가	그녀	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	15	nsubj	_	MSeg=그녀-가|Translit=.geu.nyeo.ga|LTranslit=.geu.nyeo
 12	또	_	ADV	RB	_	14	advmod	_	Translit=.ddo
-13	한	_	DET	DT	_	14	nummod	_	Translit=.han
+13	한	_	DET	DT	_	14	det	_	OrigDeprel=nummod|Translit=.han
 14	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	15	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 15	보좌관	_	NOUN	NN	_	17	dep	_	SpaceAfter=No|Translit=.bo.jwa.gwan
 16	일	_	AUX	VC	Form=Adn	15	cop	_	Translit=.il
@@ -4622,10 +4622,10 @@
 1	이론적으로	이론적	NOUN	NN+CM	Polite=Form	2	advmod	_	MSeg=이론적-으로|Translit=.i.ron.jeog.eu.ro|LTranslit=.i.ron.jeog
 2	보면	_	VERB	VV	Form=Compl	25	advcl	_	SpaceAfter=No|Translit=.bo.myeon
 3	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=,
-4	한	_	DET	DT	_	5	nummod	_	Translit=.han
+4	한	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.han
 5	부부가	부부	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=부부-가|Translit=.bu.bu.ga|LTranslit=.bu.bu
 6	계좌를	계좌	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=계좌-를|Translit=.gye.jwa.reul|LTranslit=.gye.jwa
-7	네	_	DET	DT	_	8	nummod	_	Translit=.ne
+7	네	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.ne
 8	개	_	NOUN	NNB	_	9	obj	_	Translit=.gae
 9	개설할	_	NOUN	NN	_	10	acl:relcl	_	SpaceAfter=No|Translit=.gae.seol.hal
 10	수	_	NOUN	NNB	_	11	nsubj	_	Translit=.su
@@ -5499,7 +5499,7 @@
 # text = 두 개의 뾰족탑이 있는 작은 마을이 스쳐 지나갔다.
 # translit = .du .gae.yi .bbyo.jog.tab.i .iss.neun .jag.eun .ma.eul.i .seu.chyeo .ji.na.gass.da.
 # text_en = A small town with two minarets glides by.
-1	두	_	DET	DT	_	2	nummod	_	Translit=.du
+1	두	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.du
 2	개의	개	NOUN	NNB+CM	Case=Gen|Polite=Form	3	nmod:poss	_	MSeg=개-의|Translit=.gae.yi|LTranslit=.gae
 3	뾰족탑이	뾰족탑	NOUN	NN+CM	Case=Nom|Polite=Form	4	nsubj	_	MSeg=뾰족탑-이|Translit=.bbyo.jog.tab.i|LTranslit=.bbyo.jog.tab
 4	있는	_	ADJ	JJ	Form=Adn	6	acl:relcl	_	Translit=.iss.neun
@@ -5637,7 +5637,7 @@
 4	홍콩	_	PROPN	NNP	_	5	compound	_	Translit=.hong.kong
 5	정부는	정부	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=정부-는|Translit=.jeong.bu.neun|LTranslit=.jeong.bu
 6	그	_	DET	DT	_	8	det	_	Translit=.geu
-7	두	_	DET	DT	_	8	nummod	_	Translit=.du
+7	두	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.du
 8	사람이	사람	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=사람-이|Translit=.sa.ram.i|LTranslit=.sa.ram
 9	취임해서는	취임해서	NOUN	NN+AP	_	11	advcl	_	MSeg=취임해서-는|Translit=.chwi.im.hae.seo.neun|LTranslit=.chwi.im.hae.seo
 10	안	_	ADV	RB	Polarity=Neg	11	advmod	_	Translit=.an
@@ -5737,7 +5737,7 @@
 3	경기에서	경기	NOUN	NN+CM	Polite=Form	4	advmod	_	MSeg=경기-에서|Translit=.gyeong.gi.e.seo|LTranslit=.gyeong.gi
 4	비기는	_	VERB	VV	Form=Adn	5	dep	_	Translit=.bi.gi.neun
 5	것은	것	NOUN	NNB+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=것-은|Translit=.geos.eun|LTranslit=.geos
-6	한	_	DET	DT	_	7	nummod	_	Translit=.han
+6	한	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.han
 7	번쯤은	번쯤	NOUN	NNB+AP	_	8	advmod	_	MSeg=번쯤-은|Translit=.beon.jjeum.eun|LTranslit=.beon.jjeum
 8	무시하고	_	NOUN	NN	_	9	advcl	_	SpaceAfter=No|Translit=.mu.si.ha.go
 9	넘어갈	_	VERB	VV	Form=Adn	10	acl:relcl	_	Translit=.neom.eo.gal
@@ -5745,7 +5745,7 @@
 11	있는	_	ADJ	JJ	Form=Adn	12	acl:relcl	_	Translit=.iss.neun
 12	일	_	NOUN	NN	_	21	advcl	_	SpaceAfter=No|Translit=.il
 13	이지만	_	AUX	VC	Form=Compl	12	cop	_	Translit=.i.ji.man
-14	세	_	DET	DT	_	15	nummod	_	Translit=.se
+14	세	_	DET	DT	_	15	det	_	OrigDeprel=nummod|Translit=.se
 15	번이나	번	NOUN	NNB+AP	_	16	advmod	_	MSeg=번-이나|Translit=.beon.i.na|LTranslit=.beon
 16	비기게	_	VERB	VV	Form=Compl	17	advcl	_	Translit=.bi.gi.ge
 17	되면	_	VERB	VV	Form=Compl	21	advcl	_	Translit=.doe.myeon
@@ -5889,7 +5889,7 @@
 8	보도되면서	_	NOUN	NN	_	19	advcl	_	SpaceAfter=No|Translit=.bo.do.doe.myeon.seo
 9	회사	_	NOUN	NN	_	10	compound	_	Translit=.hoe.sa
 10	가치는	가치	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=가치-는|Translit=.ga.chi.neun|LTranslit=.ga.chi
-11	수백억	_	DET	DT	_	12	nummod	_	Translit=.su.baeg.eog
+11	수백억	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.su.baeg.eog
 12	유로의	유로	NOUN	NNB+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=유로-의|Translit=.yu.ro.yi|LTranslit=.yu.ro
 13	손실을	손실	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=손실-을|Translit=.son.sil.eul|LTranslit=.son.sil
 14	입었고	_	VERB	VV	Form=Compl|Tense=Past	19	advcl	_	Translit=.ib.eoss.go
@@ -5921,7 +5921,7 @@
 14	폭스바겐은	폭스바겐	PROPN	NNP+CM	Case=Nom|Polite=Form	20	nsubj	_	MSeg=폭스바겐-은|Translit=.pog.seu.ba.gen.eun|LTranslit=.pog.seu.ba.gen
 15	벌금으로	벌금	NOUN	NN+CM	Polite=Form	19	advmod	_	MSeg=벌금-으로|Translit=.beol.geum.eu.ro|LTranslit=.beol.geum
 16	160	160	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No|Translit=160|LTranslit=160
-17	억	_	DET	DT	_	18	nummod	_	Translit=.eog
+17	억	_	DET	DT	_	18	det	_	OrigDeprel=nummod|Translit=.eog
 18	유로를	유로	NOUN	NNB+CM	Case=Acc|Polite=Form	19	obj	_	MSeg=유로-를|Translit=.yu.ro.reul|LTranslit=.yu.ro
 19	물게	_	VERB	VV	Form=Compl	20	advcl	_	Translit=.mul.ge
 20	되었다	_	VERB	VV	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.doe.eoss.da
@@ -6200,10 +6200,10 @@
 11	펀드에	펀드	NOUN	NN+CM	Polite=Form	9	conj	_	MSeg=펀드-에|Translit=.peon.deu.e|LTranslit=.peon.deu
 12	각각	_	ADV	RB	_	19	advmod	_	Translit=.gag.gag
 13	20	20	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No|Translit=20|LTranslit=20
-14	억	_	DET	DT	_	15	nummod	_	Translit=.eog
+14	억	_	DET	DT	_	15	det	_	OrigDeprel=nummod|Translit=.eog
 15	파운드와	파운드	NOUN	NNB+CP	Polite=Form	19	obj	_	MSeg=파운드-와|Translit=.pa.un.deu.wa|LTranslit=.pa.un.deu
 16	14	14	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No|Translit=14|LTranslit=14
-17	억	_	DET	DT	_	18	nummod	_	Translit=.eog
+17	억	_	DET	DT	_	18	det	_	OrigDeprel=nummod|Translit=.eog
 18	파운드를	파운드	NOUN	NNB+CM	Case=Acc|Polite=Form	15	conj	_	MSeg=파운드-를|Translit=.pa.un.deu.reul|LTranslit=.pa.un.deu
 19	투자했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.tu.ja.haess.da
 20	.	.	PUNCT	.	_	19	punct	_	Translit=.|LTranslit=.
@@ -6404,7 +6404,7 @@
 3	수	_	NOUN	NNB	_	4	nsubj	_	Translit=.su
 4	없는	_	ADJ	JJ	Form=Adn	7	acl:relcl	_	Translit=.eobs.neun
 5	멋진	_	ADJ	JJ	Form=Adn	7	amod	_	Translit=.meos.jin
-6	한	_	DET	DT	_	7	nummod	_	Translit=.han
+6	한	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.han
 7	해	_	NOUN	NNB	_	21	advcl	_	SpaceAfter=No|Translit=.hae
 8	였고	_	AUX	VC	Form=Compl|Tense=Past	7	cop	_	Translit=.yeoss.go
 9	나는	나	PRON	PRP+CM	Case=Nom|Person=1|Polite=Form	21	nsubj	_	MSeg=나-는|Translit=.na.neun|LTranslit=.na
@@ -6490,7 +6490,7 @@
 7	핏줄이	핏줄	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=핏줄-이|Translit=.pis.jul.i|LTranslit=.pis.jul
 8	불거져	_	VERB	VV	Form=Aux	9	aux	_	Translit=.bul.geo.jyeo
 9	있고	_	VERB	VX	Form=Compl	0	root	_	Translit=.iss.go
-10	두	_	DET	DT	_	11	nummod	_	Translit=.du
+10	두	_	DET	DT	_	11	det	_	OrigDeprel=nummod|Translit=.du
 11	손이	손	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj:pass	_	MSeg=손-이|Translit=.son.i|LTranslit=.son
 12	떨리고	_	VERB	VV	Form=Aux|Voice=Pass	13	aux	_	Translit=.ddeol.ri.go
 13	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	9	conj	_	SpaceAfter=No|Translit=.iss.da
@@ -6520,7 +6520,7 @@
 # translit = .geu.neun .sib .nyeon .dong.an .ra.di.o.wa TV.e.seo .nyu.seu.wa .si.sa .jjog .il.eul .haess.da.
 # text_en = He worked on the news and current affairs side of radio and TV for decades.
 1	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	11	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
-2	십	_	DET	DT	_	3	nummod	_	Translit=.sib
+2	십	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.sib
 3	년	_	NOUN	NNB	_	4	compound	_	Translit=.nyeon
 4	동안	_	NOUN	NN	_	11	advmod	_	Translit=.dong.an
 5	라디오와	라디오	NOUN	NN+CP	Polite=Form	11	advmod	_	MSeg=라디오-와|Translit=.ra.di.o.wa|LTranslit=.ra.di.o
@@ -6565,7 +6565,7 @@
 5	바에	바	NOUN	NNB+CM	Polite=Form	6	advmod	_	MSeg=바-에|Translit=.ba.e|LTranslit=.ba
 6	따르면	_	VERB	VV	Form=Compl	13	advcl	_	Translit=.dda.reu.myeon
 7	지금까지	지금	NOUN	NN+AP	_	12	advmod	_	MSeg=지금-까지|Translit=.ji.geum.gga.ji|LTranslit=.ji.geum
-8	여덟	_	DET	DT	_	9	nummod	_	Translit=.yeo.deorb
+8	여덟	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.yeo.deorb
 9	편의	편	NOUN	NNB+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=편-의|Translit=.pyeon.yi|LTranslit=.pyeon
 10	장편	_	NOUN	NN	_	11	compound	_	Translit=.jang.pyeon
 11	영화를	영화	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=영화-를|Translit=.yeong.hwa.reul|LTranslit=.yeong.hwa
@@ -6912,11 +6912,11 @@
 5	살이	살	NOUN	NNB+CM	Polite=Form	6	compound:lvc	_	MSeg=살-이|Translit=.sal.i|LTranslit=.sal
 6	된	_	VERB	VV	Form=Adn|Tense=Past	7	acl:relcl	_	Translit=.doen
 7	저팅은	저팅	PROPN	NNP+CM	Case=Nom|Polite=Form	23	nsubj	_	MSeg=저팅-은|Translit=.jeo.ting.eun|LTranslit=.jeo.ting
-8	두	_	DET	DT	_	9	nummod	_	Translit=.du
+8	두	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.du
 9	건의	건	NOUN	NNB+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=건-의|Translit=.geon.yi|LTranslit=.geon
 10	살해	_	NOUN	NN	_	11	compound	_	Translit=.sal.hae
 11	혐의와	혐의	NOUN	NN+CP	Polite=Form	23	advmod	_	MSeg=혐의-와|Translit=.hyeom.yi.wa|LTranslit=.hyeom.yi
-12	한	_	DET	DT	_	13	nummod	_	Translit=.han
+12	한	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.han
 13	건의	건	NOUN	NNB+CM	Case=Gen|Polite=Form	17	nmod:poss	_	MSeg=건-의|Translit=.geon.yi|LTranslit=.geon
 14	합법	_	NOUN	NN	_	15	compound	_	Translit=.hab.beob
 15	매장	_	NOUN	NN	_	16	compound	_	Translit=.mae.jang
@@ -7161,7 +7161,7 @@
 # text_en = More than 5.7 million Floridians have already hit the polls after about two weeks of in-person early voting.
 # ToDoOrigText = 570만 명이 넘는 플로리다 주민들이 직접 가서 투표하는 약 2주간의 조기 투표에 이미 참여했다.
 1	570	570	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=570|LTranslit=570
-2	만	_	DET	DT	_	3	nummod	_	Translit=.man
+2	만	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.man
 3	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	4	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 4	넘는	_	VERB	VV	Form=Adn	6	acl:relcl	_	Translit=.neom.neun
 5	플로리다	_	PROPN	NNP	_	6	compound	_	Translit=.peul.ro.ri.da
@@ -7236,7 +7236,7 @@
 8	도서물	_	NOUN	NN	_	9	compound	_	Translit=.do.seo.mul
 9	중	_	NOUN	NNB	_	10	advmod	_	Translit=.jung
 10	남은	_	VERB	VV	Form=Adn	12	acl:relcl	_	Translit=.nam.eun
-11	두	_	DET	DT	_	12	nummod	_	Translit=.du
+11	두	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.du
 12	권	_	NOUN	NNB	_	27	compound	_	SpaceAfter=No|Translit=.gweon
 13	,	,	PUNCT	,	_	12	punct	_	Translit=,|LTranslit=,
 14	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No|Translit="|LTranslit="
@@ -7562,7 +7562,7 @@
 8	사악한	_	NOUN	NN	_	9	amod	_	SpaceAfter=No|Translit=.sa.ag.han
 9	악당들	_	NOUN	NN	Number=Plur	10	compound	_	Translit=.ag.dang.deul
 10	중	_	NOUN	NNB	_	12	compound	_	Translit=.jung
-11	한	_	DET	DT	_	12	nummod	_	Translit=.han
+11	한	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.han
 12	명	_	NOUN	NNB	_	14	acl:relcl	_	SpaceAfter=No|Translit=.myeong
 13	인	_	AUX	VC	Form=Adn	12	cop	_	Translit=.in
 14	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	19	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
@@ -7856,7 +7856,7 @@
 3	Nine	_	PROPN	NNP	_	1	flat:name	_	Translit=Nine
 4	News	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=News
 5	는	는	PART	CM	Case=Nom|Polite=Form	1	case	_	Translit=.neun|LTranslit=.neun
-6	두	_	DET	DT	_	7	nummod	_	Translit=.du
+6	두	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.du
 7	사람이	사람	NOUN	NN+CM	Case=Nom|Polite=Form	15	nsubj	_	MSeg=사람-이|Translit=.sa.ram.i|LTranslit=.sa.ram
 8	화려하게	_	ADJ	JJ	Form=Compl	9	advmod	_	Translit=.hwa.ryeo.ha.ge
 9	차려	_	VERB	VV	Form=Compl	15	advcl	_	Translit=.cha.ryeo
@@ -7883,7 +7883,7 @@
 7	없다	_	ADJ	_	_	6	goeswith	_	SpaceAfter=No|Translit=.eobs.da
 8	고	고	PART	QP	_	6	case	_	Translit=.go|LTranslit=.go
 9	자인한	_	NOUN	NN	_	12	acl:relcl	_	SpaceAfter=No|Translit=.ja.in.han
-10	두	_	DET	DT	_	11	nummod	_	Translit=.du
+10	두	_	DET	DT	_	11	det	_	OrigDeprel=nummod|Translit=.du
 11	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 12	호주인이	호주인	PROPN	NNP+CM	Case=Nom|Polite=Form	21	nsubj	_	MSeg=호주인-이|Translit=.ho.ju.in.i|LTranslit=.ho.ju.in
 13	북한에서	북한	PROPN	NNP+CM	Polite=Form	14	advmod	_	MSeg=북한-에서|Translit=.bug.han.e.seo|LTranslit=.bug.han
@@ -9084,7 +9084,7 @@
 2	있었던	_	ADJ	JJ	Form=Adn|Tense=Past	4	acl:relcl	_	Translit=.iss.eoss.deon
 3	기상	_	NOUN	NN	_	4	compound	_	Translit=.gi.sang
 4	제어의	제어	NOUN	NN+CM	Case=Gen|Polite=Form	6	nmod:poss	_	MSeg=제어-의|Translit=.je.eo.yi|LTranslit=.je.eo
-5	한	_	DET	DT	_	6	nummod	_	Translit=.han
+5	한	_	DET	DT	_	6	det	_	OrigDeprel=nummod|Translit=.han
 6	예로	예	NOUN	NN+CM	Polite=Form	16	advmod	_	SpaceAfter=No|MSeg=예-로|Translit=.ye.ro|LTranslit=.ye
 7	는	는	PART	AP	_	6	case	_	Translit=.neun|LTranslit=.neun
 8	2008	2008	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Proper=True|Translit=2008|LTranslit=2008
@@ -9118,7 +9118,7 @@
 13	아프리카에서	아프리카	PROPN	NNP+CM	Polite=Form	15	advmod	_	MSeg=아프리카-에서|Translit=.a.peu.ri.ka.e.seo|LTranslit=.a.peu.ri.ka
 14	가장	_	ADV	RB	_	15	advmod	_	Translit=.ga.jang
 15	높은	_	ADJ	JJ	Form=Adn	17	acl:relcl	_	Translit=.nop.eun
-16	두	_	DET	DT	_	17	nummod	_	Translit=.du
+16	두	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.du
 17	산	_	NOUN	NN	_	22	acl:relcl	_	SpaceAfter=No|Translit=.san
 18	인	_	AUX	VC	Form=Adn	17	cop	_	Translit=.in
 19	킬리만자로	_	PROPN	NNP	_	20	compound	_	Translit=.kil.ri.man.ja.ro
@@ -9391,14 +9391,14 @@
 5	가장	_	ADV	RB	_	7	advmod	_	Translit=.ga.jang
 6	눈에	눈	NOUN	NN+CM	Polite=Form	7	advmod	_	MSeg=눈-에|Translit=.nun.e|LTranslit=.nun
 7	띄는	_	VERB	VV	Form=Adn	9	acl:relcl	_	Translit=.ddyi.neun
-8	두	_	DET	DT	_	9	nummod	_	Translit=.du
+8	두	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.du
 9	문명은	문명	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj	_	MSeg=문명-은|Translit=.mun.myeong.eun|LTranslit=.mun.myeong
 10	그리스	_	PROPN	NNP	_	12	compound	_	Translit=.geu.ri.seu
 11	도시	_	NOUN	NN	_	12	compound	_	SpaceAfter=No|Translit=.do.si
 12	국가와	국가	NOUN	NN+CP	Polite=Form	23	advcl	_	MSeg=국가-와|Translit=.gug.ga.wa|LTranslit=.gug.ga
 13	페니키아	_	PROPN	NNP	_	12	conj	_	SpaceAfter=No|Translit=.pe.ni.ki.a
 14	이며	_	AUX	VC	Form=Compl	13	cop	_	Translit=.i.myeo
-15	두	_	DET	DT	_	16	nummod	_	Translit=.du
+15	두	_	DET	DT	_	16	det	_	OrigDeprel=nummod|Translit=.du
 16	국가	_	NOUN	NN	_	17	compound	_	Translit=.gug.ga
 17	모두	_	NOUN	NN	_	23	nsubj	_	Translit=.mo.du
 18	지중해	_	PROPN	NNP	_	19	compound	_	Translit=.ji.jung.hae
@@ -9514,7 +9514,7 @@
 6	인해	_	NOUN	NN	_	11	advcl	_	SpaceAfter=No|Translit=.in.hae
 7	종마	_	NOUN	NN	_	8	compound	_	Translit=.jong.ma
 8	중	_	NOUN	NNB	_	10	compound	_	Translit=.jung
-9	한	_	DET	DT	_	10	nummod	_	Translit=.han
+9	한	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.han
 10	마리가	마리	NOUN	NNB+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=마리-가|Translit=.ma.ri.ga|LTranslit=.ma.ri
 11	죽는	_	VERB	VV	Form=Adn	12	acl:relcl	_	Translit=.jug.neun
 12	경우가	경우	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=경우-가|Translit=.gyeong.u.ga|LTranslit=.gyeong.u
@@ -9659,7 +9659,7 @@
 6	년	_	NOUN	NNB	_	11	obl:tmod	_	Translit=.nyeon
 7	약	_	DET	DT	_	9	det	_	Translit=.yag
 8	1	1	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
-9	억	_	DET	DT	_	10	nummod	_	Translit=.eog
+9	억	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.eog
 10	톤으로	톤	NOUN	NNB+CM	Polite=Form	11	advmod	_	MSeg=톤-으로|Translit=.ton.eu.ro|LTranslit=.ton
 11	증가하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.jeung.ga.ha.yeoss.da
 12	.	.	PUNCT	.	_	11	punct	_	Translit=.|LTranslit=.
@@ -10423,7 +10423,7 @@
 2	알래스카에	알래스카	PROPN	NNP+CM	Polite=Form	3	advmod	_	MSeg=알래스카-에|Translit=.al.rae.seu.ka.e|LTranslit=.al.rae.seu.ka
 3	도달하기	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=.do.dal.ha.gi
 4	전	_	NOUN	NN	_	10	advmod	_	Translit=.jeon
-5	수천	_	DET	DT	_	6	nummod	_	Translit=.su.cheon
+5	수천	_	DET	DT	_	6	det	_	OrigDeprel=nummod|Translit=.su.cheon
 6	년간	_	NOUN	NNB	_	10	advmod	_	Translit=.nyeon.gan
 7	다양한	_	NOUN	NN	_	8	amod	_	SpaceAfter=No|Translit=.da.yang.han
 8	원주민들이	원주민들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	10	nsubj	_	MSeg=원주민들-이|Translit=.weon.ju.min.deul.i|LTranslit=.weon.ju.min.deul
@@ -11073,7 +11073,7 @@
 8	공원은	공원	NOUN	NN+CM	Case=Nom|Polite=Form	16	nsubj	_	Proper=True|MSeg=공원-은|Translit=.gong.weon.eun|LTranslit=.gong.weon
 9	전	_	DET	DT	_	10	det	_	Translit=.jeon
 10	세계에서	세계	NOUN	NN+CM	Polite=Form	14	advmod	_	MSeg=세계-에서|Translit=.se.gye.e.seo|LTranslit=.se.gye
-11	두	_	DET	DT	_	12	nummod	_	SpaceAfter=No|Translit=.du
+11	두	_	DET	DT	_	12	det	_	OrigDeprel=nummod|SpaceAfter=No|Translit=.du
 12	번째로	번째	NOUN	NNB+CM	Polite=Form	14	advmod	_	MSeg=번째-로|Translit=.beon.jjae.ro|LTranslit=.beon.jjae
 13	공식	_	NOUN	NN	_	14	advmod	_	Translit=.gong.sig
 14	설립된	_	NOUN	NN	_	16	acl:relcl	_	SpaceAfter=No|Translit=.seol.rib.doen
@@ -11325,7 +11325,7 @@
 3	전쟁	_	NOUN	NN	_	4	compound	_	Translit=.jeon.jaeng
 4	시작	_	NOUN	NN	_	5	compound	_	Translit=.si.jag
 5	후	_	NOUN	NN	_	7	compound	_	Translit=.hu
-6	두	_	DET	DT	_	7	nummod	_	Translit=.du
+6	두	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.du
 7	시간	_	NOUN	NNB	_	8	compound	_	Translit=.si.gan
 8	동안	_	NOUN	NN	_	14	advmod	_	Translit=.dong.an
 9	갑옷을	갑옷	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=갑옷-을|Translit=.gab.os.eul|LTranslit=.gab.os
@@ -11429,7 +11429,7 @@
 # text_en = It is possible to establish the phase of the moon on a particular day two thousand years ago but not whether it was obscured by clouds or haze.
 # ToDoOrigText = 2천년 전 특정 일자를 기준으로 달의 기울기를 계산할 수 있지만 구름이나 연무로 인해 방해를 받는 경우는 불가능하다.
 1	2	2	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=2|LTranslit=2
-2	천	_	DET	DT	_	3	nummod	_	SpaceAfter=No|Translit=.cheon
+2	천	_	DET	DT	_	3	det	_	OrigDeprel=nummod|SpaceAfter=No|Translit=.cheon
 3	년	_	NOUN	NNB	_	4	compound	_	Translit=.nyeon
 4	전	_	NOUN	NN	_	6	compound	_	Translit=.jeon
 5	특정	_	NOUN	NN	_	6	compound	_	Translit=.teug.jeong
@@ -11665,7 +11665,7 @@
 12	자신의	자신	PRON	PRP+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=자신-의|Translit=.ja.sin.yi|LTranslit=.ja.sin
 13	명성을	명성	NOUN	NN+CM	Case=Acc|Polite=Form	17	obj	_	MSeg=명성-을|Translit=.myeong.seong.eul|LTranslit=.myeong.seong
 14	다시	_	ADV	RB	_	16	advmod	_	Translit=.da.si
-15	한	_	DET	DT	_	16	nummod	_	Translit=.han
+15	한	_	DET	DT	_	16	det	_	OrigDeprel=nummod|Translit=.han
 16	번	_	NOUN	NNB	_	17	advmod	_	Translit=.beon
 17	떨쳤다	_	VERB	VV	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.ddeol.chyeoss.da
 18	.	.	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
@@ -11833,7 +11833,7 @@
 10	하는	_	VERB	VV	Form=Adn	12	acl:relcl	_	Translit=.ha.neun
 11	큰	_	ADJ	JJ	Form=Adn	12	amod	_	Translit=.keun
 12	돌이	돌	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj	_	MSeg=돌-이|Translit=.dol.i|LTranslit=.dol
-13	한	_	DET	DT	_	14	nummod	_	Translit=.han
+13	한	_	DET	DT	_	14	det	_	OrigDeprel=nummod|Translit=.han
 14	줄에	줄	NOUN	NN+CM	Polite=Form	18	advmod	_	MSeg=줄-에|Translit=.jul.e|LTranslit=.jul
 15	10	10	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
 16	개로	개	NOUN	NNB+CM	Polite=Form	18	advmod	_	MSeg=개-로|Translit=.gae.ro|LTranslit=.gae
@@ -11968,7 +11968,7 @@
 13	게셀	_	PROPN	NNP	_	14	compound	_	Translit=.ge.sel
 14	왕이	왕	NOUN	NN+CM	Case=Nom|Polite=Form	15	nsubj	_	MSeg=왕-이|Translit=.wang.i|LTranslit=.wang
 15	보낸	_	VERB	VV	Form=Adn|Tense=Past	18	acl:relcl	_	Translit=.bo.naen
-16	열	_	DET	DT	_	17	nummod	_	Translit=.yeol
+16	열	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.yeol
 17	통의	통	NOUN	NNB+CM	Case=Gen|Polite=Form	18	nmod:poss	_	MSeg=통-의|Translit=.tong.yi|LTranslit=.tong
 18	편지를	편지	NOUN	NN+CM	Case=Acc|Polite=Form	20	obj	_	MSeg=편지-를|Translit=.pyeon.ji.reul|LTranslit=.pyeon.ji
 19	포함하고	_	NOUN	NN	_	20	aux	_	SpaceAfter=No|Translit=.po.ham.ha.go
@@ -12127,7 +12127,7 @@
 1	그럼에	그럼	ADJ	JJ+CM	Polite=Form|VerbForm=Ger	3	advmod	_	SpaceAfter=No|MSeg=그럼-에|Translit=.geu.reom.e|LTranslit=.geu.reom
 2	도	도	PART	AP	_	1	case	_	Translit=.do|LTranslit=.do
 3	불구하고	_	VERB	VV	Form=Compl	12	advcl	_	Translit=.bul.gu.ha.go
-4	두	_	DET	DT	_	5	nummod	_	Translit=.du
+4	두	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.du
 5	가지	_	NOUN	NNB	_	6	compound	_	Translit=.ga.ji
 6	모두	_	NOUN	NN	_	12	nsubj:pass	_	Translit=.mo.du
 7	최소한	_	ADV	RB	_	9	advmod	_	Translit=.choe.so.han
@@ -12170,7 +12170,7 @@
 # translit = .al.deu.rin.eun .se .beon .gyeol.hon.haess.da.
 # text_en = Aldrin has been married three times.
 1	알드린은	알드린	PROPN	NNP+CM	Case=Nom|Polite=Form	4	nsubj	_	MSeg=알드린-은|Translit=.al.deu.rin.eun|LTranslit=.al.deu.rin
-2	세	_	DET	DT	_	3	nummod	_	Translit=.se
+2	세	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.se
 3	번	_	NOUN	NNB	_	4	advmod	_	Translit=.beon
 4	결혼했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gyeol.hon.haess.da
 5	.	.	PUNCT	.	_	4	punct	_	Translit=.|LTranslit=.
@@ -12308,7 +12308,7 @@
 # translit = .se .ga.ji .pyo.si.ga .ha.ji, .dong.ji, .geu.ri.go .chun.bun.gwa .chu.bun.e .wi.chi.ha.go.iss.da.
 # text_en = Three markings locate sunrise at the summer and winter solstices and at the two equinoxes.
 # ToDoOrigText = 세 가지 표시가 하지, 동지, 그리고 춘분과 추분에 위치하고 있다.
-1	세	_	DET	DT	_	2	nummod	_	Translit=.se
+1	세	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.se
 2	가지	_	NOUN	NNB	_	3	compound	_	Translit=.ga.ji
 3	표시가	표시	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=표시-가|Translit=.pyo.si.ga|LTranslit=.pyo.si
 4	하지	_	NOUN	NN	_	12	advmod	_	SpaceAfter=No|Translit=.ha.ji
@@ -12332,7 +12332,7 @@
 4	대해	_	VERB	VV	Form=Compl	10	advcl	_	Translit=.dae.hae
 5	여름과	여름	NOUN	NN+CP	Polite=Form	10	advmod	_	MSeg=여름-과|Translit=.yeo.reum.gwa|LTranslit=.yeo.reum
 6	겨울에	겨울	NOUN	NN+CM	Polite=Form	5	conj	_	MSeg=겨울-에|Translit=.gyeo.ul.e|LTranslit=.gyeo.ul
-7	네	_	DET	DT	_	8	nummod	_	Translit=.ne
+7	네	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.ne
 8	개의	개	NOUN	NNB+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=개-의|Translit=.gae.yi|LTranslit=.gae
 9	표식을	표식	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=표식-을|Translit=.pyo.sig.eul|LTranslit=.pyo.sig
 10	추가하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.chu.ga.ha.yeoss.da
@@ -12346,7 +12346,7 @@
 2	월	_	NOUN	_	_	1	goeswith	_	SpaceAfter=No|Translit=.weol
 3	의	의	PART	CM	Case=Gen|Polite=Form	1	case	_	Translit=.yi|LTranslit=.yi
 4	길이는	길이	NOUN	NN+AP	_	8	obj	_	MSeg=길이-는|Translit=.gil.i.neun|LTranslit=.gil.i
-5	두	_	DET	DT	_	6	nummod	_	Translit=.du
+5	두	_	DET	DT	_	6	det	_	OrigDeprel=nummod|Translit=.du
 6	가지	_	NOUN	NNB	_	7	compound	_	Translit=.ga.ji
 7	방식으로	방식	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=방식-으로|Translit=.bang.sig.eu.ro|LTranslit=.bang.sig
 8	측정한다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.cheug.jeong.han.da
@@ -12358,7 +12358,7 @@
 # text_en = Its importance resides in two facts.
 1	그	_	DET	DT	_	2	det	_	Translit=.geu
 2	중요성이	중요성	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=중요성-이|Translit=.jung.yo.seong.i|LTranslit=.jung.yo.seong
-3	두	_	DET	DT	_	4	nummod	_	Translit=.du
+3	두	_	DET	DT	_	4	det	_	OrigDeprel=nummod|Translit=.du
 4	가지	_	NOUN	NNB	_	5	compound	_	Translit=.ga.ji
 5	사실에	사실	NOUN	NN+CM	Polite=Form	7	advmod	_	MSeg=사실-에|Translit=.sa.sil.e|LTranslit=.sa.sil
 6	숨어	_	VERB	VV	Form=Aux	7	aux	_	Translit=.sum.eo
@@ -12374,7 +12374,7 @@
 3	동안	_	NOUN	NN	_	9	advmod	_	Translit=.dong.an
 4	유카탄에서	유카탄	PROPN	NNP+CM	Polite=Form	9	advmod	_	SpaceAfter=No|MSeg=유카탄-에서|Translit=.yu.ka.tan.e.seo|LTranslit=.yu.ka.tan
 5	는	는	PART	AP	_	4	case	_	Translit=.neun|LTranslit=.neun
-6	세	_	DET	DT	_	7	nummod	_	Translit=.se
+6	세	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.se
 7	번째	_	NOUN	NNB	_	8	compound	_	Translit=.beon.jjae
 8	시스템을	시스템	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=시스템-을|Translit=.si.seu.tem.eul|LTranslit=.si.seu.tem
 9	사용하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.sa.yong.ha.yeoss.da
@@ -12438,7 +12438,7 @@
 6	반도를	반도	NOUN	NN+CM	Case=Acc|Polite=Form	11	obj	_	Proper=True|MSeg=반도-를|Translit=.ban.do.reul|LTranslit=.ban.do
 7	행정상의	행정상	NOUN	NN+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=행정상-의|Translit=.haeng.jeong.sang.yi|LTranslit=.haeng.jeong.sang
 8	목적으로	목적	NOUN	NN+CM	Polite=Form	11	advmod	_	MSeg=목적-으로|Translit=.mog.jeog.eu.ro|LTranslit=.mog.jeog
-9	두	_	DET	DT	_	10	nummod	_	Translit=.du
+9	두	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.du
 10	개로	개	NOUN	NNB+CM	Polite=Form	11	advmod	_	MSeg=개-로|Translit=.gae.ro|LTranslit=.gae
 11	나눴다	_	VERB	VV	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.na.nweoss.da
 12	.	.	PUNCT	.	_	11	punct	_	Translit=.|LTranslit=.
@@ -12549,7 +12549,7 @@
 12	월	_	NOUN	NNB	_	10	flat	_	Translit=.weol
 13	사이	_	NOUN	NN	_	20	advmod	_	Translit=.sa.i
 14	관보에	관보	NOUN	NN+CM	Polite=Form	20	advmod	_	MSeg=관보-에|Translit=.gwan.bo.e|LTranslit=.gwan.bo
-15	서른	_	DET	DT	_	17	nummod	_	Translit=.seo.reun
+15	서른	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.seo.reun
 16	아홉	_	DET	_	_	15	goeswith	_	Translit=.a.hob
 17	편	_	NOUN	NNB	_	18	compound	_	Translit=.pyeon
 18	정도의	정도	NOUN	NN+CM	Case=Gen|Polite=Form	19	nmod:poss	_	MSeg=정도-의|Translit=.jeong.do.yi|LTranslit=.jeong.do
@@ -12670,7 +12670,7 @@
 1	이	_	DET	DT	_	2	det	_	Translit=.i
 2	연구는	연구	NOUN	NN+CM	Case=Nom|Polite=Form	23	nsubj	_	MSeg=연구-는|Translit=.yeon.gu.neun|LTranslit=.yeon.gu
 3	이러한	_	ADJ	JJ	Form=Adn	6	amod	_	Translit=.i.reo.han
-4	세	_	DET	DT	_	5	nummod	_	Translit=.se
+4	세	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.se
 5	가지	_	NOUN	NNB	_	6	compound	_	Translit=.ga.ji
 6	요소를	요소	NOUN	NN+CM	Case=Acc|Polite=Form	13	obj	_	MSeg=요소-를|Translit=.yo.so.reul|LTranslit=.yo.so
 7	반란을	반란	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=반란-을|Translit=.ban.ran.eul|LTranslit=.ban.ran
@@ -13386,7 +13386,7 @@
 11	이미	_	ADV	RB	_	20	advmod	_	Translit=.i.mi
 12	약	_	DET	DT	_	15	det	_	Translit=.yag
 13	5	5	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No|Translit=5|LTranslit=5
-14	천	_	DET	DT	_	15	nummod	_	SpaceAfter=No|Translit=.cheon
+14	천	_	DET	DT	_	15	det	_	OrigDeprel=nummod|SpaceAfter=No|Translit=.cheon
 15	년	_	NOUN	NNB	_	16	compound	_	Translit=.nyeon
 16	전	_	NOUN	NN	_	20	advmod	_	Translit=.jeon
 17	아프리카에서	아프리카	PROPN	NNP+CM	Polite=Form	20	advmod	_	SpaceAfter=No|MSeg=아프리카-에서|Translit=.a.peu.ri.ka.e.seo|LTranslit=.a.peu.ri.ka
@@ -13650,7 +13650,7 @@
 6	3	3	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No|Translit=3|LTranslit=3
 7	백만에서	백만	NUM	CD+CM	NumType=Card|Polite=Form	10	advmod	_	MSeg=백만-에서|Translit=.baeg.man.e.seo|LTranslit=.baeg.man
 8	1	1	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
-9	천만	_	DET	DT	_	10	nummod	_	Translit=.cheon.man
+9	천만	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.cheon.man
 10	명	_	NOUN	NNB	_	11	compound	_	Translit=.myeong
 11	정도	_	NOUN	NN	_	23	nsubj	_	SpaceAfter=No|Translit=.jeong.do
 12	(	(	PUNCT	(	_	17	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
@@ -14355,7 +14355,7 @@
 5	의	의	PART	CM	Case=Gen|Polite=Form	4	case	_	Translit=.yi|LTranslit=.yi
 6	행동을	행동	NOUN	NN+CM	Case=Acc|Polite=Form	3	conj	_	MSeg=행동-을|Translit=.haeng.dong.eul|LTranslit=.haeng.dong
 7	바라는	_	VERB	VV	Form=Adn	9	acl:relcl	_	Translit=.ba.ra.neun
-8	두	_	DET	DT	_	9	nummod	_	Translit=.du
+8	두	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.du
 9	행동	_	NOUN	NN	_	10	compound	_	Translit=.haeng.dong
 10	사이에서	사이	NOUN	NN+CM	Polite=Form	12	advmod	_	MSeg=사이-에서|Translit=.sa.i.e.seo|LTranslit=.sa.i
 11	헤르츨은	헤르츨	PROPN	NNP+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=헤르츨-은|Translit=.he.reu.cheul.eun|LTranslit=.he.reu.cheul
@@ -14483,7 +14483,7 @@
 14	19	19	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No|Translit=19|LTranslit=19
 15	일	_	NOUN	NNB	_	11	flat	_	Translit=.il
 16	다시	_	ADV	RB	_	18	advmod	_	Translit=.da.si
-17	한	_	DET	DT	_	18	nummod	_	Translit=.han
+17	한	_	DET	DT	_	18	det	_	OrigDeprel=nummod|Translit=.han
 18	번	_	NOUN	NNB	_	20	advmod	_	Translit=.beon
 19	파산을	파산	NOUN	NN+CM	Case=Acc|Polite=Form	20	obj	_	MSeg=파산-을|Translit=.pa.san.eul|LTranslit=.pa.san
 20	선언했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.seon.eon.haess.da
@@ -14560,12 +14560,12 @@
 2	또한	_	ADV	RB	_	15	advmod	_	Translit=.ddo.han
 3	2013	2013	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No|Translit=2013|LTranslit=2013
 4	년에는	년	NOUN	NNB+CM	Polite=Form	0	root	_	orig_deprel=advmod|MSeg=년-에는|Translit=.nyeon.e.neun|LTranslit=.nyeon
-5	다섯	_	DET	DT	_	6	nummod	_	Translit=.da.seos
+5	다섯	_	DET	DT	_	6	det	_	OrigDeprel=nummod|Translit=.da.seos
 6	개	_	NOUN	NNB	_	4	orphan	_	SpaceAfter=No|orig_deprel=nmod:poss|Translit=.gae
 7	,	,	PUNCT	,	_	15	punct	_	Translit=,|LTranslit=,
 8	2014	2014	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=2014|LTranslit=2014
 9	년에는	년	NOUN	NNB+CM	Polite=Form	15	advmod	_	MSeg=년-에는|Translit=.nyeon.e.neun|LTranslit=.nyeon
-10	네	_	DET	DT	_	11	nummod	_	Translit=.ne
+10	네	_	DET	DT	_	11	det	_	OrigDeprel=nummod|Translit=.ne
 11	개의	개	NOUN	NNB+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=개-의|Translit=.gae.yi|LTranslit=.gae
 12	전통	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=.jeon.tong
 13	시장을	시장	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=시장-을|Translit=.si.jang.eul|LTranslit=.si.jang
@@ -14629,7 +14629,7 @@
 3	전기	_	NOUN	NN	_	15	nsubj	_	Translit=.jeon.gi
 4	또한	_	ADV	RB	_	15	advmod	_	Translit=.ddo.han
 5	킴이	킴	PROPN	NNP+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=킴-이|Translit=.kim.i|LTranslit=.kim
-6	여섯	_	DET	DT	_	7	nummod	_	Translit=.yeo.seos
+6	여섯	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.yeo.seos
 7	편의	편	NOUN	NNB+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=편-의|Translit=.pyeon.yi|LTranslit=.pyeon
 8	오페라를	오페라	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=오페라-를|Translit=.o.pe.ra.reul|LTranslit=.o.pe.ra
 9	작곡하고	_	NOUN	NN	_	14	advcl	_	SpaceAfter=No|Translit=.jag.gog.ha.go
@@ -14737,7 +14737,7 @@
 # text_en = Only 3000 copies were published of the first edition.
 1	초판은	초판	NOUN	NN+CM	Case=Nom|Polite=Form	5	nsubj:pass	_	MSeg=초판-은|Translit=.cho.pan.eun|LTranslit=.cho.pan
 2	3	3	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No|Translit=3|LTranslit=3
-3	천	_	DET	DT	_	4	nummod	_	Translit=.cheon
+3	천	_	DET	DT	_	4	det	_	OrigDeprel=nummod|Translit=.cheon
 4	부만	부	NOUN	NNB+AP	_	5	nsubj:pass	_	MSeg=부-만|Translit=.bu.man|LTranslit=.bu
 5	발행되었다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.bal.haeng.doe.eoss.da
 6	.	.	PUNCT	.	_	5	punct	_	Translit=.|LTranslit=.
@@ -14762,10 +14762,10 @@
 14	판매량은	판매량	NOUN	NN+CM	Case=Nom|Polite=Form	22	nsubj:pass	_	MSeg=판매량-은|Translit=.pan.mae.ryang.eun|LTranslit=.pan.mae.ryang
 15	각각	_	ADV	RB	_	22	advmod	_	Translit=.gag.gag
 16	300	300	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No|Translit=300|LTranslit=300
-17	만	_	DET	DT	_	18	nummod	_	Translit=.man
+17	만	_	DET	DT	_	18	det	_	OrigDeprel=nummod|Translit=.man
 18	부와	부	NOUN	NNB+CP	Polite=Form	22	advmod	_	MSeg=부-와|Translit=.bu.wa|LTranslit=.bu
 19	500	500	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No|Translit=500|LTranslit=500
-20	만	_	DET	DT	_	21	nummod	_	Translit=.man
+20	만	_	DET	DT	_	21	det	_	OrigDeprel=nummod|Translit=.man
 21	부로	부	NOUN	NNB+CM	Polite=Form	18	conj	_	MSeg=부-로|Translit=.bu.ro|LTranslit=.bu
 22	추정되었다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.chu.jeong.doe.eoss.da
 23	.	.	PUNCT	.	_	22	punct	_	Translit=.|LTranslit=.
@@ -14870,7 +14870,7 @@
 10	공주에	공주	NOUN	NN+CM	Polite=Form	11	advmod	_	MSeg=공주-에|Translit=.gong.ju.e|LTranslit=.gong.ju
 11	관한	_	VERB	VV	Form=Adn	12	acl:relcl	_	Translit=.gwan.han
 12	애니메이션을	애니메이션	NOUN	NN+CM	Case=Acc|Polite=Form	16	obj	_	MSeg=애니메이션-을|Translit=.ae.ni.me.i.syeon.eul|LTranslit=.ae.ni.me.i.syeon
-13	한	_	DET	DT	_	14	nummod	_	Translit=.han
+13	한	_	DET	DT	_	14	det	_	OrigDeprel=nummod|Translit=.han
 14	스튜디오에서	스튜디오	NOUN	NN+CM	Polite=Form	16	advmod	_	MSeg=스튜디오-에서|Translit=.seu.tyu.di.o.e.seo|LTranslit=.seu.tyu.di.o
 15	모두	_	ADV	RB	_	16	advmod	_	Translit=.mo.du
 16	제작하기로	제작하기	NOUN	NN+CM	Polite=Form	17	advcl	_	MSeg=제작하기-로|Translit=.je.jag.ha.gi.ro|LTranslit=.je.jag.ha.gi
@@ -15065,7 +15065,7 @@
 # ToDoOrigText = 윌크스는 재선되었고 두 번 더 쫓겨났으며 그 전에 하원에선 그의 후보자격이 무효하다고 결론을 내린 후 2위 후보를 승자로 발표하였다.
 1	윌크스는	윌크스	PROPN	NNP+CM	Case=Nom|Polite=Form	6	nsubj	_	MSeg=윌크스-는|Translit=.wil.keu.seu.neun|LTranslit=.wil.keu.seu
 2	재선되었고	_	NOUN	NN	_	6	advcl	_	SpaceAfter=No|Translit=.jae.seon.doe.eoss.go
-3	두	_	DET	DT	_	4	nummod	_	Translit=.du
+3	두	_	DET	DT	_	4	det	_	OrigDeprel=nummod|Translit=.du
 4	번	_	NOUN	NNB	_	6	nsubj	_	Translit=.beon
 5	더	_	ADV	RB	_	6	advmod	_	Translit=.deo
 6	쫓겨났으며	_	ADJ	JJ	Form=Compl|Tense=Past	21	advcl	_	Translit=.jjoch.gyeo.nass.eu.myeo
@@ -15331,7 +15331,7 @@
 13	"	"	PUNCT	''	_	12	punct	_	SpaceAfter=No|Translit="|LTranslit="
 14	라고	라고	PART	QP	_	12	case	_	Translit=.ra.go|LTranslit=.ra.go
 15	했던	_	VERB	VV	Form=Adn|Tense=Past	18	acl:relcl	_	Translit=.haess.deon
-16	두	_	DET	DT	_	17	nummod	_	Translit=.du
+16	두	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.du
 17	장의	장	NOUN	NNB+CM	Case=Gen|Polite=Form	18	nmod:poss	_	MSeg=장-의|Translit=.jang.yi|LTranslit=.jang
 18	앨범을	앨범	NOUN	NN+CM	Case=Acc|Polite=Form	21	obj	_	MSeg=앨범-을|Translit=.ael.beom.eul|LTranslit=.ael.beom
 19	1990	1990	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No|Translit=1990|LTranslit=1990
@@ -15389,7 +15389,7 @@
 16	짐과	짐	PROPN	NNP+CP	Polite=Form	18	advmod	_	MSeg=짐-과|Translit=.jim.gwa|LTranslit=.jim
 17	공동	_	NOUN	NN	_	18	compound	_	Translit=.gong.dong
 18	작곡한	_	NOUN	NN	_	20	advcl	_	SpaceAfter=No|Translit=.jag.gog.han
-19	세	_	DET	DT	_	20	nummod	_	Translit=.se
+19	세	_	DET	DT	_	20	det	_	OrigDeprel=nummod|Translit=.se
 20	곡도	곡	NOUN	NN+AP	_	22	advmod	_	MSeg=곡-도|Translit=.gog.do|LTranslit=.gog
 21	포함되어	_	NOUN	NN	_	22	aux	_	SpaceAfter=No|Translit=.po.ham.doe.eo
 22	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
@@ -15442,7 +15442,7 @@
 9	함께	_	ADV	RB	_	10	advmod	_	Translit=.ham.gge
 10	제작한	_	NOUN	NN	_	13	acl:relcl	_	SpaceAfter=No|Translit=.je.jag.han
 11	마지막	_	NOUN	NN	_	13	compound	_	Translit=.ma.ji.mag
-12	두	_	DET	DT	_	13	nummod	_	Translit=.du
+12	두	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.du
 13	레코드	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.re.ko.deu
 14	이다	_	AUX	VC	Mood=Ind|VerbForm=Fin	13	cop	_	SpaceAfter=No|Translit=.i.da
 15	.	.	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
@@ -15454,12 +15454,12 @@
 # ToDoOrigText = 기술자 1만 명을 포함해 최소 33만 명이 개입했다.
 1	기술자	_	NOUN	NN	_	4	compound	_	Translit=.gi.sul.ja
 2	1	1	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
-3	만	_	DET	DT	_	4	nummod	_	Translit=.man
+3	만	_	DET	DT	_	4	det	_	OrigDeprel=nummod|Translit=.man
 4	명을	명	NOUN	NNB+CM	Case=Acc|Polite=Form	5	obj	_	MSeg=명-을|Translit=.myeong.eul|LTranslit=.myeong
 5	포함해	_	NOUN	NN	_	10	advcl	_	SpaceAfter=No|Translit=.po.ham.hae
 6	최소	_	NOUN	NN	_	9	compound	_	Translit=.choe.so
 7	33	33	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No|Translit=33|LTranslit=33
-8	만	_	DET	DT	_	9	nummod	_	Translit=.man
+8	만	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.man
 9	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	10	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 10	개입했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gae.ib.haess.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
@@ -15637,7 +15637,7 @@
 9	15	15	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No|Translit=15|LTranslit=15
 10	년간은	년간	NOUN	NNB+AP	_	17	advmod	_	MSeg=년간-은|Translit=.nyeon.gan.eun|LTranslit=.nyeon.gan
 11	일주일에	일주일	NOUN	NN+CM	Polite=Form	13	advmod	_	MSeg=일주일-에|Translit=.il.ju.il.e|LTranslit=.il.ju.il
-12	세	_	DET	DT	_	13	nummod	_	Translit=.se
+12	세	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.se
 13	번씩	_	NOUN	NNB	_	17	advmod	_	Translit=.beon.ssig
 14	계속	_	NOUN	NN	_	17	advmod	_	Translit=.gye.sog
 15	식이	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=.sig.i
@@ -15888,7 +15888,7 @@
 13	체코슬로바키아	_	PROPN	NNP	_	14	compound	_	Translit=.che.ko.seul.ro.ba.ki.a
 14	국경을	국경	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=국경-을|Translit=.gug.gyeong.eul|LTranslit=.gug.gyeong
 15	넘으려던	_	VERB	VV	Form=Adn|Tense=Past	20	acl:relcl	_	Translit=.neom.eu.ryeo.deon
-16	두	_	DET	DT	_	17	nummod	_	Translit=.du
+16	두	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.du
 17	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	20	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 18	주데텐	_	PROPN	NNP	_	20	compound	_	Translit=.ju.de.ten
 19	독일	_	PROPN	NNP	_	18	flat:name	_	Translit=.dog.il
@@ -16155,7 +16155,7 @@
 25	낳았을	_	VERB	VV	Form=Adn|Tense=Past	13	conj	_	Translit=.nah.ass.eul
 26	때	_	NOUN	NN	_	34	advmod	_	Translit=.ddae
 27	조안은	조안	PROPN	NNP+CM	Case=Nom|Polite=Form	34	nsubj	_	MSeg=조안-은|Translit=.jo.an.eun|LTranslit=.jo.an
-28	두	_	DET	DT	_	29	nummod	_	Translit=.du
+28	두	_	DET	DT	_	29	det	_	OrigDeprel=nummod|Translit=.du
 29	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	32	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 30	잉글랜드	_	PROPN	NNP	_	32	compound	_	Translit=.ing.geul.raen.deu
 31	요크	_	PROPN	NNP	_	32	compound	_	SpaceAfter=No|Translit=.yo.keu
@@ -16467,7 +16467,7 @@
 7	곧	_	ADV	RB	_	8	advmod	_	Translit=.god
 8	출시될	_	NOUN	NN	_	13	acl:relcl	_	SpaceAfter=No|Translit=.chul.si.doel
 9	자신의	자신	PRON	PRP+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=자신-의|Translit=.ja.sin.yi|LTranslit=.ja.sin
-10	세	_	DET	DT	_	11	nummod	_	Translit=.se
+10	세	_	DET	DT	_	11	det	_	OrigDeprel=nummod|Translit=.se
 11	번째	_	NOUN	NNB	_	13	compound	_	Translit=.beon.jjae
 12	스튜디오	_	NOUN	NN	_	13	compound	_	Translit=.seu.tyu.di.o
 13	앨범에	앨범	NOUN	NN+CM	Polite=Form	14	advmod	_	MSeg=앨범-에|Translit=.ael.beom.e|LTranslit=.ael.beom
@@ -16744,7 +16744,7 @@
 9	전	_	DET	DT	_	10	det	_	SpaceAfter=No|Translit=.jeon
 10	세계	_	NOUN	NN	_	11	compound	_	Translit=.se.gye
 11	투자금이	투자금	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=투자금-이|Translit=.tu.ja.geum.i|LTranslit=.tu.ja.geum
-12	수십억	_	DET	DT	_	13	nummod	_	Translit=.su.sib.eog
+12	수십억	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.su.sib.eog
 13	달러에	달러	NOUN	NNB+CM	Polite=Form	14	advmod	_	MSeg=달러-에|Translit=.dal.reo.e|LTranslit=.dal.reo
 14	달하는	_	VERB	VV	Form=Adn	16	acl:relcl	_	Translit=.dal.ha.neun
 15	천연	_	NOUN	NN	_	16	compound	_	Translit=.cheon.yeon
@@ -16793,7 +16793,7 @@
 15	서서	_	VERB	VV	Form=Compl	17	advcl	_	Translit=.seo.seo
 16	지켜보고	_	VERB	VV	Form=Aux	17	aux	_	Translit=.ji.kyeo.bo.go
 17	있던	_	VERB	VX	Form=Adn|Tense=Past	19	acl:relcl	_	Translit=.iss.deon
-18	네	_	DET	DT	_	19	nummod	_	Translit=.ne
+18	네	_	DET	DT	_	19	det	_	OrigDeprel=nummod|Translit=.ne
 19	사람을	사람	NOUN	NN+CM	Case=Acc|Polite=Form	21	obj	_	MSeg=사람-을|Translit=.sa.ram.eul|LTranslit=.sa.ram
 20	조사하고	_	NOUN	NN	_	21	aux	_	SpaceAfter=No|Translit=.jo.sa.ha.go
 21	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
@@ -16865,7 +16865,7 @@
 # translit = .du .myeong.yi .deu.ra.ma .jag.ga.ga .eo.ddeoh.ge .seo.ro .hyeob.ryeog.hae.na.gal.ji .a.neun .sa.ram.i .eobs.da.
 # text_en = One doesn't know in which way both dramatists would have worked together.
 # ToDoOrigText = 두 명의 드라마 작가가 어떻게 서로 협력해 나갈지 아는 사람이 없다.
-1	두	_	DET	DT	_	2	nummod	_	Translit=.du
+1	두	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.du
 2	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 3	드라마	_	NOUN	NN	_	4	compound	_	Translit=.deu.ra.ma
 4	작가가	작가	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=작가-가|Translit=.jag.ga.ga|LTranslit=.jag.ga
@@ -17222,7 +17222,7 @@
 13	같은	_	ADJ	JJ	Form=Adn	14	acl:relcl	_	Translit=.gat.eun
 14	일을	일	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=일-을|Translit=.il.eul|LTranslit=.il
 15	올려도	_	VERB	VV	Form=Compl	18	advcl	_	Translit=.ol.ryeo.do
-16	수백만	_	DET	DT	_	17	nummod	_	Translit=.su.baeg.man
+16	수백만	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.su.baeg.man
 17	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	18	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 18	시청한다는	_	NOUN	NN	_	19	dep	_	SpaceAfter=No|Translit=.si.cheong.han.da.neun
 19	것	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.geos
@@ -17271,7 +17271,7 @@
 6	결승전은	결승전	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj	_	MSeg=결승전-은|Translit=.gyeol.seung.jeon.eun|LTranslit=.gyeol.seung.jeon
 7	믿지	_	VERB	VV	Form=Aux	8	aux	_	Translit=.mid.ji
 8	못할	_	VERB	VX	Form=Adn	10	acl:relcl	_	Translit=.mos.hal
-9	한	_	DET	DT	_	10	nummod	_	Translit=.han
+9	한	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.han
 10	해의	해	NOUN	NN+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=해-의|Translit=.hae.yi|LTranslit=.hae
 11	마침표를	마침표	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=마침표-를|Translit=.ma.chim.pyo.reul|LTranslit=.ma.chim.pyo
 12	찍은	_	VERB	VV	Form=Adn|Tense=Past	13	acl:relcl	_	Translit=.jjig.eun
@@ -17437,7 +17437,7 @@
 17	인터뷰에서	인터뷰	NOUN	NN+CM	Polite=Form	31	advmod	_	MSeg=인터뷰-에서|Translit=.in.teo.byu.e.seo|LTranslit=.in.teo.byu
 18	조종사	_	NOUN	NN	_	19	compound	_	Translit=.jo.jong.sa
 19	중	_	NOUN	NNB	_	21	compound	_	Translit=.jung
-20	한	_	DET	DT	_	21	nummod	_	Translit=.han
+20	한	_	DET	DT	_	21	det	_	OrigDeprel=nummod|Translit=.han
 21	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	28	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 22	가라앉을	_	VERB	VV	Form=Adn	23	dep	_	Translit=.ga.ra.anj.eul
 23	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	24	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
@@ -17534,7 +17534,7 @@
 4	적대	_	NOUN	NN	_	5	compound	_	Translit=.jeog.dae
 5	관계	_	NOUN	NN	_	8	acl:relcl	_	SpaceAfter=No|Translit=.gwan.gye
 6	이던	_	AUX	VC	Form=Adn|Tense=Past	5	cop	_	Translit=.i.deon
-7	두	_	DET	DT	_	8	nummod	_	Translit=.du
+7	두	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.du
 8	파벌의	파벌	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=파벌-의|Translit=.pa.beol.yi|LTranslit=.pa.beol
 9	사이가	사이	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj:pass	_	MSeg=사이-가|Translit=.sa.i.ga|LTranslit=.sa.i
 10	당분간	_	NOUN	NN	_	12	advmod	_	Translit=.dang.bun.gan
@@ -17678,7 +17678,7 @@
 5	크라나흐	_	PROPN	NNP	_	4	flat:name	_	SpaceAfter=No|Translit=.keu.ra.na.heu
 6	가	가	PART	CM	Case=Nom|Polite=Form	4	case	_	Translit=.ga|LTranslit=.ga
 7	그린	_	VERB	VV	Form=Adn|Tense=Past	10	acl:relcl	_	Translit=.geu.rin
-8	두	_	DET	DT	_	9	nummod	_	Translit=.du
+8	두	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.du
 9	편의	편	NOUN	NNB+CM	Case=Gen|Polite=Form	10	nmod:poss	_	MSeg=편-의|Translit=.pyeon.yi|LTranslit=.pyeon
 10	그림이	그림	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=그림-이|Translit=.geu.rim.i|LTranslit=.geu.rim
 11	특히	_	ADV	RB	_	14	advmod	_	Translit=.teug.hi
@@ -18169,7 +18169,7 @@
 # translit = .du .jo.jig.eun 10.weol 12.il .pa.gi.weon.e.seo .gi.gag.han.cheong.weon.eul .gae.si.ha.yeoss.da.
 # text_en = The two organisations launched an appeal which was thrown out by the Court of Cassation on the 12th of October.
 # ToDoOrigText = 두 조직은 10월 12일 파기원에서 기각한 청원을 개시하였다.
-1	두	_	DET	DT	_	2	nummod	_	Translit=.du
+1	두	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.du
 2	조직은	조직	NOUN	NN+CM	Case=Nom|Polite=Form	10	nsubj	_	MSeg=조직-은|Translit=.jo.jig.eun|LTranslit=.jo.jig
 3	10	10	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
 4	월	_	NOUN	NNB	_	8	obl:tmod	_	Translit=.weol
@@ -18295,7 +18295,7 @@
 6	정부는	정부	NOUN	NN+CM	Case=Nom|Polite=Form	23	nsubj	_	MSeg=정부-는|Translit=.jeong.bu.neun|LTranslit=.jeong.bu
 7	최대	_	NOUN	NN	_	10	compound	_	Translit=.choe.dae
 8	4,200	4,200	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=4,200|LTranslit=4,200
-9	만	_	DET	DT	_	10	nummod	_	Translit=.man
+9	만	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.man
 10	유로를	유로	NOUN	NNB+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=유로-를|Translit=.yu.ro.reul|LTranslit=.yu.ro
 11	풀	_	VERB	VV	Form=Adn	12	acl:relcl	_	Translit=.pul
 12	수	_	NOUN	NNB	_	13	nsubj	_	Translit=.su
@@ -18305,7 +18305,7 @@
 16	이	_	DET	DT	_	17	det	_	Translit=.i
 17	중	_	NOUN	NNB	_	20	compound	_	Translit=.jung
 18	1,550	1,550	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No|Translit=1,550|LTranslit=1,550
-19	만	_	DET	DT	_	20	nummod	_	Translit=.man
+19	만	_	DET	DT	_	20	det	_	OrigDeprel=nummod|Translit=.man
 20	유로를	유로	NOUN	NNB+CM	Case=Acc|Polite=Form	23	obj	_	MSeg=유로-를|Translit=.yu.ro.reul|LTranslit=.yu.ro
 21	보안	_	NOUN	NN	_	22	compound	_	Translit=.bo.an
 22	분야에	분야	NOUN	NN+CM	Polite=Form	23	advmod	_	MSeg=분야-에|Translit=.bun.ya.e|LTranslit=.bun.ya
@@ -18534,7 +18534,7 @@
 # text = 두 가지 모두에서 EU 최상위 수준이다.
 # translit = .du .ga.ji .mo.du.e.seo EU .choe.sang.wi .su.jun.i.da.
 # text_en = A level that in both cases is at the top of the EU.
-1	두	_	DET	DT	_	2	nummod	_	Translit=.du
+1	두	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.du
 2	가지	_	NOUN	NNB	_	3	compound	_	Translit=.ga.ji
 3	모두에서	모두	NOUN	NN+CM	Polite=Form	6	advmod	_	MSeg=모두-에서|Translit=.mo.du.e.seo|LTranslit=.mo.du
 4	EU	_	PROPN	NNP	_	5	compound	_	Translit=EU
@@ -18726,7 +18726,7 @@
 5	중	_	NOUN	NNB	_	9	acl:relcl	_	SpaceAfter=No|Translit=.jung
 6	인	_	AUX	VC	Form=Adn	5	cop	_	Translit=.in
 7	학생	_	NOUN	NN	_	9	compound	_	Translit=.hag.saeng
-8	네	_	DET	DT	_	9	nummod	_	Translit=.ne
+8	네	_	DET	DT	_	9	det	_	OrigDeprel=nummod|Translit=.ne
 9	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	23	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 10	운전자의	운전자	NOUN	NN+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=운전자-의|Translit=.un.jeon.ja.yi|LTranslit=.un.jeon.ja
 11	행동	_	NOUN	NN	_	12	compound	_	Translit=.haeng.dong
@@ -18778,7 +18778,7 @@
 3	,	,	PUNCT	,	_	2	punct	_	Translit=,|LTranslit=,
 4	우버는	우버	PROPN	NNP+CM	Case=Nom|Polite=Form	10	nsubj	_	MSeg=우버-는|Translit=.u.beo.neun|LTranslit=.u.beo
 5	10	10	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
-6	억	_	DET	DT	_	7	nummod	_	Translit=.eog
+6	억	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.eog
 7	달러	_	NOUN	NNB	_	8	compound	_	Translit=.dal.reo
 8	규모의	규모	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=규모-의|Translit=.gyu.mo.yi|LTranslit=.gyu.mo
 9	투자를	투자	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=투자-를|Translit=.tu.ja.reul|LTranslit=.tu.ja
@@ -18940,7 +18940,7 @@
 16	고용	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=.go.yong
 17	인구가	인구	NOUN	NN+CM	Case=Nom|Polite=Form	21	nsubj	_	MSeg=인구-가|Translit=.in.gu.ga|LTranslit=.in.gu
 18	60	60	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No|Translit=60|LTranslit=60
-19	만	_	DET	DT	_	20	nummod	_	Translit=.man
+19	만	_	DET	DT	_	20	det	_	OrigDeprel=nummod|Translit=.man
 20	명이	명	NOUN	NNB+CM	Case=Nom|Polite=Form	21	nsubj	_	MSeg=명-이|Translit=.myeong.i|LTranslit=.myeong
 21	증가하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.jeung.ga.ha.yeoss.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
@@ -19355,7 +19355,7 @@
 # translit = .su.sib .myeong.yi FSLN .chu.jong.ja.deul.eun .i.mi .peul.ra.ja .de .ra.seu .big.to.ri.a.seu.e.seo .seung.ri.reul .chug.ha.ha.go.iss.neun .jung.i.da.
 # text_en = Dozens of FSLN followers are already celebrating the victory in the Plaza de las Victorias.
 # ToDoOrigText = 수십 명의 FSLN 추종자들은 이미 플라자 데 라스 빅토리아스에서 승리를 축하하고 있는 중이다.
-1	수십	_	DET	DT	_	2	nummod	_	Translit=.su.sib
+1	수십	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.su.sib
 2	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 3	FSLN	_	PROPN	NNP	_	4	compound	_	Translit=FSLN
 4	추종자들은	추종자들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	14	nsubj	_	MSeg=추종자들-은|Translit=.chu.jong.ja.deul.eun|LTranslit=.chu.jong.ja.deul
@@ -19701,7 +19701,7 @@
 3	총선에서	총선	NOUN	NN+CM	Polite=Form	10	advmod	_	SpaceAfter=No|Proper=True|MSeg=총선-에서|Translit=.chong.seon.e.seo|LTranslit=.chong.seon
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
 5	노동당이	노동당	PROPN	NNP+CM	Case=Nom|Polite=Form	10	nsubj	_	MSeg=노동당-이|Translit=.no.dong.dang.i|LTranslit=.no.dong.dang
-6	일곱	_	DET	DT	_	7	nummod	_	Translit=.il.gob
+6	일곱	_	DET	DT	_	7	det	_	OrigDeprel=nummod|Translit=.il.gob
 7	개	_	NOUN	NNB	_	8	compound	_	Translit=.gae
 8	투표구에서	투표구	NOUN	NN+CM	Polite=Form	10	advmod	_	MSeg=투표구-에서|Translit=.tu.pyo.gu.e.seo|LTranslit=.tu.pyo.gu
 9	모두	_	ADV	RB	_	10	advmod	_	Translit=.mo.du
@@ -20113,7 +20113,7 @@
 6	1	1	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No|Proper=True|Translit=1|LTranslit=1
 7	세	_	NOUN	NNB	_	8	compound	_	Proper=True|Translit=.se
 8	황제는	황제	NOUN	NN+CM	Case=Nom|Polite=Form	16	nsubj	_	MSeg=황제-는|Translit=.hwang.je.neun|LTranslit=.hwang.je
-9	두	_	DET	DT	_	10	nummod	_	Translit=.du
+9	두	_	DET	DT	_	10	det	_	OrigDeprel=nummod|Translit=.du
 10	군주국을	군주국	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=군주국-을|Translit=.gun.ju.gug.eul|LTranslit=.gun.ju.gug
 11	공평하게	_	NOUN	NN	_	12	advmod	_	SpaceAfter=No|Translit=.gong.pyeong.ha.ge
 12	대우하기	_	NOUN	NN	_	13	ccomp	_	SpaceAfter=No|Translit=.dae.u.ha.gi
@@ -20240,7 +20240,7 @@
 8	우승자	_	NOUN	NN	_	10	acl:relcl	_	SpaceAfter=No|Translit=.u.seung.ja
 9	인	_	AUX	VC	Form=Adn	8	cop	_	Translit=.in
 10	울리히는	울리히	PROPN	NNP+CM	Case=Nom|Polite=Form	16	nsubj	_	MSeg=울리히-는|Translit=.ul.ri.hi.neun|LTranslit=.ul.ri.hi
-11	두	_	DET	DT	_	12	nummod	_	Translit=.du
+11	두	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.du
 12	번째	_	NOUN	NNB	_	13	compound	_	Translit=.beon.jjae
 13	금메달을	금메달	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=금메달-을|Translit=.geum.me.dal.eul|LTranslit=.geum.me.dal
 14	따겠다는	_	VERB	VV	Form=Adn	15	acl:relcl	_	Translit=.dda.gess.da.neun
@@ -20417,7 +20417,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
 5	주민	_	NOUN	NN	_	8	compound	_	Translit=.ju.min
 6	10	10	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
-7	만	_	DET	DT	_	8	nummod	_	Translit=.man
+7	만	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.man
 8	명당	_	NOUN	NNB	_	11	advmod	_	Translit=.myeong.dang
 9	의사는	의사	NOUN	NN+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=의사-는|Translit=.yi.sa.neun|LTranslit=.yi.sa
 10	5	5	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No|Translit=5|LTranslit=5
@@ -20898,7 +20898,7 @@
 11	저메인의	저메인	PROPN	NNP+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=저메인-의|Translit=.jeo.me.in.yi|LTranslit=.jeo.me.in
 12	친구	_	NOUN	NN	_	13	compound	_	Translit=.chin.gu
 13	중	_	NOUN	NNB	_	15	compound	_	Translit=.jung
-14	한	_	DET	DT	_	15	nummod	_	Translit=.han
+14	한	_	DET	DT	_	15	det	_	OrigDeprel=nummod|Translit=.han
 15	명의	명	NOUN	NNB+CM	Case=Gen|Polite=Form	16	nmod:poss	_	MSeg=명-의|Translit=.myeong.yi|LTranslit=.myeong
 16	딸	_	NOUN	NN	_	18	acl:relcl	_	SpaceAfter=No|Translit=.ddal
 17	인	_	AUX	VC	Form=Adn	16	cop	_	Translit=.in
@@ -20938,7 +20938,7 @@
 1	아래	_	NOUN	NN	_	2	compound	_	Translit=.a.rae
 2	부분에는	부분	NOUN	NN+CM	Polite=Form	8	advmod	_	MSeg=부분-에는|Translit=.bu.bun.e.neun|LTranslit=.bu.bun
 3	야자나무	_	NOUN	NN	_	5	compound	_	Translit=.ya.ja.na.mu
-4	세	_	DET	DT	_	5	nummod	_	Translit=.se
+4	세	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.se
 5	그루가	그루	NOUN	NNB+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=그루-가|Translit=.geu.ru.ga|LTranslit=.geu.ru
 6	바다를	바다	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=바다-를|Translit=.ba.da.reul|LTranslit=.ba.da
 7	바라보고	_	VERB	VV	Form=Aux	8	aux	_	Translit=.ba.ra.bo.go
@@ -21153,7 +21153,7 @@
 # text_en = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
 # ToDoOrigText = 이후 두 번째 아풀리아 및 칼라브리아 왕조를 수립했으며 몰리세 및 동쪽 바실리카타의 일부인 삼니움도 포함됐다.
 1	이후	_	NOUN	NN	_	8	advmod	_	Translit=.i.hu
-2	두	_	DET	DT	_	3	nummod	_	Translit=.du
+2	두	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.du
 3	번째	_	NOUN	NNB	_	7	compound	_	Translit=.beon.jjae
 4	아풀리아	_	PROPN	NNP	_	7	compound	_	Translit=.a.pul.ri.a
 5	및	_	CCONJ	CC	_	6	cc	_	ToDo=cc-after-conj|Translit=.mich
@@ -21284,7 +21284,7 @@
 8	승리를	승리	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=승리-를|Translit=.seung.ri.reul|LTranslit=.seung.ri
 9	통해	_	VERB	VV	Form=Compl	16	advcl	_	Translit=.tong.hae
 10	오스트리아는	오스트리아	PROPN	NNP+CM	Case=Nom|Polite=Form	14	nsubj	_	MSeg=오스트리아-는|Translit=.o.seu.teu.ri.a.neun|LTranslit=.o.seu.teu.ri.a
-11	두	_	DET	DT	_	12	nummod	_	Translit=.du
+11	두	_	DET	DT	_	12	det	_	OrigDeprel=nummod|Translit=.du
 12	번째로	번째	NOUN	NNB+CM	Polite=Form	14	advmod	_	MSeg=번째-로|Translit=.beon.jjae.ro|LTranslit=.beon.jjae
 13	이탈리아를	이탈리아	PROPN	NNP+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=이탈리아-를|Translit=.i.tal.ri.a.reul|LTranslit=.i.tal.ri.a
 14	포기할	_	NOUN	NN	_	15	acl:relcl	_	SpaceAfter=No|Translit=.po.gi.hal
@@ -21397,7 +21397,7 @@
 4	월터가	월터	PROPN	NNP+CM	Case=Nom|Polite=Form	3	conj	_	MSeg=월터-가|Translit=.weol.teo.ga|LTranslit=.weol.teo
 5	예상한	_	NOUN	NN	_	6	dep	_	SpaceAfter=No|Translit=.ye.sang.han
 6	것처럼	것	NOUN	NNB+CM	Polite=Form	12	advmod	_	MSeg=것-처럼|Translit=.geos.cheo.reom|LTranslit=.geos
-7	두	_	DET	DT	_	8	nummod	_	Translit=.du
+7	두	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.du
 8	은하계	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=.eun.ha.gye
 9	사이의	사이	NOUN	NN+CM	Case=Gen|Polite=Form	10	nmod:poss	_	MSeg=사이-의|Translit=.sa.i.yi|LTranslit=.sa.i
 10	전쟁이	전쟁	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj	_	MSeg=전쟁-이|Translit=.jeon.jaeng.i|LTranslit=.jeon.jaeng
@@ -21423,7 +21423,7 @@
 1	고프레도	_	PROPN	NNP	_	5	nmod:poss	_	Translit=.go.peu.re.do
 2	페트라시	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=.pe.teu.ra.si
 3	의	의	PART	CM	Case=Gen|Polite=Form	1	case	_	Translit=.yi|LTranslit=.yi
-4	두	_	DET	DT	_	5	nummod	_	Translit=.du
+4	두	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.du
 5	학생	_	NOUN	NN	_	10	acl:relcl	_	SpaceAfter=No|Translit=.hag.saeng
 6	인	_	AUX	VC	Form=Adn	5	cop	_	Translit=.in
 7	엔니오	_	PROPN	NNP	_	19	nsubj	_	Translit=.en.ni.o
@@ -21485,7 +21485,7 @@
 19	곡들	_	NOUN	NN	Number=Plur	20	compound	_	Translit=.gog.deul
 20	중	_	NOUN	NNB	_	21	compound	_	Translit=.jung
 21	일부는	일부	NOUN	NN+AP	_	25	obj	_	MSeg=일부-는|Translit=.il.bu.neun|LTranslit=.il.bu
-22	두	_	DET	DT	_	23	nummod	_	Translit=.du
+22	두	_	DET	DT	_	23	det	_	OrigDeprel=nummod|Translit=.du
 23	사람이	사람	NOUN	NN+CM	Case=Nom|Polite=Form	25	nsubj	_	MSeg=사람-이|Translit=.sa.ram.i|LTranslit=.sa.ram
 24	공동으로	공동	NOUN	NN+CM	Polite=Form	25	advmod	_	MSeg=공동-으로|Translit=.gong.dong.eu.ro|LTranslit=.gong.dong
 25	작곡하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.jag.gog.ha.yeoss.da
@@ -21523,7 +21523,7 @@
 4	동안	_	NOUN	NN	_	26	advmod	_	SpaceAfter=No|Translit=.dong.an
 5	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
 6	차후	_	NOUN	NN	_	10	compound	_	Translit=.cha.hu
-7	두	_	DET	DT	_	8	nummod	_	Translit=.du
+7	두	_	DET	DT	_	8	det	_	OrigDeprel=nummod|Translit=.du
 8	사람의	사람	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=사람-의|Translit=.sa.ram.yi|LTranslit=.sa.ram
 9	스타일을	스타일	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=스타일-을|Translit=.seu.ta.il.eul|LTranslit=.seu.ta.il
 10	규정한	_	NOUN	NN	_	11	acl:relcl	_	SpaceAfter=No|Translit=.gyu.jeong.han
@@ -21532,7 +21532,7 @@
 13	나타나는	_	VERB	VV	Form=Adn	15	acl:relcl	_	Translit=.na.ta.na.neun
 14	스타일리시한	_	NOUN	NN	_	15	amod	_	SpaceAfter=No|Translit=.seu.ta.il.ri.si.han
 15	답이	답	NOUN	NN+CM	Case=Nom|Polite=Form	21	nsubj	_	MSeg=답-이|Translit=.dab.i|LTranslit=.dab
-16	두	_	DET	DT	_	17	nummod	_	Translit=.du
+16	두	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.du
 17	사람	_	NOUN	NN	_	18	compound	_	Translit=.sa.ram
 18	중	_	NOUN	NNB	_	19	compound	_	Translit=.jung
 19	누구에게서	누구	PRON	WP+CM	Polite=Form	20	advmod	_	MSeg=누구-에게서|Translit=.nu.gu.e.ge.seo|LTranslit=.nu.gu
@@ -21575,7 +21575,7 @@
 # translit = .ae.peu.seu.e .se .gae.yi .pyeong.haeng.eu.ro .doen .ye.bae.sil.i .iss.eu.myeo .ji.ji.dae .sa.i.e.neun .su.pyeong.eu.ro .doen .da.su.yi .ye.bae.sil.i .iss.da.
 # text_en = It has three parallel chapels at the apse and many lateral chapels between the buttresses.
 1	애프스에	애프스	NOUN	NN+CM	Polite=Form	7	advmod	_	MSeg=애프스-에|Translit=.ae.peu.seu.e|LTranslit=.ae.peu.seu
-2	세	_	DET	DT	_	3	nummod	_	Translit=.se
+2	세	_	DET	DT	_	3	det	_	OrigDeprel=nummod|Translit=.se
 3	개의	개	NOUN	NNB+CM	Case=Gen|Polite=Form	6	nmod:poss	_	MSeg=개-의|Translit=.gae.yi|LTranslit=.gae
 4	평행으로	평행	NOUN	NN+CM	Polite=Form	5	advmod	_	MSeg=평행-으로|Translit=.pyeong.haeng.eu.ro|LTranslit=.pyeong.haeng
 5	된	_	VERB	VV	Form=Adn	6	acl:relcl	_	Translit=.doen
@@ -21712,7 +21712,7 @@
 # translit = .su.sib .gae .eun.haeng.yi .bung.goe.wa .gae.ib.eu.ro .in.hae.ja.bon.i .bba.jyeo.na.gass.eu.myeo .geu .gyeol.gwa .gi.eob.eun .do.san.ha.yeoss.da.
 # text_en = The collapse of and intervention in dozens of banks lead to a flight of capital, causing businesses to go bankrupt.
 # ToDoOrigText = 수십 개 은행의 붕괴와 개입으로 인해 자본이 빠져나갔으며 그 결과 기업은 도산하였다.
-1	수십	_	DET	DT	_	2	nummod	_	Translit=.su.sib
+1	수십	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.su.sib
 2	개	_	NOUN	NNB	_	3	compound	_	Translit=.gae
 3	은행의	은행	NOUN	NN+CM	Case=Gen|Polite=Form	5	nmod:poss	_	Proper=True|MSeg=은행-의|Translit=.eun.haeng.yi|LTranslit=.eun.haeng
 4	붕괴와	붕괴	NOUN	NN+CP	Polite=Form	6	advmod	_	MSeg=붕괴-와|Translit=.bung.goe.wa|LTranslit=.bung.goe
@@ -21730,7 +21730,7 @@
 # text = 두 번째 경계에서 외부 경계에 이르는 부분으로 푼타 델 에스테에 있는 랜드마크 등대에서 푼타 라사에 있는 랜드마크 등대를 잇는 가상의 선이다.
 # translit = .du .beon.jjae .gyeong.gye.e.seo .oe.bu .gyeong.gye.e .i.reu.neun .bu.bun.eu.ro .pun.ta .del .e.seu.te.e .iss.neun .raen.deu.ma.keu .deung.dae.e.seo .pun.ta .ra.sa.e .iss.neun .raen.deu.ma.keu .deung.dae.reul .is.neun .ga.sang.yi .seon.i.da.
 # text_en = It is the portion from this second boundary up to the outer boundary, the imaginary line that connects the lighthouse landmark at Punta del Este to the lighthouse landmark at Punta Rasa.
-1	두	_	DET	DT	_	2	nummod	_	Translit=.du
+1	두	_	DET	DT	_	2	det	_	OrigDeprel=nummod|Translit=.du
 2	번째	_	NOUN	NNB	_	3	compound	_	Translit=.beon.jjae
 3	경계에서	경계	NOUN	NN+CM	Polite=Form	6	advmod	_	MSeg=경계-에서|Translit=.gyeong.gye.e.seo|LTranslit=.gyeong.gye
 4	외부	_	NOUN	NN	_	5	compound	_	Translit=.oe.bu
@@ -22041,7 +22041,7 @@
 1	폼페이는	폼페이	PROPN	NNP+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=폼페이-는|Translit=.pom.pe.i.neun|LTranslit=.pom.pe.i
 2	카푸아	_	PROPN	NNP	_	3	compound	_	Translit=.ka.pu.a
 3	내	_	NOUN	NNB	_	5	compound	_	Translit=.nae
-4	두	_	DET	DT	_	5	nummod	_	Translit=.du
+4	두	_	DET	DT	_	5	det	_	OrigDeprel=nummod|Translit=.du
 5	군단에	군단	NOUN	NN+CM	Polite=Form	7	advmod	_	MSeg=군단-에|Translit=.gun.dan.e|LTranslit=.gun.dan
 6	명령을	명령	NOUN	NN+CM	Case=Acc|Polite=Form	7	obj	_	MSeg=명령-을|Translit=.myeong.ryeong.eul|LTranslit=.myeong.ryeong
 7	내려	_	VERB	VV	Form=Compl	11	advcl	_	Translit=.nae.ryeo
