@@ -15518,7 +15518,7 @@
 4	마야인에게	마야인	PROPN	NNP+CM	Polite=Form	8	obl	_	MSeg=마야인-에게|Translit=.ma.ya.in.e.ge|LTranslit=.ma.ya.in
 5	방어물이	방어물	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=방어물-이|Translit=.bang.eo.mul.i|LTranslit=.bang.eo.mul
 6	눈에	눈	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=눈-에|Translit=.nun.e|LTranslit=.nun
-7	띄게	_	VERB	VV	Form=Compl	8	advmod	_	Translit=.ddyi.ge
+7	띄게	_	VERB	VV	Form=Compl	8	advcl	_	Translit=.ddyi.ge
 8	부족했다는	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=.bu.jog.haess.da.neun
 9	측면에서	측면	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=측면-에서|Translit=.cheug.myeon.e.seo|LTranslit=.cheug.myeon
 10	그들이	그들	PRON	PRP+CM	Case=Nom|Number=Plur|Person=3|Polite=Form	14	nsubj	_	MSeg=그들-이|Translit=.geu.deul.i|LTranslit=.geu.deul
