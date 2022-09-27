@@ -102,6 +102,7 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 * 2022-11-15 v2.11
   * Fixed right-headed apposition and non-projective punctuation.
   * Fixed: DET can be attached as det but not as nummod.
+  * Fixed: adverbially used nominals are obl, not advmod.
 * 2020-05-15 v2.8
   * Removed undocumented Case values Advb and Comp. They are not used in
     the other Korean treebanks.

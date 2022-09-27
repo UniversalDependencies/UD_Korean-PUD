@@ -58,7 +58,7 @@
   <deps unique="34">
     <dep name="acl:relcl">1188</dep>
     <dep name="advcl">998</dep>
-    <dep name="advmod">2344</dep>
+    <dep name="advmod">593</dep>
     <dep name="amod">208</dep>
     <dep name="appos">90</dep>
     <dep name="aux">323</dep>
@@ -84,7 +84,7 @@
     <dep name="nsubj:pass">160</dep>
     <dep name="nummod">487</dep>
     <dep name="obj">1030</dep>
-    <dep name="obl">1</dep>
+    <dep name="obl">1752</dep>
     <dep name="obl:tmod">104</dep>
     <dep name="orphan">4</dep>
     <dep name="punct">1595</dep>
