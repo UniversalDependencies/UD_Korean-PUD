@@ -821,7 +821,7 @@
 4	전문가는	전문가	NOUN	NN+CM	Case=Nom|Polite=Form	20	nsubj	_	MSeg=전문가-는|Translit=.jeon.mun.ga.neun|LTranslit=.jeon.mun.ga
 5	기내	_	NOUN	NN	_	6	compound	_	Translit=.gi.nae
 6	인터넷이	인터넷	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=인터넷-이|Translit=.in.teo.nes.i|LTranslit=.in.teo.nes
-7	안정적	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.an.jeong.jeog
+7	안정적	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.an.jeong.jeog
 8	이지	_	AUX	VC	Form=Aux	7	cop	_	Translit=.i.ji
 9	못한	_	ADJ	JX	Form=Adn	10	acl:relcl	_	Translit=.mos.han
 10	경우가	경우	NOUN	NN+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=경우-가|Translit=.gyeong.u.ga|LTranslit=.gyeong.u
@@ -1175,7 +1175,7 @@
 23	수준	_	NOUN	NN	_	25	dep	_	SpaceAfter=No|Translit=.su.jun
 24	이라는	_	AUX	VC	Form=Adn	23	cop	_	Translit=.i.ra.neun
 25	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	27	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
-26	말해	_	NOUN	NN	_	27	aux	_	SpaceAfter=No|Translit=.mal.hae
+26	말해	_	NOUN	NN	_	27	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.mal.hae
 27	준다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.jun.da
 28	.	.	PUNCT	.	_	27	punct	_	Translit=.|LTranslit=.
 
@@ -1424,12 +1424,12 @@
 19	있는	_	ADJ	JJ	Form=Adn	20	acl:relcl	_	Translit=.iss.neun
 20	능력이	능력	NOUN	NN+CM	Case=Nom|Polite=Form	23	nsubj:pass	_	MSeg=능력-이|Translit=.neung.ryeog.i|LTranslit=.neung.ryeog
 21	크게	_	ADJ	JJ	Form=Compl	23	advmod	_	Translit=.keu.ge
-22	저하되지	_	NOUN	NN	_	23	aux	_	SpaceAfter=No|Translit=.jeo.ha.doe.ji
+22	저하되지	_	NOUN	NN	_	23	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jeo.ha.doe.ji
 23	않는다는	_	VERB	VX	Form=Adn	24	acl:relcl	_	Translit=.anh.neun.da.neun
 24	사실을	사실	NOUN	NN+CM	Case=Acc|Polite=Form	28	obj	_	MSeg=사실-을|Translit=.sa.sil.eul|LTranslit=.sa.sil
 25	더	_	ADV	RB	_	26	advmod	_	Translit=.deo
 26	확실히	_	ADV	RB	_	28	advmod	_	Translit=.hwag.sil.hi
-27	뒷받침해	_	NOUN	NN	_	28	aux	_	SpaceAfter=No|Translit=.dwis.bad.chim.hae
+27	뒷받침해	_	NOUN	NN	_	28	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.dwis.bad.chim.hae
 28	준다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.jun.da
 29	.	.	PUNCT	.	_	28	punct	_	Translit=.|LTranslit=.
 
@@ -1806,7 +1806,7 @@
 6	호르몬	_	NOUN	NN	_	7	compound	_	Translit=.ho.reu.mon
 7	피임약의	피임약	NOUN	NN+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=피임약-의|Translit=.pi.im.yag.yi|LTranslit=.pi.im.yag
 8	가능성을	가능성	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=가능성-을|Translit=.ga.neung.seong.eul|LTranslit=.ga.neung.seong
-9	조사하고	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.jo.sa.ha.go
+9	조사하고	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jo.sa.ha.go
 10	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -1908,7 +1908,7 @@
 1	하지만	_	CCONJ	CC	_	14	advmod	_	Translit=.ha.ji.man
 2	흡연에	흡연	NOUN	NN+CM	Polite=Form	5	obl	_	MSeg=흡연-에|Translit=.heub.yeon.e|LTranslit=.heub.yeon
 3	직접	_	ADV	RB	_	5	advmod	_	Translit=.jig.jeob
-4	노출되지	_	NOUN	NN	_	5	aux	_	SpaceAfter=No|Translit=.no.chul.doe.ji
+4	노출되지	_	NOUN	NN	_	5	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.no.chul.doe.ji
 5	않는	_	VERB	VX	Form=Adn	6	acl:relcl	_	Translit=.anh.neun
 6	방광	_	NOUN	NN	_	7	compound	_	Translit=.bang.gwang
 7	등의	등	NOUN	NNB+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=등-의|Translit=.deung.yi|LTranslit=.deung
@@ -1917,7 +1917,7 @@
 10	이와	이	PRON	PRD+CM	Polite=Form	11	obl	_	MSeg=이-와|Translit=.i.wa|LTranslit=.i
 11	똑같은	_	ADJ	JJ	Form=Adn	12	acl:relcl	_	Translit=.ddog.gat.eun
 12	패턴이	패턴	NOUN	NN+CM	Case=Nom|Polite=Form	14	nsubj:pass	_	MSeg=패턴-이|Translit=.pae.teon.i|LTranslit=.pae.teon
-13	발견되지	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.bal.gyeon.doe.ji
+13	발견되지	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bal.gyeon.doe.ji
 14	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
 15	.	.	PUNCT	.	_	14	punct	_	Translit=.|LTranslit=.
 
@@ -1985,7 +1985,7 @@
 19	그	_	DET	DT	_	20	det	_	Translit=.geu
 20	의제를	의제	NOUN	NN+CM	Case=Acc|Polite=Form	24	obj	_	MSeg=의제-를|Translit=.yi.je.reul|LTranslit=.yi.je
 21	반드시	_	ADV	RB	_	24	advmod	_	Translit=.ban.deu.si
-22	추진해	_	NOUN	NN	_	23	aux	_	SpaceAfter=No|Translit=.chu.jin.hae
+22	추진해	_	NOUN	NN	_	23	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chu.jin.hae
 23	나가야	_	VERB	VX	Form=Aux	24	aux	_	Translit=.na.ga.ya
 24	할	_	VERB	VX	Form=Adn	25	dep	_	Translit=.hal
 25	것	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.geos
@@ -2137,7 +2137,7 @@
 10	중개인을	중개인	NOUN	NN+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=중개인-을|Translit=.jung.gae.in.eul|LTranslit=.jung.gae.in
 11	처벌하고	_	NOUN	NN	_	15	acl:relcl	_	SpaceAfter=No|Translit=.cheo.beol.ha.go
 12	소비자를	소비자	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=소비자-를|Translit=.so.bi.ja.reul|LTranslit=.so.bi.ja
-13	보호해야	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.bo.ho.hae.ya
+13	보호해야	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bo.ho.hae.ya
 14	할	_	VERB	VX	Form=Adn	11	conj	_	Translit=.hal
 15	필요성이	필요성	NOUN	NN+CM	Case=Nom|Polite=Form	17	nsubj	_	MSeg=필요성-이|Translit=.pil.yo.seong.i|LTranslit=.pil.yo.seong
 16	더	_	ADV	RB	_	17	advmod	_	Translit=.deo
@@ -2214,7 +2214,7 @@
 17	대해	_	VERB	VV	Form=Compl	21	advcl	_	Translit=.dae.hae
 18	큰	_	ADJ	JJ	Form=Adn	19	amod	_	Translit=.keun
 19	목소리로	목소리	NOUN	NN+CM	Polite=Form	21	obl	_	MSeg=목소리-로|Translit=.mog.so.ri.ro|LTranslit=.mog.so.ri
-20	항의하고	_	NOUN	NN	_	21	aux	_	SpaceAfter=No|Translit=.hang.yi.ha.go
+20	항의하고	_	NOUN	NN	_	21	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hang.yi.ha.go
 21	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
 
@@ -2303,7 +2303,7 @@
 20	비난하면서	_	NOUN	NN	_	24	advcl	_	SpaceAfter=No|Translit=.bi.nan.ha.myeon.seo
 21	그를	그	PRON	PRP+CM	Case=Acc|Person=3|Polite=Form	24	obj	_	MSeg=그-를|Translit=.geu.reul|LTranslit=.geu
 22	집중	_	NOUN	NN	_	24	obl	_	Translit=.jib.jung
-23	공격하고	_	NOUN	NN	_	24	aux	_	SpaceAfter=No|Translit=.gong.gyeog.ha.go
+23	공격하고	_	NOUN	NN	_	24	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gong.gyeog.ha.go
 24	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 25	.	.	PUNCT	.	_	24	punct	_	Translit=.|LTranslit=.
 
@@ -2461,7 +2461,7 @@
 15	페이스	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Proper=True|Translit=.pe.i.seu
 16	북	_	NOUN	NN	_	17	compound	_	Proper=True|Translit=.bug
 17	포스트를	포스트	NOUN	NN+CM	Case=Acc|Polite=Form	19	obj	_	MSeg=포스트-를|Translit=.po.seu.teu.reul|LTranslit=.po.seu.teu
-18	조사하고	_	NOUN	NN	_	19	aux	_	SpaceAfter=No|Translit=.jo.sa.ha.go
+18	조사하고	_	NOUN	NN	_	19	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jo.sa.ha.go
 19	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 20	.	.	PUNCT	.	_	19	punct	_	Translit=.|LTranslit=.
 
@@ -2661,7 +2661,7 @@
 19	안	_	ADV	RB	Polarity=Neg	20	advmod	_	Translit=.an
 20	된다고	된다	PART	VV+QP	Mood=Ind|VerbForm=Fin	23	advcl	_	MSeg=된다-고|Translit=.doen.da.go|LTranslit=.doen.da
 21	지침에	지침	NOUN	NN+CM	Polite=Form	23	obl	_	MSeg=지침-에|Translit=.ji.chim.e|LTranslit=.ji.chim
-22	명시되어	_	NOUN	NN	_	23	aux	_	SpaceAfter=No|Translit=.myeong.si.doe.eo
+22	명시되어	_	NOUN	NN	_	23	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.myeong.si.doe.eo
 23	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 24	.	.	PUNCT	.	_	23	punct	_	Translit=.|LTranslit=.
 
@@ -2792,7 +2792,7 @@
 19	역할을	역할	NOUN	NN+CM	Case=Acc|Polite=Form	21	obj	_	MSeg=역할-을|Translit=.yeog.hal.eul|LTranslit=.yeog.hal
 20	하고	_	VERB	VV	Form=Aux	21	aux	_	Translit=.ha.go
 21	있음을	있음	PART	VX+CM	Case=Acc|Polite=Form|VerbForm=Ger	23	ccomp	_	MSeg=있음-을|Translit=.iss.eum.eul|LTranslit=.iss.eum
-22	말해	_	NOUN	NN	_	23	aux	_	SpaceAfter=No|Translit=.mal.hae
+22	말해	_	NOUN	NN	_	23	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.mal.hae
 23	준다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.jun.da
 24	.	.	PUNCT	.	_	23	punct	_	Translit=.|LTranslit=.
 
@@ -2844,7 +2844,7 @@
 14	지역에서	지역	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=지역-에서|Translit=.ji.yeog.e.seo|LTranslit=.ji.yeog
 15	풀뿌리	_	NOUN	NN	_	16	compound	_	Translit=.pul.bbu.ri
 16	산업으로	산업	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=산업-으로|Translit=.san.eob.eu.ro|LTranslit=.san.eob
-17	생산되고	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.saeng.san.doe.go
+17	생산되고	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.saeng.san.doe.go
 18	있는	_	VERB	VX	Form=Adn	19	acl:relcl	_	Translit=.iss.neun
 19	상황에서	상황	NOUN	NN+CM	Polite=Form	25	obl	_	MSeg=상황-에서|Translit=.sang.hwang.e.seo|LTranslit=.sang.hwang
 20	회사들은	회사들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	25	nsubj	_	MSeg=회사들-은|Translit=.hoe.sa.deul.eun|LTranslit=.hoe.sa.deul
@@ -3297,7 +3297,7 @@
 15	등록	_	NOUN	NN	_	16	compound	_	Translit=.deung.rog
 16	방법을	방법	NOUN	NN+CM	Case=Acc|Polite=Form	19	obj	_	MSeg=방법-을|Translit=.bang.beob.eul|LTranslit=.bang.beob
 17	사람들에게	사람들	NOUN	NN+CM	Number=Plur|Polite=Form	19	iobj	_	MSeg=사람들-에게|Translit=.sa.ram.deul.e.ge|LTranslit=.sa.ram.deul
-18	설명해	_	NOUN	NN	_	19	aux	_	SpaceAfter=No|Translit=.seol.myeong.hae
+18	설명해	_	NOUN	NN	_	19	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.seol.myeong.hae
 19	주었다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.ju.eoss.da
 20	.	.	PUNCT	.	_	19	punct	_	Translit=.|LTranslit=.
 
@@ -3341,7 +3341,7 @@
 9	일	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.il
 10	이거나	_	AUX	VC	Form=Compl	9	cop	_	Translit=.i.geo.na
 11	익숙한	_	ADJ	JJ	Form=Adn	12	amod	_	Translit=.ig.sug.han
-12	일	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.il
+12	일	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.il
 13	이어야	_	AUX	VC	Form=Aux	12	cop	_	Translit=.i.eo.ya
 14	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	9	conj	_	SpaceAfter=No|Translit=.han.da
 15	.	.	PUNCT	.	_	9	punct	_	Translit=.|LTranslit=.
@@ -3717,12 +3717,12 @@
 6	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No|Translit="|LTranslit="
 7	나일	_	PROPN	NNP	_	8	compound	_	Translit=.na.il
 8	강이	강	NOUN	NN+CM	Case=Nom|Polite=Form	10	nsubj	_	Proper=True|MSeg=강-이|Translit=.gang.i|LTranslit=.gang
-9	범람하지	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.beom.ram.ha.ji
+9	범람하지	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.beom.ram.ha.ji
 10	않았는데	_	VERB	VX	Form=Compl|Tense=Past	12	advcl	_	Translit=.anh.ass.neun.de
 11	파라오를	파라오	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=파라오-를|Translit=.pa.ra.o.reul|LTranslit=.pa.ra.o
 12	죽이는	_	VERB	VV	Form=Adn|Voice=Pass	13	dep	_	Translit=.jug.i.neun
 13	것만큼	것	NOUN	NNB+CM	Polite=Form	16	obl	_	MSeg=것-만큼|Translit=.geos.man.keum|LTranslit=.geos
-14	합리적	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.hab.ri.jeog
+14	합리적	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hab.ri.jeog
 15	이지	_	AUX	VC	Form=Aux	14	cop	_	Translit=.i.ji
 16	않은	_	ADJ	JX	Form=Adn	17	acl:relcl	_	Translit=.anh.eun
 17	일	_	NOUN	NN	_	23	advcl	_	SpaceAfter=No|Translit=.il
@@ -3859,7 +3859,7 @@
 14	국방부	_	NOUN	NN	_	15	compound	_	Proper=True|Translit=.gug.bang.bu
 15	지도가	지도	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj:pass	_	MSeg=지도-가|Translit=.ji.do.ga|LTranslit=.ji.do
 16	처음으로	처음	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=처음-으로|Translit=.cheo.eum.eu.ro|LTranslit=.cheo.eum
-17	전시되고	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.jeon.si.doe.go
+17	전시되고	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jeon.si.doe.go
 18	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 19	.	.	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -3945,7 +3945,7 @@
 16	올	_	VERB	VV	Form=Adn	17	acl:relcl	_	Translit=.ol
 17	수	_	NOUN	NNB	_	18	nsubj	_	Translit=.su
 18	있기를	있기	ADJ	JJ+CM	Case=Acc|Polite=Form|VerbForm=Ger	20	ccomp	_	MSeg=있기-를|Translit=.iss.gi.reul|LTranslit=.iss.gi
-19	희망하고	_	NOUN	NN	_	20	aux	_	SpaceAfter=No|Translit=.hyi.mang.ha.go
+19	희망하고	_	NOUN	NN	_	20	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hyi.mang.ha.go
 20	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 21	.	.	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
 
@@ -4147,7 +4147,7 @@
 6	권리는	권리	NOUN	NN+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=권리-는|Translit=.gweon.ri.neun|LTranslit=.gweon.ri
 7	더	_	ADV	RB	_	8	advmod	_	Translit=.deo
 8	이상	_	NOUN	NN	_	10	obl	_	Translit=.i.sang
-9	보장받지	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.bo.jang.bad.ji
+9	보장받지	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bo.jang.bad.ji
 10	못하게	_	VERB	VX	Form=Compl	11	advcl	_	Translit=.mos.ha.ge
 11	되었나	_	VERB	VV	PronType=Int|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.doe.eoss.na
 12	?	?	PUNCT	.	_	11	punct	_	Translit=?|LTranslit=?
@@ -4384,7 +4384,7 @@
 7	시대의	시대	NOUN	NN+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=시대-의|Translit=.si.dae.yi|LTranslit=.si.dae
 8	독일은	독일	PROPN	NNP+AP	_	5	conj	_	MSeg=독일-은|Translit=.dog.il.eun|LTranslit=.dog.il
 9	분리시켜서	_	NOUN	NN	_	11	advcl	_	SpaceAfter=No|Translit=.bun.ri.si.kyeo.seo
-10	생각해야	_	NOUN	NN	_	11	aux	_	SpaceAfter=No|Translit=.saeng.gag.hae.ya
+10	생각해야	_	NOUN	NN	_	11	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.saeng.gag.hae.ya
 11	한다는	_	VERB	VX	Form=Adn	12	dep	_	Translit=.han.da.neun
 12	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
 13	알고	_	VERB	VV	Form=Aux	14	aux	_	Translit=.al.go
@@ -4593,7 +4593,7 @@
 11	가지	_	VERB	VV	Form=Aux	12	aux	_	Translit=.ga.ji
 12	않도록	_	VERB	VX	Form=Compl	16	advcl	_	Translit=.anh.do.rog
 13	충분히	_	ADV	RB	_	16	advmod	_	Translit=.chung.bun.hi
-14	보호해	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.bo.ho.hae
+14	보호해	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bo.ho.hae
 15	주지	_	VERB	VX	Form=Aux	16	aux	_	Translit=.ju.ji
 16	못한다는	_	VERB	VX	Form=Adn	17	dep	_	Translit=.mos.han.da.neun
 17	것	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.geos
@@ -4800,7 +4800,7 @@
 16	사실에	사실	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=사실-에|Translit=.sa.sil.e|LTranslit=.sa.sil
 17	대해서	_	VERB	VV	Form=Compl	20	advcl	_	Translit=.dae.hae.seo
 18	계속	_	ADV	RB	_	20	advmod	_	Translit=.gye.sog
-19	항의하고	_	NOUN	NN	_	20	aux	_	SpaceAfter=No|Translit=.hang.yi.ha.go
+19	항의하고	_	NOUN	NN	_	20	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hang.yi.ha.go
 20	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 21	.	.	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
 
@@ -5053,7 +5053,7 @@
 # text_en = At best it is naive and at worst it would yet again let the shooting lobby off the hook.
 # ToDoOrigText = 기껏해야 순진해 빠진 것이고 최악의 경우에는 사격 사냥 로비를 해도 봐주는 정도일 것이다.
 1	기껏해야	_	ADV	RB	_	4	advmod	_	Translit=.gi.ggeos.hae.ya
-2	순진해	_	NOUN	NN	_	3	aux	_	SpaceAfter=No|Translit=.sun.jin.hae
+2	순진해	_	NOUN	NN	_	3	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.sun.jin.hae
 3	빠진	_	ADJ	JX	Form=Adn	4	dep	_	Translit=.bba.jin
 4	것	_	NOUN	NNB	_	13	advcl	_	SpaceAfter=No|Translit=.geos
 5	이고	_	AUX	VC	Form=Compl	4	cop	_	Translit=.i.go
@@ -5190,7 +5190,7 @@
 12	있는	_	ADJ	JJ	Form=Adn	13	acl:relcl	_	Translit=.iss.neun
 13	방안들을	방안들	NOUN	NN+CM	Case=Acc|Number=Plur|Polite=Form	16	obj	_	MSeg=방안들-을|Translit=.bang.an.deul.eul|LTranslit=.bang.an.deul
 14	적극적으로	적극적	NOUN	NN+CM	Polite=Form	16	obl	_	MSeg=적극적-으로|Translit=.jeog.geug.jeog.eu.ro|LTranslit=.jeog.geug.jeog
-15	검토하고	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.geom.to.ha.go
+15	검토하고	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.geom.to.ha.go
 16	있습니다	_	VERB	VX	Mood=Ind|VerbForm=Fin	18	advcl	_	SpaceAfter=No|Translit=.iss.seub.ni.da
 17	”	”	PUNCT	''	_	16	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
 18	라는	_	VERB	VV	Form=Adn	20	acl:relcl	_	Translit=.ra.neun
@@ -5657,7 +5657,7 @@
 5	홍콩의	홍콩	PROPN	NNP+CM	Case=Gen|Polite=Form	7	nmod:poss	_	MSeg=홍콩-의|Translit=.hong.kong.yi|LTranslit=.hong.kong
 6	입법	_	NOUN	NN	_	7	compound	_	Translit=.ib.beob
 7	마비가	마비	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj:pass	_	MSeg=마비-가|Translit=.ma.bi.ga|LTranslit=.ma.bi
-8	지속되지	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.ji.sog.doe.ji
+8	지속되지	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.ji.sog.doe.ji
 9	않도록	_	VERB	VX	Form=Compl	10	advcl	_	Translit=.anh.do.rog
 10	하기	_	VERB	VV	VerbForm=Ger	11	ccomp	_	Translit=.ha.gi
 11	위해서	_	VERB	VV	Form=Compl	14	advcl	_	Translit=.wi.hae.seo
@@ -5680,7 +5680,7 @@
 3	홍콩은	홍콩	PROPN	NNP+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=홍콩-은|Translit=.hong.kong.eun|LTranslit=.hong.kong
 4	저항의	저항	NOUN	NN+CM	Case=Gen|Polite=Form	5	nmod:poss	_	MSeg=저항-의|Translit=.jeo.hang.yi|LTranslit=.jeo.hang
 5	파도에	파도	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=파도-에|Translit=.pa.do.e|LTranslit=.pa.do
-6	대비하고	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.dae.bi.ha.go
+6	대비하고	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.dae.bi.ha.go
 7	있는	_	VERB	VX	Form=Adn	8	dep	_	Translit=.iss.neun
 8	것	_	NOUN	NNB	_	9	obl	_	Translit=.geos
 9	같다	_	ADJ	JJ	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.gat.da
@@ -6250,7 +6250,7 @@
 13	바다를	바다	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=바다-를|Translit=.ba.da.reul|LTranslit=.ba.da
 14	청소하는	_	NOUN	NN	_	15	acl:relcl	_	SpaceAfter=No|Translit=.cheong.so.ha.neun
 15	데	_	NOUN	NNB	_	17	obl	_	Translit=.de
-16	조력하고	_	NOUN	NN	_	17	aux	_	SpaceAfter=No|Translit=.jo.ryeog.ha.go
+16	조력하고	_	NOUN	NN	_	17	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jo.ryeog.ha.go
 17	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 18	.	.	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
 
@@ -6847,7 +6847,7 @@
 13	)	)	PUNCT	)	_	12	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 14	가	가	PART	CM	Case=Nom|Polite=Form	7	case	_	Translit=.ga|LTranslit=.ga
 15	다시	_	ADV	RB	_	17	advmod	_	Translit=.da.si
-16	비상하고	_	NOUN	NN	_	17	aux	_	SpaceAfter=No|Translit=.bi.sang.ha.go
+16	비상하고	_	NOUN	NN	_	17	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bi.sang.ha.go
 17	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 18	.	.	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
 
@@ -6979,7 +6979,7 @@
 11	조직	_	NOUN	NN	_	12	compound	_	Translit=.jo.jig
 12	성과를	성과	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=성과-를|Translit=.seong.gwa.reul|LTranslit=.seong.gwa
 13	거의	_	ADV	RB	_	15	advmod	_	Translit=.geo.yi
-14	측정하지	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.cheug.jeong.ha.ji
+14	측정하지	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cheug.jeong.ha.ji
 15	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
 16	.	.	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
 
@@ -6994,7 +6994,7 @@
 4	많은	_	ADJ	JJ	Form=Adn	5	amod	_	Translit=.manh.eun
 5	사람들이	사람들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	19	nsubj	_	MSeg=사람들-이|Translit=.sa.ram.deul.i|LTranslit=.sa.ram.deul
 6	결과는	결과	NOUN	NN+AP	_	8	obj	_	MSeg=결과-는|Translit=.gyeol.gwa.neun|LTranslit=.gyeol.gwa
-7	생각하지도	생각하지	NOUN	NN+AP	_	8	aux	_	MSeg=생각하지-도|Translit=.saeng.gag.ha.ji.do|LTranslit=.saeng.gag.ha.ji
+7	생각하지도	생각하지	NOUN	NN+AP	_	8	obl	_	MSeg=생각하지-도|OrigDeprel=aux|Translit=.saeng.gag.ha.ji.do|LTranslit=.saeng.gag.ha.ji
 8	않고	_	VERB	VX	Form=Compl	19	advcl	_	Translit=.anh.go
 9	빠르게	_	ADJ	JJ	Form=Compl	11	advmod	_	Translit=.bba.reu.ge
 10	이메일을	이메일	NOUN	NN+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=이메일-을|Translit=.i.me.il.eul|LTranslit=.i.me.il
@@ -7022,7 +7022,7 @@
 6	방법에	방법	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=방법-에|Translit=.bang.beob.e|LTranslit=.bang.beob
 7	대한	_	VERB	VV	Form=Adn	8	acl:relcl	_	Translit=.dae.han
 8	교육을	교육	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=교육-을|Translit=.gyo.yug.eul|LTranslit=.gyo.yug
-9	시행해야	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.si.haeng.hae.ya
+9	시행해야	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.si.haeng.hae.ya
 10	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.han.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -7262,7 +7262,7 @@
 34	"	"	PUNCT	''	_	27	punct	_	SpaceAfter=No|Translit="|LTranslit="
 35	을	을	PART	CM	Case=Acc|Polite=Form	27	case	_	Translit=.eul|LTranslit=.eul
 36	아직	_	ADV	RB	_	38	advmod	_	Translit=.a.jig
-37	탈고하지	_	NOUN	NN	_	38	aux	_	SpaceAfter=No|Translit=.tal.go.ha.ji
+37	탈고하지	_	NOUN	NN	_	38	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.tal.go.ha.ji
 38	못했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.mos.haess.da
 39	.	.	PUNCT	.	_	38	punct	_	Translit=.|LTranslit=.
 
@@ -7280,7 +7280,7 @@
 7	것	_	NOUN	NNB	_	11	ccomp	_	SpaceAfter=No|Translit=.geos
 8	인지	_	AUX	VC	VerbForm=Fin	7	cop	_	Translit=.in.ji
 9	아직	_	ADV	RB	_	11	advmod	_	Translit=.a.jig
-10	결정하지	_	NOUN	NN	_	11	aux	_	SpaceAfter=No|Translit=.gyeol.jeong.ha.ji
+10	결정하지	_	NOUN	NN	_	11	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gyeol.jeong.ha.ji
 11	못했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.mos.haess.da
 12	.	.	PUNCT	.	_	11	punct	_	Translit=.|LTranslit=.
 
@@ -7324,7 +7324,7 @@
 8	1	1	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
 9	%	%	NOUN	NNB	_	10	nsubj	_	Translit=%|LTranslit=%
 10	넘게	_	VERB	VV	Form=Compl	12	advcl	_	Translit=.neom.ge
-11	급등하고	_	NOUN	NN	_	12	aux	_	SpaceAfter=No|Translit=.geub.deung.ha.go
+11	급등하고	_	NOUN	NN	_	12	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.geub.deung.ha.go
 12	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 13	.	.	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
 
@@ -7671,7 +7671,7 @@
 6	실패작으로	실패작	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=실패작-으로|Translit=.sil.pae.jag.eu.ro|LTranslit=.sil.pae.jag
 7	단념하는	_	NOUN	NN	_	8	dep	_	SpaceAfter=No|Translit=.dan.nyeom.ha.neun
 8	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
-9	주저하고	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.ju.jeo.ha.go
+9	주저하고	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.ju.jeo.ha.go
 10	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -7743,11 +7743,11 @@
 17	그	_	DET	DT	_	18	det	_	Translit=.geu
 18	플랫폼을	플랫폼	NOUN	NN+CM	Case=Acc|Polite=Form	19	obj	_	MSeg=플랫폼-을|Translit=.peul.raes.pom.eul|LTranslit=.peul.raes.pom
 19	통해	_	VERB	VV	Form=Compl	21	advcl	_	Translit=.tong.hae
-20	발송해	_	NOUN	NN	_	21	aux	_	SpaceAfter=No|Translit=.bal.song.hae
+20	발송해	_	NOUN	NN	_	21	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bal.song.hae
 21	주고	_	VERB	VX	Form=Compl	25	advcl	_	Translit=.ju.go
 22	트위터	_	PROPN	NNP	_	23	compound	_	Translit=.teu.wi.teo
 23	피드를	피드	NOUN	NN+CM	Case=Acc|Polite=Form	25	obj	_	MSeg=피드-를|Translit=.pi.deu.reul|LTranslit=.pi.deu
-24	연결해	_	NOUN	NN	_	25	aux	_	SpaceAfter=No|Translit=.yeon.gyeol.hae
+24	연결해	_	NOUN	NN	_	25	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.yeon.gyeol.hae
 25	주는	_	VERB	VX	Form=Adn	26	acl:relcl	_	Translit=.ju.neun
 26	옵션도	옵션	NOUN	NN+AP	_	27	nsubj	_	MSeg=옵션-도|Translit=.ob.syeon.do|LTranslit=.ob.syeon
 27	있다	_	ADJ	JJ	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
@@ -7770,7 +7770,7 @@
 10	그	_	DET	DT	_	11	det	_	Translit=.geu
 11	이상의	이상	NOUN	NN+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=이상-의|Translit=.i.sang.yi|LTranslit=.i.sang
 12	것으로	것	NOUN	NNB+CM	Polite=Form	14	obl	_	MSeg=것-으로|Translit=.geos.eu.ro|LTranslit=.geos
-13	생각해	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.saeng.gag.hae
+13	생각해	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.saeng.gag.hae
 14	주기를	주기	PART	VX+CM	Case=Acc|Polite=Form|VerbForm=Ger	15	ccomp	_	MSeg=주기-를|Translit=.ju.gi.reul|LTranslit=.ju.gi
 15	바라는	_	VERB	VV	Form=Adn	17	acl:relcl	_	Translit=.ba.ra.neun
 16	회사의	회사	NOUN	NN+CM	Case=Gen|Polite=Form	17	nmod:poss	_	MSeg=회사-의|Translit=.hoe.sa.yi|LTranslit=.hoe.sa
@@ -7841,7 +7841,7 @@
 10	거둔	_	VERB	VV	Form=Adn|Tense=Past	11	acl:relcl	_	Translit=.geo.dun
 11	앤디를	앤디	PROPN	NNP+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=앤디-를|Translit=.aen.di.reul|LTranslit=.aen.di
 12	당연히	_	ADV	RB	_	15	advmod	_	Translit=.dang.yeon.hi
-13	축하해	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.chug.ha.hae
+13	축하해	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chug.ha.hae
 14	주어야	_	VERB	VX	Form=Aux	15	aux	_	Translit=.ju.eo.ya
 15	한다고	한다	PART	VX+QP	Mood=Ind|VerbForm=Fin	16	advcl	_	MSeg=한다-고|Translit=.han.da.go|LTranslit=.han.da
 16	말했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da
@@ -8086,7 +8086,7 @@
 11	큰	_	ADJ	JJ	Form=Adn	13	acl:relcl	_	Translit=.keun
 12	경제적	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=.gyeong.je.jeog
 13	발전을	발전	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=발전-을|Translit=.bal.jeon.eul|LTranslit=.bal.jeon
-14	기대하고	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.gi.dae.ha.go
+14	기대하고	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gi.dae.ha.go
 15	있는	_	VERB	VX	Form=Adn	16	dep	_	Translit=.iss.neun
 16	것	_	NOUN	NNB	_	17	obl	_	Translit=.geos
 17	같다	_	ADJ	JJ	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.gat.da
@@ -8379,7 +8379,7 @@
 19	및	_	CCONJ	CC	_	21	cc	_	ToDo=cc-after-conj|Translit=.mich
 20	몰리브덴	_	NOUN	NN	_	21	compound	_	Translit=.mol.ri.beu.den
 21	원석을	원석	NOUN	NN+CM	Case=Acc|Polite=Form	6	conj	_	MSeg=원석-을|Translit=.weon.seog.eul|LTranslit=.weon.seog
-22	포함하고	_	NOUN	NN	_	23	aux	_	SpaceAfter=No|Translit=.po.ham.ha.go
+22	포함하고	_	NOUN	NN	_	23	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.ha.go
 23	있었다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.eoss.da
 24	.	.	PUNCT	.	_	23	punct	_	Translit=.|LTranslit=.
 
@@ -9007,7 +9007,7 @@
 18	사미	_	NOUN	_	_	17	goeswith	_	SpaceAfter=No|Translit=.sa.mi
 19	에서	에서	PART	CM	Polite=Form	17	case	_	SpaceAfter=No|Translit=.e.seo|LTranslit=.e.seo
 20	는	는	PART	AP	_	17	case	_	Translit=.neun|LTranslit=.neun
-21	존재하지	_	NOUN	NN	_	22	aux	_	SpaceAfter=No|Translit=.jon.jae.ha.ji
+21	존재하지	_	NOUN	NN	_	22	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jon.jae.ha.ji
 22	않는	_	VERB	VX	Form=Adn	23	acl:relcl	_	Translit=.anh.neun
 23	속성으로	속성	NOUN	NN+CM	Polite=Form	29	advcl	_	MSeg=속성-으로|Translit=.sog.seong.eu.ro|LTranslit=.sog.seong
 24	서로	_	ADV	RB	_	25	advmod	_	Translit=.seo.ro
@@ -9235,7 +9235,7 @@
 15	56	56	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No|Translit=56|LTranslit=56
 16	%가	%	NOUN	NNB+CM	Case=Nom|Polite=Form	19	nsubj	_	MSeg=%-가|Translit=%.ga|LTranslit=%
 17	노동에	노동	NOUN	NN+CM	Polite=Form	19	obl	_	MSeg=노동-에|Translit=.no.dong.e|LTranslit=.no.dong
-18	참여하고	_	NOUN	NN	_	19	aux	_	SpaceAfter=No|Translit=.cham.yeo.ha.go
+18	참여하고	_	NOUN	NN	_	19	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cham.yeo.ha.go
 19	있으며	_	VERB	VX	Form=Compl	32	advcl	_	Translit=.iss.eu.myeo
 20	7	7	NUM	CD	NumType=Card	22	nummod	_	Translit=7|LTranslit=7
 21	-	-	PUNCT	HYPH	_	20	punct	_	Translit=-|LTranslit=-
@@ -9248,7 +9248,7 @@
 28	%가	%	NOUN	NNB+CM	Case=Nom|Polite=Form	32	nsubj	_	MSeg=%-가|Translit=%.ga|LTranslit=%
 29	노동과	노동	NOUN	NN+CP	Polite=Form	32	obj	_	MSeg=노동-과|Translit=.no.dong.gwa|LTranslit=.no.dong
 30	학업을	학업	NOUN	NN+CM	Case=Acc|Polite=Form	29	conj	_	MSeg=학업-을|Translit=.hag.eob.eul|LTranslit=.hag.eob
-31	겸하고	_	NOUN	NNB	_	32	aux	_	SpaceAfter=No|Translit=.gyeom.ha.go
+31	겸하고	_	NOUN	NNB	_	32	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gyeom.ha.go
 32	있음을	있음	PART	VX+CM	Case=Acc|Polite=Form|VerbForm=Ger	33	ccomp	_	MSeg=있음-을|Translit=.iss.eum.eul|LTranslit=.iss.eum
 33	확인하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.hwag.in.ha.yeoss.da
 34	.	.	PUNCT	.	_	33	punct	_	Translit=.|LTranslit=.
@@ -9273,7 +9273,7 @@
 13	유사하지만	_	NOUN	NN	_	18	advcl	_	SpaceAfter=No|Translit=.yu.sa.ha.ji.man
 14	그	_	DET	DT	_	15	det	_	Translit=.geu
 15	정도로	정도	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=정도-로|Translit=.jeong.do.ro|LTranslit=.jeong.do
-16	악천후	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.ag.cheon.hu
+16	악천후	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.ag.cheon.hu
 17	이진	_	AUX	VC	Form=Aux	16	cop	_	Translit=.i.jin
 18	않다	_	ADJ	JX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.da
 19	.	.	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
@@ -9363,7 +9363,7 @@
 6	의	의	PART	CM	Case=Gen|Polite=Form	5	case	_	Translit=.yi|LTranslit=.yi
 7	접근	_	NOUN	NN	_	8	compound	_	Translit=.jeob.geun
 8	경로를	경로	NOUN	NN+CM	Case=Acc|Polite=Form	1	conj	_	MSeg=경로-를|Translit=.gyeong.ro.reul|LTranslit=.gyeong.ro
-9	공유하고	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.gong.yu.ha.go
+9	공유하고	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gong.yu.ha.go
 10	있기	_	VERB	VX	VerbForm=Ger	11	compound	_	Translit=.iss.gi
 11	때문에	때문	NOUN	NNB+CM	Polite=Form	23	obl	_	MSeg=때문-에|Translit=.ddae.mun.e|LTranslit=.ddae.mun
 12	지중해를	지중해	PROPN	NNP+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=지중해-를|Translit=.ji.jung.hae.reul|LTranslit=.ji.jung.hae
@@ -9459,7 +9459,7 @@
 3	단어는	단어	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=단어-는|Translit=.dan.eo.neun|LTranslit=.dan.eo
 4	얕은	_	ADJ	JJ	Form=Adn	5	amod	_	Translit=.yat.eun
 5	석호를	석호	NOUN	NN+CM	Case=Acc|Polite=Form	7	obj	_	MSeg=석호-를|Translit=.seog.ho.reul|LTranslit=.seog.ho
-6	의미하기도	의미하기	NOUN	NN+AP	_	7	aux	_	MSeg=의미하기-도|Translit=.yi.mi.ha.gi.do|LTranslit=.yi.mi.ha.gi
+6	의미하기도	의미하기	NOUN	NN+AP	_	7	obl	_	MSeg=의미하기-도|OrigDeprel=aux|Translit=.yi.mi.ha.gi.do|LTranslit=.yi.mi.ha.gi
 7	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.han.da
 8	.	.	PUNCT	.	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -9472,7 +9472,7 @@
 3	종종	_	ADV	RB	_	7	advmod	_	Translit=.jong.jong
 4	깊은	_	ADJ	JJ	Form=Adn	5	amod	_	Translit=.gip.eun
 5	담수호가	담수호	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=담수호-가|Translit=.dam.su.ho.ga|LTranslit=.dam.su.ho
-6	존재하기도	존재하기	NOUN	NN+AP	_	7	aux	_	MSeg=존재하기-도|Translit=.jon.jae.ha.gi.do|LTranslit=.jon.jae.ha.gi
+6	존재하기도	존재하기	NOUN	NN+AP	_	7	obl	_	MSeg=존재하기-도|OrigDeprel=aux|Translit=.jon.jae.ha.gi.do|LTranslit=.jon.jae.ha.gi
 7	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.han.da
 8	.	.	PUNCT	.	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -9594,7 +9594,7 @@
 14	탈출	_	NOUN	NN	_	15	compound	_	Translit=.tal.chul
 15	시에	시	NOUN	NNB+CM	Polite=Form	18	obl	_	MSeg=시-에|Translit=.si.e|LTranslit=.si
 16	제대로	_	ADV	RB	_	18	advmod	_	Translit=.je.dae.ro
-17	사용하지	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.sa.yong.ha.ji
+17	사용하지	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.sa.yong.ha.ji
 18	않은	_	VERB	VX	Form=Adn|Tense=Past	19	acl:relcl	_	Translit=.anh.eun
 19	이유는	이유	NOUN	NN+CM	Case=Nom|Polite=Form	25	nsubj	_	MSeg=이유-는|Translit=.i.yu.neun|LTranslit=.i.yu
 20	아직도	아직	ADV	RB+AP	_	25	advmod	_	MSeg=아직-도|Translit=.a.jig.do|LTranslit=.a.jig
@@ -9622,7 +9622,7 @@
 10	다네비르케는	다네비르케	PROPN	NNP+AP	_	14	obj	_	MSeg=다네비르케-는|Translit=.da.ne.bi.reu.ke.neun|LTranslit=.da.ne.bi.reu.ke
 11	난공불락의	난공불락	NOUN	NN+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=난공불락-의|Translit=.nan.gong.bul.rag.yi|LTranslit=.nan.gong.bul.rag
 12	요새로	요새	NOUN	NN+CM	Polite=Form	14	obl	_	MSeg=요새-로|Translit=.yo.sae.ro|LTranslit=.yo.sae
-13	생각하고	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.saeng.gag.ha.go
+13	생각하고	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.saeng.gag.ha.go
 14	있었기	_	VERB	VX	Tense=Past|VerbForm=Ger	15	compound	_	Translit=.iss.eoss.gi
 15	때문에	때문	NOUN	NNB+CM	Polite=Form	22	obl	_	MSeg=때문-에|Translit=.ddae.mun.e|LTranslit=.ddae.mun
 16	드	_	PROPN	NNP	_	18	compound	_	Translit=.deu
@@ -9694,7 +9694,7 @@
 23	오블라스트	_	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No|Translit=.o.beul.ra.seu.teu
 24	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 25	에	에	PART	CM	Polite=Form	20	case	_	Translit=.e|LTranslit=.e
-26	위치하고	_	NOUN	NN	_	27	aux	_	SpaceAfter=No|Translit=.wi.chi.ha.go
+26	위치하고	_	NOUN	NN	_	27	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.wi.chi.ha.go
 27	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 28	.	.	PUNCT	.	_	27	punct	_	Translit=.|LTranslit=.
 
@@ -9955,7 +9955,7 @@
 5	이상의	이상	NOUN	NN+CM	Case=Gen|Polite=Form	7	nmod:poss	_	MSeg=이상-의|Translit=.i.sang.yi|LTranslit=.i.sang
 6	수력	_	NOUN	NN	_	7	compound	_	SpaceAfter=No|Translit=.su.ryeog
 7	발전소를	발전소	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=발전소-를|Translit=.bal.jeon.so.reul|LTranslit=.bal.jeon.so
-8	운영하고	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.un.yeong.ha.go
+8	운영하고	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.un.yeong.ha.go
 9	있으며	_	VERB	VX	Form=Compl	14	advcl	_	Translit=.iss.eu.myeo
 10	최대	_	NOUN	NN	_	12	compound	_	Translit=.choe.dae
 11	200	200	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No|Translit=200|LTranslit=200
@@ -10041,7 +10041,7 @@
 12	이로	이	PRON	PRD+CM	Polite=Form	13	obl	_	MSeg=이-로|Translit=.i.ro|LTranslit=.i
 13	인해	_	NOUN	NN	_	20	advcl	_	SpaceAfter=No|Translit=.in.hae
 14	지면에	지면	NOUN	NN+CM	Polite=Form	16	obl	_	MSeg=지면-에|Translit=.ji.myeon.e|LTranslit=.ji.myeon
-15	도달하지	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.do.dal.ha.ji
+15	도달하지	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.do.dal.ha.ji
 16	못하고	_	VERB	VX	Form=Compl	20	advcl	_	Translit=.mos.ha.go
 17	지하	_	NOUN	NN	_	19	compound	_	Translit=.ji.ha
 18	깊은	_	ADJ	JJ	Form=Adn	19	amod	_	Translit=.gip.eun
@@ -10058,7 +10058,7 @@
 2	비극적	_	NOUN	NN	_	4	acl:relcl	_	SpaceAfter=No|Translit=.bi.geug.jeog
 3	인	_	AUX	VC	Form=Adn	2	cop	_	Translit=.in
 4	결말을	결말	NOUN	NN+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=결말-을|Translit=.gyeol.mal.eul|LTranslit=.gyeol.mal
-5	유발하진	_	NOUN	NN	_	6	aux	_	SpaceAfter=No|Translit=.yu.bal.ha.jin
+5	유발하진	_	NOUN	NN	_	6	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.yu.bal.ha.jin
 6	않는다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.neun.da
 7	.	.	PUNCT	.	_	6	punct	_	Translit=.|LTranslit=.
 
@@ -10088,7 +10088,7 @@
 4	버린	_	VERB	VX	Form=Adn|Tense=Past	6	acl:relcl	_	Translit=.beo.rin
 5	작은	_	ADJ	JJ	Form=Adn	6	amod	_	Translit=.jag.eun
 6	석호를	석호	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=석호-를|Translit=.seog.ho.reul|LTranslit=.seog.ho
-7	포함하고	_	NOUN	NN	_	8	aux	_	SpaceAfter=No|Translit=.po.ham.ha.go
+7	포함하고	_	NOUN	NN	_	8	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.ha.go
 8	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 9	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
 
@@ -10115,7 +10115,7 @@
 3	조사	_	NOUN	NN	_	7	nsubj:pass	_	Translit=.jo.sa
 4	및	_	CCONJ	CC	_	5	cc	_	ToDo=cc-after-conj|Translit=.mich
 5	탐험이	탐험	NOUN	NN+CM	Case=Nom|Polite=Form	3	conj	_	MSeg=탐험-이|Translit=.tam.heom.i|LTranslit=.tam.heom
-6	계속되고	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.gye.sog.doe.go
+6	계속되고	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gye.sog.doe.go
 7	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 8	.	.	PUNCT	.	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -10279,7 +10279,7 @@
 5	자연적	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=.ja.yeon.jeog
 6	서식지를	서식지	NOUN	NN+CM	Case=Acc|Polite=Form	9	obj	_	MSeg=서식지-를|Translit=.seo.sig.ji.reul|LTranslit=.seo.sig.ji
 7	직접	_	ADV	RB	_	9	advmod	_	Translit=.jig.jeob
-8	사용하지	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.sa.yong.ha.ji
+8	사용하지	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.sa.yong.ha.ji
 9	못하게	_	VERB	VX	Form=Compl	10	advcl	_	Translit=.mos.ha.ge
 10	됐다	_	VERB	VV	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.dwaess.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
@@ -10598,7 +10598,7 @@
 8	급격히	_	ADV	RB	_	9	advmod	_	Translit=.geub.gyeog.hi
 9	늘어나는	_	VERB	VV	Form=Adn	10	acl:relcl	_	Translit=.neul.eo.na.neun
 10	결과를	결과	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=결과-를|Translit=.gyeol.gwa.reul|LTranslit=.gyeol.gwa
-11	초래하기도	초래하기	NOUN	NN+AP	_	12	aux	_	MSeg=초래하기-도|Translit=.cho.rae.ha.gi.do|LTranslit=.cho.rae.ha.gi
+11	초래하기도	초래하기	NOUN	NN+AP	_	12	obl	_	MSeg=초래하기-도|OrigDeprel=aux|Translit=.cho.rae.ha.gi.do|LTranslit=.cho.rae.ha.gi
 12	했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.haess.da
 13	.	.	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
 
@@ -11312,7 +11312,7 @@
 27	는	는	PART	AP	_	26	case	_	Translit=.neun|LTranslit=.neun
 28	이집트	_	PROPN	NNP	_	29	compound	_	Translit=.i.jib.teu
 29	병력이	병력	NOUN	NN+CM	Case=Nom|Polite=Form	31	nsubj:pass	_	MSeg=병력-이|Translit=.byeong.ryeog.i|LTranslit=.byeong.ryeog
-30	발견되지	_	NOUN	NN	_	31	aux	_	SpaceAfter=No|Translit=.bal.gyeon.doe.ji
+30	발견되지	_	NOUN	NN	_	31	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bal.gyeon.doe.ji
 31	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
 32	.	.	PUNCT	.	_	31	punct	_	Translit=.|LTranslit=.
 
@@ -11456,7 +11456,7 @@
 # ToDoOrigText = 아직 사람들이 정착하지 않은 뉴프랑스 구시가지에도 진지를 구축하였다.
 1	아직	_	ADV	RB	_	4	advmod	_	Translit=.a.jig
 2	사람들이	사람들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	4	nsubj	_	MSeg=사람들-이|Translit=.sa.ram.deul.i|LTranslit=.sa.ram.deul
-3	정착하지	_	NOUN	NN	_	4	aux	_	SpaceAfter=No|Translit=.jeong.chag.ha.ji
+3	정착하지	_	NOUN	NN	_	4	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jeong.chag.ha.ji
 4	않은	_	VERB	VX	Form=Adn|Tense=Past	6	acl:relcl	_	Translit=.anh.eun
 5	뉴프랑스	_	PROPN	NNP	_	6	compound	_	Translit=.nyu.peu.rang.seu
 6	구시가지에	구시가지	NOUN	NN+CM	Polite=Form	9	obl	_	SpaceAfter=No|MSeg=구시가지-에|Translit=.gu.si.ga.ji.e|LTranslit=.gu.si.ga.ji
@@ -11971,7 +11971,7 @@
 16	열	_	DET	DT	_	17	det	_	OrigDeprel=nummod|Translit=.yeol
 17	통의	통	NOUN	NNB+CM	Case=Gen|Polite=Form	18	nmod:poss	_	MSeg=통-의|Translit=.tong.yi|LTranslit=.tong
 18	편지를	편지	NOUN	NN+CM	Case=Acc|Polite=Form	20	obj	_	MSeg=편지-를|Translit=.pyeon.ji.reul|LTranslit=.pyeon.ji
-19	포함하고	_	NOUN	NN	_	20	aux	_	SpaceAfter=No|Translit=.po.ham.ha.go
+19	포함하고	_	NOUN	NN	_	20	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.ha.go
 20	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 21	.	.	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
 
@@ -12048,7 +12048,7 @@
 17	해당하는	_	NOUN	NN	_	19	acl:relcl	_	SpaceAfter=No|Translit=.hae.dang.ha.neun
 18	부처의	부처	PROPN	NNP+CM	Case=Gen|Polite=Form	19	nmod:poss	_	MSeg=부처-의|Translit=.bu.cheo.yi|LTranslit=.bu.cheo
 19	이미지와	이미지	NOUN	NN+CM	Polite=Form	21	obl	_	MSeg=이미지-와|Translit=.i.mi.ji.wa|LTranslit=.i.mi.ji
-20	연결되어	_	NOUN	NN	_	21	aux	_	SpaceAfter=No|Translit=.yeon.gyeol.doe.eo
+20	연결되어	_	NOUN	NN	_	21	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.yeon.gyeol.doe.eo
 21	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
 
@@ -12318,7 +12318,7 @@
 8	그리고	_	CCONJ	CC	_	9	cc	_	Translit=.geu.ri.go
 9	춘분과	춘분	NOUN	NN+CP	Polite=Form	4	conj	_	MSeg=춘분-과|Translit=.chun.bun.gwa|LTranslit=.chun.bun
 10	추분에	추분	NOUN	NN+CM	Polite=Form	4	conj	_	MSeg=추분-에|Translit=.chu.bun.e|LTranslit=.chu.bun
-11	위치하고	_	NOUN	NN	_	12	aux	_	SpaceAfter=No|Translit=.wi.chi.ha.go
+11	위치하고	_	NOUN	NN	_	12	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.wi.chi.ha.go
 12	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 13	.	.	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
 
@@ -12976,13 +12976,13 @@
 # ToDoOrigText = 마케도니아군은 그리스를 양분하고 있는 테르모필레를 지나 진군했지만 테르모필레를 점령하지 않으려 했는데 그 이유는 아테네, 스파르타 및 아카이아 연합군이 철통같이 방어를 하고 있었기 때문이었다.
 1	마케도니아군은	마케도니아군	PROPN	NNP+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=마케도니아군-은|Translit=.ma.ke.do.ni.a.gun.eun|LTranslit=.ma.ke.do.ni.a.gun
 2	그리스를	그리스	PROPN	NNP+CM	Case=Acc|Polite=Form	4	obj	_	MSeg=그리스-를|Translit=.geu.ri.seu.reul|LTranslit=.geu.ri.seu
-3	양분하고	_	NOUN	NN	_	4	aux	_	SpaceAfter=No|Translit=.yang.bun.ha.go
+3	양분하고	_	NOUN	NN	_	4	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.yang.bun.ha.go
 4	있는	_	VERB	VX	Form=Adn	5	acl:relcl	_	Translit=.iss.neun
 5	테르모필레를	테르모필레	PROPN	NNP+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=테르모필레-를|Translit=.te.reu.mo.pil.re.reul|LTranslit=.te.reu.mo.pil.re
 6	지나	_	VERB	VV	Form=Compl	7	advcl	_	Translit=.ji.na
 7	진군했지만	_	NOUN	NN	_	11	advcl	_	SpaceAfter=No|Translit=.jin.gun.haess.ji.man
 8	테르모필레를	테르모필레	PROPN	NNP+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=테르모필레-를|Translit=.te.reu.mo.pil.re.reul|LTranslit=.te.reu.mo.pil.re
-9	점령하지	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.jeom.ryeong.ha.ji
+9	점령하지	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jeom.ryeong.ha.ji
 10	않으려	_	VERB	VX	Form=Aux	11	aux	_	Translit=.anh.eu.ryeo
 11	했는데	_	VERB	VX	Form=Compl|Tense=Past	24	advcl	_	Translit=.haess.neun.de
 12	그	_	DET	DT	_	13	det	_	Translit=.geu
@@ -13084,7 +13084,7 @@
 8	전	_	NOUN	NN	_	14	obl	_	Translit=.jeon
 9	국가가	국가	NOUN	NN+CM	Case=Nom|Polite=Form	12	nsubj:pass	_	MSeg=국가-가|Translit=.gug.ga.ga|LTranslit=.gug.ga
 10	심각하게	_	ADJ	JJ	Form=Compl	12	advmod	_	Translit=.sim.gag.ha.ge
-11	분열되고	_	NOUN	NN	_	12	aux	_	SpaceAfter=No|Translit=.bun.yeol.doe.go
+11	분열되고	_	NOUN	NN	_	12	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bun.yeol.doe.go
 12	있는	_	VERB	VX	Form=Adn	13	acl:relcl	_	Translit=.iss.neun
 13	모습을	모습	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=모습-을|Translit=.mo.seub.eul|LTranslit=.mo.seub
 14	보였던	_	VERB	VV	Form=Adn|Tense=Past|Voice=Pass	16	acl:relcl	_	Translit=.bo.yeoss.deon
@@ -14046,7 +14046,7 @@
 14	공식적으로	공식적	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=공식적-으로|Translit=.gong.sig.jeog.eu.ro|LTranslit=.gong.sig.jeog
 15	어떤	_	DET	DT	_	16	det	_	Translit=.eo.ddeon
 16	상도	상	NOUN	NN+AP	_	18	obj	_	MSeg=상-도|Translit=.sang.do|LTranslit=.sang
-17	수여하지	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.su.yeo.ha.ji
+17	수여하지	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.su.yeo.ha.ji
 18	않겠다고	않겠다	PART	VX+QP	Mood=Ind|Tense=Fut|VerbForm=Fin	19	advcl	_	MSeg=않겠다-고|Translit=.anh.gess.da.go|LTranslit=.anh.gess.da
 19	발표했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.bal.pyo.haess.da
 20	.	.	PUNCT	.	_	19	punct	_	Translit=.|LTranslit=.
@@ -14846,7 +14846,7 @@
 14	때문에	때문	NOUN	NNB+CM	Polite=Form	18	obl	_	MSeg=때문-에|Translit=.ddae.mun.e|LTranslit=.ddae.mun
 15	열린	_	VERB	VV	Form=Adn|Tense=Past|Voice=Pass	16	acl:relcl	_	Translit=.yeol.rin
 16	마음을	마음	NOUN	NN+CM	Case=Acc|Polite=Form	18	obj	_	MSeg=마음-을|Translit=.ma.eum.eul|LTranslit=.ma.eum
-17	유지해야	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.yu.ji.hae.ya
+17	유지해야	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.yu.ji.hae.ya
 18	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	21	advcl	_	SpaceAfter=No|Translit=.han.da
 19	"	"	PUNCT	''	_	18	punct	_	SpaceAfter=No|Translit="|LTranslit="
 20	고	고	PART	QP	_	18	case	_	Translit=.go|LTranslit=.go
@@ -15391,7 +15391,7 @@
 18	작곡한	_	NOUN	NN	_	20	advcl	_	SpaceAfter=No|Translit=.jag.gog.han
 19	세	_	DET	DT	_	20	det	_	OrigDeprel=nummod|Translit=.se
 20	곡도	곡	NOUN	NN+AP	_	22	obl	_	MSeg=곡-도|Translit=.gog.do|LTranslit=.gog
-21	포함되어	_	NOUN	NN	_	22	aux	_	SpaceAfter=No|Translit=.po.ham.doe.eo
+21	포함되어	_	NOUN	NN	_	22	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.doe.eo
 22	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 23	.	.	PUNCT	.	_	22	punct	_	Translit=.|LTranslit=.
 
@@ -15883,7 +15883,7 @@
 8	정지	_	NOUN	NN	_	9	compound	_	Translit=.jeong.ji
 9	명령에	명령	NOUN	NN+CM	Polite=Form	12	obl	_	SpaceAfter=No|MSeg=명령-에|Translit=.myeong.ryeong.e|LTranslit=.myeong.ryeong
 10	도	도	PART	AP	_	9	case	_	Translit=.do|LTranslit=.do
-11	아랑곳하지	_	NOUN	NN	_	12	aux	_	SpaceAfter=No|Translit=.a.rang.gos.ha.ji
+11	아랑곳하지	_	NOUN	NN	_	12	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.a.rang.gos.ha.ji
 12	않고	_	VERB	VX	Form=Compl	22	advcl	_	Translit=.anh.go
 13	체코슬로바키아	_	PROPN	NNP	_	14	compound	_	Translit=.che.ko.seul.ro.ba.ki.a
 14	국경을	국경	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=국경-을|Translit=.gug.gyeong.eul|LTranslit=.gug.gyeong
@@ -16247,7 +16247,7 @@
 3	선거에서	선거	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=선거-에서|Translit=.seon.geo.e.seo|LTranslit=.seon.geo
 4	3	3	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No|Translit=3|LTranslit=3
 5	선에	선	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=선-에|Translit=.seon.e|LTranslit=.seon
-6	출마하지	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.chul.ma.ha.ji
+6	출마하지	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chul.ma.ha.ji
 7	않기로	않기	PART	VX+CM	Polite=Form|VerbForm=Ger	8	advcl	_	MSeg=않기-로|Translit=.anh.gi.ro|LTranslit=.anh.gi
 8	결심했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gyeol.sim.haess.da
 9	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
@@ -16365,7 +16365,7 @@
 15	인	_	AUX	VC	Form=Adn	14	cop	_	Translit=.in
 16	전통에	전통	NOUN	NN+CM	Polite=Form	19	obl	_	MSeg=전통-에|Translit=.jeon.tong.e|LTranslit=.jeon.tong
 17	인류애가	인류애	NOUN	NN+CM	Case=Nom|Polite=Form	19	nsubj:pass	_	MSeg=인류애-가|Translit=.in.ryu.ae.ga|LTranslit=.in.ryu.ae
-18	내재되어	_	NOUN	NN	_	19	aux	_	SpaceAfter=No|Translit=.nae.jae.doe.eo
+18	내재되어	_	NOUN	NN	_	19	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.nae.jae.doe.eo
 19	있음을	있음	PART	VX+CM	Case=Acc|Polite=Form|VerbForm=Ger	20	ccomp	_	MSeg=있음-을|Translit=.iss.eum.eul|LTranslit=.iss.eum
 20	강조하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gang.jo.ha.yeoss.da
 21	.	.	PUNCT	.	_	20	punct	_	Translit=.|LTranslit=.
@@ -16383,7 +16383,7 @@
 6	목표에	목표	NOUN	NN+CM	Polite=Form	8	obl	_	MSeg=목표-에|Translit=.mog.pyo.e|LTranslit=.mog.pyo
 7	초점을	초점	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=초점-을|Translit=.cho.jeom.eul|LTranslit=.cho.jeom
 8	두고	_	VERB	VV	Form=Compl	10	advcl	_	Translit=.du.go
-9	구성해야	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.gu.seong.hae.ya
+9	구성해야	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gu.seong.hae.ya
 10	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.han.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -16474,7 +16474,7 @@
 14	대해	_	VERB	VV	Form=Compl	18	advcl	_	Translit=.dae.hae
 15	거의	_	ADV	RB	_	18	advmod	_	Translit=.geo.yi
 16	정보를	정보	NOUN	NN+CM	Case=Acc|Polite=Form	18	obj	_	MSeg=정보-를|Translit=.jeong.bo.reul|LTranslit=.jeong.bo
-17	제공하지	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.je.gong.ha.ji
+17	제공하지	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.je.gong.ha.ji
 18	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
 19	.	.	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
@@ -16491,7 +16491,7 @@
 6	더	_	ADV	RB	_	7	advmod	_	Translit=.deo
 7	이상	_	NOUN	NN	_	11	obl	_	Translit=.i.sang
 8	그와	그	PRON	PRP+CM	Person=3|Polite=Form	11	obl	_	MSeg=그-와|Translit=.geu.wa|LTranslit=.geu
-9	결혼하고	결혼	NOUN	NN+SFV	Form=Aux	10	aux	_	MSeg=결혼-하고|Translit=.gyeol.hon.ha.go|LTranslit=.gyeol.hon
+9	결혼하고	결혼	NOUN	NN+SFV	Form=Aux	10	obl	_	MSeg=결혼-하고|OrigDeprel=aux|Translit=.gyeol.hon.ha.go|LTranslit=.gyeol.hon
 10	싶지	_	ADJ	JX	Form=Aux	11	aux	_	Translit=.sip.ji
 11	않다는	_	ADJ	JX	Form=Adn	12	acl:relcl	_	Translit=.anh.da.neun
 12	사실을	사실	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=사실-을|Translit=.sa.sil.eul|LTranslit=.sa.sil
@@ -16574,7 +16574,7 @@
 2	알바니아를	알바니아	PROPN	NNP+CM	Case=Acc|Polite=Form	3	obj	_	MSeg=알바니아-를|Translit=.al.ba.ni.a.reul|LTranslit=.al.ba.ni.a
 3	인정하라는	_	NOUN	NN	_	4	acl:relcl	_	SpaceAfter=No|Translit=.in.jeong.ha.ra.neun
 4	요청을	요청	NOUN	NN+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=요청-을|Translit=.yo.cheong.eul|LTranslit=.yo.cheong
-5	충족하지	_	NOUN	NN	_	6	aux	_	SpaceAfter=No|Translit=.chung.jog.ha.ji
+5	충족하지	_	NOUN	NN	_	6	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chung.jog.ha.ji
 6	못했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.mos.haess.da
 7	.	.	PUNCT	.	_	6	punct	_	Translit=.|LTranslit=.
 
@@ -16644,7 +16644,7 @@
 12	강대국들은	강대국들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	17	nsubj	_	MSeg=강대국들-은|Translit=.gang.dae.gug.deul.eun|LTranslit=.gang.dae.gug.deul
 13	자신들의	자신들	PRON	PRP+CM	Case=Gen|Number=Plur|Polite=Form	14	nmod:poss	_	MSeg=자신들-의|Translit=.ja.sin.deul.yi|LTranslit=.ja.sin.deul
 14	결정을	결정	NOUN	NN+CM	Case=Acc|Polite=Form	16	obj	_	MSeg=결정-을|Translit=.gyeol.jeong.eul|LTranslit=.gyeol.jeong
-15	번복해야	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.beon.bog.hae.ya
+15	번복해야	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.beon.bog.hae.ya
 16	한다고	한다	PART	VX+QP	Mood=Ind|VerbForm=Fin	17	advcl	_	MSeg=한다-고|Translit=.han.da.go|LTranslit=.han.da
 17	깨달았다	_	VERB	VV	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.ggae.dal.ass.da
 18	.	.	PUNCT	.	_	17	punct	_	Translit=.|LTranslit=.
@@ -16795,7 +16795,7 @@
 17	있던	_	VERB	VX	Form=Adn|Tense=Past	19	acl:relcl	_	Translit=.iss.deon
 18	네	_	DET	DT	_	19	det	_	OrigDeprel=nummod|Translit=.ne
 19	사람을	사람	NOUN	NN+CM	Case=Acc|Polite=Form	21	obj	_	MSeg=사람-을|Translit=.sa.ram.eul|LTranslit=.sa.ram
-20	조사하고	_	NOUN	NN	_	21	aux	_	SpaceAfter=No|Translit=.jo.sa.ha.go
+20	조사하고	_	NOUN	NN	_	21	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jo.sa.ha.go
 21	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
 
@@ -16813,7 +16813,7 @@
 7	수	_	NOUN	NNB	_	8	nsubj	_	Translit=.su
 8	있는	_	ADJ	JJ	Form=Adn	9	acl:relcl	_	Translit=.iss.neun
 9	가능성을	가능성	NOUN	NN+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=가능성-을|Translit=.ga.neung.seong.eul|LTranslit=.ga.neung.seong
-10	배제하지	_	NOUN	NN	_	11	aux	_	SpaceAfter=No|Translit=.bae.je.ha.ji
+10	배제하지	_	NOUN	NN	_	11	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bae.je.ha.ji
 11	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
 12	.	.	PUNCT	.	_	11	punct	_	Translit=.|LTranslit=.
 
@@ -16871,7 +16871,7 @@
 4	작가가	작가	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=작가-가|Translit=.jag.ga.ga|LTranslit=.jag.ga
 5	어떻게	_	ADJ	JJ	Form=Compl	8	advmod	_	Translit=.eo.ddeoh.ge
 6	서로	_	ADV	RB	_	8	advmod	_	Translit=.seo.ro
-7	협력해	_	NOUN	NN	_	8	aux	_	SpaceAfter=No|Translit=.hyeob.ryeog.hae
+7	협력해	_	NOUN	NN	_	8	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hyeob.ryeog.hae
 8	나갈지	_	VERB	VX	VerbForm=Fin	9	ccomp	_	Translit=.na.gal.ji
 9	아는	_	VERB	VV	Form=Adn	10	acl:relcl	_	Translit=.a.neun
 10	사람이	사람	NOUN	NN+CM	Case=Nom|Polite=Form	11	nsubj	_	MSeg=사람-이|Translit=.sa.ram.i|LTranslit=.sa.ram
@@ -16952,7 +16952,7 @@
 12	그런	_	DET	DT	_	14	det	_	Translit=.geu.reon
 13	수많은	_	ADJ	JJ	Form=Adn	14	amod	_	Translit=.su.manh.eun
 14	조건들을	조건들	NOUN	NN+CM	Case=Acc|Number=Plur|Polite=Form	16	obj	_	MSeg=조건들-을|Translit=.jo.geon.deul.eul|LTranslit=.jo.geon.deul
-15	서술하고	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.seo.sul.ha.go
+15	서술하고	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.seo.sul.ha.go
 16	있는데	_	VERB	VX	Form=Compl	46	advcl	_	SpaceAfter=No|Translit=.iss.neun.de
 17	,	,	PUNCT	,	_	16	punct	_	Translit=,|LTranslit=,
 18	미국은	미국	PROPN	NNP+CM	Case=Nom|Polite=Form	46	nsubj	_	MSeg=미국-은|Translit=.mi.gug.eun|LTranslit=.mi.gug
@@ -16966,7 +16966,7 @@
 26	에	에	PART	CM	Polite=Form	22	case	_	Translit=.e|LTranslit=.e
 27	가입한	_	NOUN	NN	_	28	acl:relcl	_	SpaceAfter=No|Translit=.ga.ib.han
 28	국가에	국가	NOUN	NN+CM	Polite=Form	30	obl	_	MSeg=국가-에|Translit=.gug.ga.e|LTranslit=.gug.ga
-29	주둔해	_	NOUN	NN	_	30	aux	_	SpaceAfter=No|Translit=.ju.dun.hae
+29	주둔해	_	NOUN	NN	_	30	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.ju.dun.hae
 30	있는	_	VERB	VX	Form=Adn	31	acl:relcl	_	Translit=.iss.neun
 31	군대를	군대	NOUN	NN+CM	Case=Acc|Polite=Form	33	obj	_	MSeg=군대-를|Translit=.gun.dae.reul|LTranslit=.gun.dae
 32	전부	_	ADV	RB	_	33	advmod	_	Translit=.jeon.bu
@@ -16981,7 +16981,7 @@
 41	인해	_	NOUN	NN	_	42	advcl	_	SpaceAfter=No|Translit=.in.hae
 42	발생한	_	NOUN	NN	_	43	acl:relcl	_	SpaceAfter=No|Translit=.bal.saeng.han
 43	비용을	비용	NOUN	NN+CM	Case=Acc|Polite=Form	46	obj	_	MSeg=비용-을|Translit=.bi.yong.eul|LTranslit=.bi.yong
-44	변상해	_	NOUN	NN	_	45	aux	_	SpaceAfter=No|Translit=.byeon.sang.hae
+44	변상해	_	NOUN	NN	_	45	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.byeon.sang.hae
 45	주어야	_	VERB	VX	Form=Aux	46	aux	_	Translit=.ju.eo.ya
 46	합니다	_	VERB	VX	Mood=Ind|VerbForm=Fin	33	conj	_	SpaceAfter=No|Translit=.hab.ni.da
 47	.	.	PUNCT	.	_	33	punct	_	Translit=.|LTranslit=.
@@ -16996,7 +16996,7 @@
 3	과정	_	NOUN	NN	_	8	advcl	_	SpaceAfter=No|Translit=.gwa.jeong
 4	이고	_	AUX	VC	Form=Compl	3	cop	_	Translit=.i.go
 5	나는	나	PRON	PRP+CM	Case=Nom|Person=1|Polite=Form	8	nsubj	_	MSeg=나-는|Translit=.na.neun|LTranslit=.na
-6	참여하지	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.cham.yeo.ha.ji
+6	참여하지	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cham.yeo.ha.ji
 7	않기로	않기	PART	VX+CM	Polite=Form|VerbForm=Ger	8	advcl	_	MSeg=않기-로|Translit=.anh.gi.ro|LTranslit=.anh.gi
 8	결심했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gyeol.sim.haess.da
 9	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
@@ -17123,7 +17123,7 @@
 2	보이스트	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=.bo.i.seu.teu
 3	는	는	PART	CM	Case=Nom|Polite=Form	1	case	_	Translit=.neun|LTranslit=.neun
 4	계획이	계획	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=계획-이|Translit=.gye.hoeg.i|LTranslit=.gye.hoeg
-5	세부적	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.se.bu.jeog
+5	세부적	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.se.bu.jeog
 6	이지	_	AUX	VC	Form=Aux	5	cop	_	Translit=.i.ji
 7	않아서	_	ADJ	JX	Form=Compl	10	advcl	_	Translit=.anh.a.seo
 8	비용이	비용	NOUN	NN+CM	Case=Nom|Polite=Form	9	nsubj	_	MSeg=비용-이|Translit=.bi.yong.i|LTranslit=.bi.yong
@@ -17169,7 +17169,7 @@
 6	구역이	구역	NOUN	NN+CM	Case=Nom|Polite=Form	3	conj	_	MSeg=구역-이|Translit=.gu.yeog.i|LTranslit=.gu.yeog
 7	온	_	DET	DT	_	8	det	_	Translit=.on
 8	영역을	영역	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=영역-을|Translit=.yeong.yeog.eul|LTranslit=.yeong.yeog
-9	차지하고	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.cha.ji.ha.go
+9	차지하고	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cha.ji.ha.go
 10	있기	_	VERB	VX	VerbForm=Ger	11	compound	_	Translit=.iss.gi
 11	때문	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.ddae.mun
 12	이다	_	AUX	VC	Mood=Ind|VerbForm=Fin	11	cop	_	SpaceAfter=No|Translit=.i.da
@@ -17253,7 +17253,7 @@
 2	지금	_	ADV	RB	_	8	advmod	_	Translit=.ji.geum
 3	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	8	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
 4	세계	_	NOUN	NN	_	5	compound	_	Translit=.se.gye
-5	챔피언	_	NOUN	NN	_	8	aux	_	SpaceAfter=No|Translit=.chaem.pi.eon
+5	챔피언	_	NOUN	NN	_	8	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chaem.pi.eon
 6	이기	_	AUX	VC	VerbForm=Ger	5	cop	_	SpaceAfter=No|Translit=.i.gi
 7	도	도	PART	AP	_	5	case	_	Translit=.do|LTranslit=.do
 8	하다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.ha.da
@@ -17592,7 +17592,7 @@
 11	방침을	방침	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=방침-을|Translit=.bang.chim.eul|LTranslit=.bang.chim
 12	너무	_	ADV	RB	_	13	advmod	_	Translit=.neo.mu
 13	많이	_	ADV	RB	_	15	advmod	_	Translit=.manh.i
-14	이해해	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.i.hae.hae
+14	이해해	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.i.hae.hae
 15	주는	_	VERB	VX	Form=Adn	16	dep	_	Translit=.ju.neun
 16	것	_	NOUN	NNB	_	17	compound:lvc	_	Translit=.geos
 17	아니냐며	_	VERB	VV	Form=Compl	19	advcl	_	Translit=.a.ni.nya.myeo
@@ -17744,7 +17744,7 @@
 3	물질은	물질	NOUN	NN+CM	Case=Nom|Polite=Form	24	nsubj	_	MSeg=물질-은|Translit=.mul.jil.eun|LTranslit=.mul.jil
 4	아직	_	ADV	RB	_	7	advmod	_	Translit=.a.jig
 5	충분히	_	ADV	RB	_	7	advmod	_	Translit=.chung.bun.hi
-6	발달되지	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.bal.dal.doe.ji
+6	발달되지	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.bal.dal.doe.ji
 7	않은	_	VERB	VX	Form=Adn	9	acl:relcl	_	Translit=.anh.eun
 8	어린이의	어린이	NOUN	NN+CM	Case=Gen|Polite=Form	9	nmod:poss	_	MSeg=어린이-의|Translit=.eo.rin.i.yi|LTranslit=.eo.rin.i
 9	폐를	폐	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=폐-를|Translit=.pye.reul|LTranslit=.pye
@@ -17784,7 +17784,7 @@
 12	)	)	PUNCT	)	_	9	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
 13	을	을	PART	CM	Case=Acc|Polite=Form	7	case	_	Translit=.eul|LTranslit=.eul
 14	최우선적으로	최우선적	NOUN	NN+CM	Polite=Form	16	obl	_	MSeg=최우선적-으로|Translit=.choe.u.seon.jeog.eu.ro|LTranslit=.choe.u.seon.jeog
-15	추진해야	_	NOUN	NN	_	16	aux	_	SpaceAfter=No|Translit=.chu.jin.hae.ya
+15	추진해야	_	NOUN	NN	_	16	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chu.jin.hae.ya
 16	할	_	VERB	VX	Form=Adn	20	acl:relcl	_	Translit=.hal
 17	전국	_	NOUN	NN	_	18	compound	_	Translit=.jeon.gug
 18	단위	_	NOUN	NN	_	19	compound	_	Translit=.dan.wi
@@ -17853,12 +17853,12 @@
 4	가	가	PART	CM	Case=Nom|Polite=Form	2	case	_	Translit=.ga|LTranslit=.ga
 5	트위터	_	PROPN	NNP	_	6	compound	_	Translit=.teu.wi.teo
 6	계정을	계정	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=계정-을|Translit=.gye.jeong.eul|LTranslit=.gye.jeong
-7	처리하지	_	NOUN	NN	_	8	aux	_	SpaceAfter=No|Translit=.cheo.ri.ha.ji
+7	처리하지	_	NOUN	NN	_	8	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cheo.ri.ha.ji
 8	못할	_	VERB	VX	Form=Adn	9	acl:relcl	_	Translit=.mos.hal
 9	경우	_	NOUN	NN	_	13	obl	_	Translit=.gyeong.u
 10	핵	_	NOUN	NN	_	11	compound	_	Translit=.haeg
 11	코드를	코드	NOUN	NN+CM	Case=Acc|Polite=Form	13	obj	_	MSeg=코드-를|Translit=.ko.deu.reul|LTranslit=.ko.deu
-12	처리하지	_	NOUN	NN	_	13	aux	_	SpaceAfter=No|Translit=.cheo.ri.ha.ji
+12	처리하지	_	NOUN	NN	_	13	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cheo.ri.ha.ji
 13	못할	_	VERB	VX	Form=Adn	14	dep	_	Translit=.mos.hal
 14	것	_	NOUN	NNB	_	17	advcl	_	SpaceAfter=No|Translit=.geos
 15	이라	_	AUX	VC	Mood=Ind|VerbForm=Fin	14	cop	_	SpaceAfter=No|Translit=.i.ra
@@ -18117,7 +18117,7 @@
 14	"	"	PUNCT	''	_	13	punct	_	Translit="|LTranslit="
 15	라는	_	VERB	VV	Form=Adn	16	acl:relcl	_	Translit=.ra.neun
 16	내용이	내용	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj:pass	_	MSeg=내용-이|Translit=.nae.yong.i|LTranslit=.nae.yong
-17	포함되지	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.po.ham.doe.ji
+17	포함되지	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.doe.ji
 18	않았다는	_	VERB	VX	Form=Adn|Tense=Past	19	acl:relcl	_	Translit=.anh.ass.da.neun
 19	사실에	사실	NOUN	NN+CM	Polite=Form	20	obl	_	MSeg=사실-에|Translit=.sa.sil.e|LTranslit=.sa.sil
 20	후회했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.hu.hoe.haess.da
@@ -18189,7 +18189,7 @@
 1	실제	_	NOUN	NN	_	3	compound	_	Translit=.sil.je
 2	이동	_	NOUN	NN	_	3	compound	_	Translit=.i.dong
 3	시간을	시간	NOUN	NN+CM	Case=Acc|Polite=Form	5	obj	_	MSeg=시간-을|Translit=.si.gan.eul|LTranslit=.si.gan
-4	측정하지	_	NOUN	NN	_	5	aux	_	SpaceAfter=No|Translit=.cheug.jeong.ha.ji
+4	측정하지	_	NOUN	NN	_	5	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.cheug.jeong.ha.ji
 5	않고	_	VERB	VX	Form=Compl	15	advcl	_	Translit=.anh.go
 6	실제	_	ADV	RB	_	7	advmod	_	Translit=.sil.je
 7	완료한	_	NOUN	NN	_	9	acl:relcl	_	SpaceAfter=No|Translit=.wan.ryo.han
@@ -18473,7 +18473,7 @@
 11	월	_	NOUN	NNB	_	9	flat	_	Translit=.weol
 12	31	31	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=31|LTranslit=31
 13	일까지	일	NOUN	NNB+AP	_	9	flat	_	MSeg=일-까지|Translit=.il.gga.ji|LTranslit=.il
-14	사용해야	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.sa.yong.hae.ya
+14	사용해야	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.sa.yong.hae.ya
 15	한다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.han.da
 16	.	.	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
 
@@ -18523,7 +18523,7 @@
 6	년에는	년	NOUN	NNB+CM	Polite=Form	10	obl	_	MSeg=년-에는|Translit=.nyeon.e.neun|LTranslit=.nyeon
 7	부가	_	NOUN	NN	_	8	compound	_	Translit=.bu.ga
 8	가치세를	가치세	NOUN	NN+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=가치세-를|Translit=.ga.chi.se.reul|LTranslit=.ga.chi.se
-9	인상하지	_	NOUN	NN	_	10	aux	_	SpaceAfter=No|Translit=.in.sang.ha.ji
+9	인상하지	_	NOUN	NN	_	10	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.in.sang.ha.ji
 10	않을	_	VERB	VX	Form=Adn	11	dep	_	Translit=.anh.eul
 11	것으로	것	NOUN	NNB+CM	Polite=Form	13	obl	_	MSeg=것-으로|Translit=.geos.eu.ro|LTranslit=.geos
 12	노트에서	노트	NOUN	NN+CM	Polite=Form	13	obl	_	MSeg=노트-에서|Translit=.no.teu.e.seo|LTranslit=.no.teu
@@ -18790,7 +18790,7 @@
 15	이사회	_	NOUN	NN	_	16	compound	_	Translit=.i.sa.hoe
 16	자리를	자리	NOUN	NN+CM	Case=Acc|Polite=Form	19	obj	_	MSeg=자리-를|Translit=.ja.ri.reul|LTranslit=.ja.ri
 17	하나	_	NUM	CD	NumType=Card	19	obl	_	Translit=.ha.na
-18	내	_	NOUN	NNB	_	19	aux	_	SpaceAfter=No|Translit=.nae
+18	내	_	NOUN	NNB	_	19	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.nae
 19	줄	_	VERB	VV	Form=Adn|Tense=Fut	20	dep	_	Translit=.jul
 20	것	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.geos
 21	이다	_	AUX	VC	Mood=Ind|VerbForm=Fin	20	cop	_	SpaceAfter=No|Translit=.i.da
@@ -18814,7 +18814,7 @@
 11	전보다	전	NOUN	NN+CM	Polite=Form	13	obl	_	MSeg=전-보다|Translit=.jeon.bo.da|LTranslit=.jeon
 12	더	_	ADV	RB	_	13	advmod	_	Translit=.deo
 13	많이	_	ADV	RB	_	16	advcl	_	Translit=.manh.i
-14	진출하려	_	NOUN	NN	_	15	aux	_	SpaceAfter=No|Translit=.jin.chul.ha.ryeo
+14	진출하려	_	NOUN	NN	_	15	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jin.chul.ha.ryeo
 15	하고	_	VERB	VX	Form=Aux	16	aux	_	Translit=.ha.go
 16	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 17	.	.	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
@@ -18913,7 +18913,7 @@
 5	는	는	PART	CM	Case=Nom|Polite=Form	3	case	_	Translit=.neun|LTranslit=.neun
 6	재무	_	NOUN	NN	_	7	compound	_	SpaceAfter=No|Translit=.jae.mu
 7	장관으로서	장관	NOUN	NN+CM	Polite=Form	9	obl	_	MSeg=장관-으로서|Translit=.jang.gwan.eu.ro.seo|LTranslit=.jang.gwan
-8	근무하고	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.geun.mu.ha.go
+8	근무하고	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.geun.mu.ha.go
 9	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	1	conj	_	SpaceAfter=No|Translit=.iss.da
 10	.	.	PUNCT	.	_	1	punct	_	Translit=.|LTranslit=.
 
@@ -18991,7 +18991,7 @@
 3	현재	_	ADV	RB	_	7	advmod	_	Translit=.hyeon.jae
 4	새로운	_	ADJ	JJ	Form=Adn	5	amod	_	Translit=.sae.ro.un
 5	문제에	문제	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=문제-에|Translit=.mun.je.e|LTranslit=.mun.je
-6	직면해	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.jig.myeon.hae
+6	직면해	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.jig.myeon.hae
 7	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 8	.	.	PUNCT	.	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -19154,7 +19154,7 @@
 8	다해	_	NOUN	NN	_	12	advcl	_	SpaceAfter=No|Translit=.da.hae
 9	청중들에게	청중들	NOUN	NN+CM	Number=Plur|Polite=Form	12	iobj	_	MSeg=청중들-에게|Translit=.cheong.jung.deul.e.ge|LTranslit=.cheong.jung.deul
 10	웃음을	웃음	NOUN	NN+CM	Case=Acc|Polite=Form	12	obj	_	MSeg=웃음-을|Translit=.us.eum.eul|LTranslit=.us.eum
-11	선사해야	_	NOUN	NN	_	12	aux	_	SpaceAfter=No|Translit=.seon.sa.hae.ya
+11	선사해야	_	NOUN	NN	_	12	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.seon.sa.hae.ya
 12	했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.haess.da
 13	.	.	PUNCT	.	_	12	punct	_	Translit=.|LTranslit=.
 
@@ -19366,7 +19366,7 @@
 9	빅토리아스	_	PROPN	NNP	_	6	flat:name	_	SpaceAfter=No|Translit=.big.to.ri.a.seu
 10	에서	에서	PART	CM	Polite=Form	6	case	_	Translit=.e.seo|LTranslit=.e.seo
 11	승리를	승리	NOUN	NN+CM	Case=Acc|Polite=Form	13	obj	_	MSeg=승리-를|Translit=.seung.ri.reul|LTranslit=.seung.ri
-12	축하하고	_	NOUN	NN	_	13	aux	_	SpaceAfter=No|Translit=.chug.ha.ha.go
+12	축하하고	_	NOUN	NN	_	13	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.chug.ha.ha.go
 13	있는	_	VERB	VX	Form=Adn	14	acl:relcl	_	Translit=.iss.neun
 14	중	_	NOUN	NNB	_	0	root	_	SpaceAfter=No|Translit=.jung
 15	이다	_	AUX	VC	Mood=Ind|VerbForm=Fin	14	cop	_	SpaceAfter=No|Translit=.i.da
@@ -19388,7 +19388,7 @@
 9	이를	이	PRON	PRD+CM	Case=Acc|Polite=Form	10	obj	_	MSeg=이-를|Translit=.i.reul|LTranslit=.i
 10	회피하고	_	NOUN	NN	_	13	advcl	_	SpaceAfter=No|Translit=.hoe.pi.ha.go
 11	제대로	_	ADV	RB	_	13	advmod	_	Translit=.je.dae.ro
-12	대응하지	_	NOUN	NN	_	13	aux	_	SpaceAfter=No|Translit=.dae.eung.ha.ji
+12	대응하지	_	NOUN	NN	_	13	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.dae.eung.ha.ji
 13	않았다는	_	VERB	VX	Form=Adn|Tense=Past	14	acl:relcl	_	Translit=.anh.ass.da.neun
 14	이유로	이유	NOUN	NN+CM	Polite=Form	19	obl	_	MSeg=이유-로|Translit=.i.yu.ro|LTranslit=.i.yu
 15	언론의	언론	NOUN	NN+CM	Case=Gen|Polite=Form	18	nmod:poss	_	MSeg=언론-의|Translit=.eon.ron.yi|LTranslit=.eon.ron
@@ -19486,7 +19486,7 @@
 5	대전이	대전	NOUN	NN+CM	Case=Nom|Polite=Form	6	nsubj	_	Proper=True|MSeg=대전-이|Translit=.dae.jeon.i|LTranslit=.dae.jeon
 6	끝난	_	VERB	VV	Form=Adn|Tense=Past	7	acl:relcl	_	Translit=.ggeut.nan
 7	후	_	NOUN	NN	_	11	obl	_	Translit=.hu
-8	파괴되지	_	NOUN	NN	_	9	aux	_	SpaceAfter=No|Translit=.pa.goe.doe.ji
+8	파괴되지	_	NOUN	NN	_	9	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.pa.goe.doe.ji
 9	않고	_	VERB	VX	Form=Compl	11	advcl	_	Translit=.anh.go
 10	남아	_	VERB	VV	Form=Aux	11	aux	_	Translit=.nam.a
 11	있는	_	VERB	VX	Form=Adn	16	acl:relcl	_	Translit=.iss.neun
@@ -19882,7 +19882,7 @@
 3	도금하는	_	NOUN	NN	_	4	acl:relcl	_	SpaceAfter=No|Translit=.do.geum.ha.neun
 4	과정은	과정	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj	_	MSeg=과정-은|Translit=.gwa.jeong.eun|LTranslit=.gwa.jeong
 5	기술적으로	기술적	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=기술적-으로|Translit=.gi.sul.jeog.eu.ro|LTranslit=.gi.sul.jeog
-6	주목할	_	NOUN	NN	_	7	aux	_	SpaceAfter=No|Translit=.ju.mog.hal
+6	주목할	_	NOUN	NN	_	7	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.ju.mog.hal
 7	만하다	_	ADJ	JX	Mood=Ind|VerbForm=Fin	0	root	_	Translit=.man.ha.da
 
 # sent_id = w02009002
@@ -19919,7 +19919,7 @@
 10	물자	_	NOUN	NN	_	11	compound	_	Translit=.mul.ja
 11	부족으로	부족	NOUN	NN+CM	Polite=Form	8	conj	_	MSeg=부족-으로|Translit=.bu.jog.eu.ro|LTranslit=.bu.jog
 12	이미	_	ADV	RB	_	14	advmod	_	Translit=.i.mi
-13	팽배해	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.paeng.bae.hae
+13	팽배해	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.paeng.bae.hae
 14	있던	_	VERB	VX	Form=Adn|Tense=Past	16	acl:relcl	_	Translit=.iss.deon
 15	사회적	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=.sa.hoe.jeog
 16	동요가	동요	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj:pass	_	MSeg=동요-가|Translit=.dong.yo.ga|LTranslit=.dong.yo
@@ -20541,7 +20541,7 @@
 6	이탈리아	_	PROPN	NNP	_	7	compound	_	Translit=.i.tal.ri.a
 7	남부의	남부	NOUN	NN+CM	Case=Gen|Polite=Form	8	nmod:poss	_	MSeg=남부-의|Translit=.nam.bu.yi|LTranslit=.nam.bu
 8	사업에	사업	NOUN	NN+CM	Polite=Form	10	obl	_	MSeg=사업-에|Translit=.sa.eob.e|LTranslit=.sa.eob
-9	참여해야만	참여해야	NOUN	NN+AP	_	10	aux	_	MSeg=참여해야-만|Translit=.cham.yeo.hae.ya.man|LTranslit=.cham.yeo.hae.ya
+9	참여해야만	참여해야	NOUN	NN+AP	_	10	obl	_	MSeg=참여해야-만|OrigDeprel=aux|Translit=.cham.yeo.hae.ya.man|LTranslit=.cham.yeo.hae.ya
 10	했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.haess.da
 11	.	.	PUNCT	.	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -20694,7 +20694,7 @@
 9	만들기	_	VERB	VV	VerbForm=Ger	10	compound	_	Translit=.man.deul.gi
 10	전까지	전	NOUN	NN+AP	_	13	obl	_	SpaceAfter=No|MSeg=전-까지|Translit=.jeon.gga.ji|LTranslit=.jeon
 11	는	는	PART	AP	_	10	case	_	Translit=.neun|LTranslit=.neun
-12	확장하지	_	NOUN	NN	_	13	aux	_	SpaceAfter=No|Translit=.hwag.jang.ha.ji
+12	확장하지	_	NOUN	NN	_	13	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.hwag.jang.ha.ji
 13	못했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.mos.haess.da
 14	.	.	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
 
@@ -20715,7 +20715,7 @@
 10	때	_	NOUN	_	_	9	goeswith	_	SpaceAfter=No|Translit=.ddae
 11	까지	까지	PART	AP	_	9	case	_	SpaceAfter=No|Translit=.gga.ji|LTranslit=.gga.ji
 12	는	는	PART	AP	_	9	case	_	Translit=.neun|LTranslit=.neun
-13	사용하지	_	NOUN	NN	_	14	aux	_	SpaceAfter=No|Translit=.sa.yong.ha.ji
+13	사용하지	_	NOUN	NN	_	14	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.sa.yong.ha.ji
 14	않았던	_	VERB	VX	Form=Adn|Tense=Past	15	acl:relcl	_	Translit=.anh.ass.deon
 15	기법	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.gi.beob
 16	이었다	_	AUX	VC	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	SpaceAfter=No|Translit=.i.eoss.da
@@ -20951,7 +20951,7 @@
 14	땅을	땅	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=땅-을|Translit=.ddang.eul|LTranslit=.ddang
 15	사랑하는	_	NOUN	NN	_	16	acl:relcl	_	SpaceAfter=No|Translit=.sa.rang.ha.neun
 16	모습을	모습	NOUN	NN+CM	Case=Acc|Polite=Form	18	obj	_	MSeg=모습-을|Translit=.mo.seub.eul|LTranslit=.mo.seub
-17	대변하고	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.dae.byeon.ha.go
+17	대변하고	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.dae.byeon.ha.go
 18	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	8	conj	_	SpaceAfter=No|Translit=.iss.da
 19	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
 
@@ -20979,7 +20979,7 @@
 2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
 3	호주	_	PROPN	NNP	_	1	conj	_	Translit=.ho.ju
 4	단층에	단층	NOUN	NN+CM	Polite=Form	6	obl	_	MSeg=단층-에|Translit=.dan.cheung.e|LTranslit=.dan.cheung
-5	위치하고	_	NOUN	NN	_	6	aux	_	SpaceAfter=No|Translit=.wi.chi.ha.go
+5	위치하고	_	NOUN	NN	_	6	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.wi.chi.ha.go
 6	있으며	_	VERB	VX	Form=Compl	14	advcl	_	SpaceAfter=No|Translit=.iss.eu.myeo
 7	,	,	PUNCT	,	_	6	punct	_	Translit=,|LTranslit=,
 8	인도와	인도	PROPN	NNP+CP	Polite=Form	10	compound	_	MSeg=인도-와|Translit=.in.do.wa|LTranslit=.in.do
@@ -21126,7 +21126,7 @@
 9	지역	_	NOUN	NN	_	7	conj	_	Translit=.ji.yeog
 10	사이가	사이	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj:pass	_	MSeg=사이-가|Translit=.sa.i.ga|LTranslit=.sa.i
 11	뚜렷이	_	ADV	RB	_	13	advmod	_	Translit=.ddu.ryeos.i
-12	구분되지	_	NOUN	NN	_	13	aux	_	SpaceAfter=No|Translit=.gu.bun.doe.ji
+12	구분되지	_	NOUN	NN	_	13	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.gu.bun.doe.ji
 13	않는다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.neun.da
 14	.	.	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
 
@@ -21541,7 +21541,7 @@
 22	인가	_	AUX	VC	PronType=Int|VerbForm=Fin	21	cop	_	SpaceAfter=No|Translit=.in.ga
 23	에	에	PART	CM	Polite=Form	21	case	_	Translit=.e|LTranslit=.e
 24	대해선	_	VERB	VV	Form=Compl	26	advcl	_	Translit=.dae.hae.seon
-25	분명하지	_	ADV	RB	_	26	aux	_	SpaceAfter=No|Translit=.bun.myeong.ha.ji
+25	분명하지	_	ADV	RB	_	26	advmod	_	SpaceAfter=No|Translit=.bun.myeong.ha.ji
 26	않다	_	ADJ	JX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.da
 27	.	.	PUNCT	.	_	26	punct	_	Translit=.|LTranslit=.
 
@@ -21834,7 +21834,7 @@
 4	이끄는	_	VERB	VV	Form=Adn	5	acl:relcl	_	Translit=.i.ggeu.neun
 5	탐험대는	탐험대	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=탐험대-는|Translit=.tam.heom.dae.neun|LTranslit=.tam.heom.dae
 6	올버니에	올버니	PROPN	NNP+CM	Polite=Form	8	obl	_	MSeg=올버니-에|Translit=.ol.beo.ni.e|LTranslit=.ol.beo.ni
-7	도달하려고	_	NOUN	NN	_	8	aux	_	SpaceAfter=No|Translit=.do.dal.ha.ryeo.go
+7	도달하려고	_	NOUN	NN	_	8	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.do.dal.ha.ryeo.go
 8	했다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.haess.da
 9	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
 
@@ -21901,7 +21901,7 @@
 14	사용에	사용	NOUN	NN+CM	Polite=Form	15	obl	_	MSeg=사용-에|Translit=.sa.yong.e|LTranslit=.sa.yong
 15	대한	_	VERB	VV	Form=Adn	16	acl:relcl	_	Translit=.dae.han
 16	참고를	참고	NOUN	NN+CM	Case=Acc|Polite=Form	6	conj	_	MSeg=참고-를|Translit=.cham.go.reul|LTranslit=.cham.go
-17	포함하고	_	NOUN	NN	_	18	aux	_	SpaceAfter=No|Translit=.po.ham.ha.go
+17	포함하고	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.po.ham.ha.go
 18	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
 19	.	.	PUNCT	.	_	18	punct	_	Translit=.|LTranslit=.
 
