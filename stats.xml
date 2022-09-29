@@ -10,23 +10,23 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>16584</tokens><words>16584</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2616" /><!-- ., ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 이, 고, 자신, 1 -->
+  <lemmas unique="2609" /><!-- ., ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 이, 고, 자신, 1 -->
   <forms unique="8258" /><!-- ., ,, 인, 년, 그, 수, ", 는, 이다, (, ), 있다, 것, 이, 있는 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
-    <tag name="ADJ">633</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
+    <tag name="ADJ">632</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
     <tag name="ADV">529</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
-    <tag name="AUX">653</tag><!-- _, 있다, 달라, 말라, 않았어, 한다, 않는다, 않다, 있는지, 있음 -->
+    <tag name="AUX">663</tag><!-- _ -->
     <tag name="CCONJ">125</tag><!-- _ -->
     <tag name="DET">465</tag><!-- _, 있는가, 총 -->
     <tag name="NOUN">8082</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
     <tag name="NUM">513</tag><!-- 1, _, 10, 3, 2, 4, 6, 20, 8, 5 -->
-    <tag name="PART">479</tag><!-- 는, 의, 고, 에, 도, 라고, 가, 와, 에서, 이 -->
+    <tag name="PART">478</tag><!-- 는, 의, 고, 에, 도, 라고, 가, 와, 에서, 이 -->
     <tag name="PRON">374</tag><!-- 그, 그녀, 자신, 그것, _, 그들, 이, 나, 우리, 이것 -->
     <tag name="PROPN">1676</tag><!-- _, 중국, 영국, 미국, 러시아, 마케도니아, 유럽, 프랑스, 그리스, 독일 -->
     <tag name="PUNCT">1595</tag><!-- ., ,, ", (, ), “, ”, ', -, ? -->
-    <tag name="VERB">1457</tag><!-- _ -->
+    <tag name="VERB">1449</tag><!-- _ -->
     <tag name="X">3</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
