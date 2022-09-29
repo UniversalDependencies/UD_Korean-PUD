@@ -17,7 +17,7 @@
   <tags unique="13">
     <tag name="ADJ">643</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
     <tag name="ADV">529</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
-    <tag name="AUX">458</tag><!-- _ -->
+    <tag name="AUX">615</tag><!-- _ -->
     <tag name="CCONJ">125</tag><!-- _ -->
     <tag name="DET">465</tag><!-- _, 있는가, 총 -->
     <tag name="NOUN">8082</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
@@ -26,7 +26,7 @@
     <tag name="PRON">374</tag><!-- 그, 그녀, 자신, 그것, _, 그들, 이, 나, 우리, 이것 -->
     <tag name="PROPN">1676</tag><!-- _, 중국, 영국, 미국, 러시아, 마케도니아, 유럽, 프랑스, 그리스, 독일 -->
     <tag name="PUNCT">1595</tag><!-- ., ,, ", (, ), “, ”, ', -, ? -->
-    <tag name="VERB">1625</tag><!-- _ -->
+    <tag name="VERB">1468</tag><!-- _ -->
     <tag name="X">3</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -47,7 +47,7 @@
     <feat name="Polarity" value="Neg" upos="ADV">7</feat><!-- 안, 못 -->
     <feat name="Polite" value="Form" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">4884</feat><!-- 그는, 의, 는, 때문에, 에, 자신의, 것으로, 그의, 가, 그녀는 -->
     <feat name="PronType" value="Int" upos="AUX,DET,PART,VERB">22</feat><!-- 가, 인가, 있는가, 나뉘어졌는가를, 나왔나요, 되었나, 아닌가, 어떠한가, 어떤가, 일까 -->
-    <feat name="Tense" value="Fut" upos="ADJ,PART,VERB">32</feat><!-- 될, 일어날, 있을, 나갈, 날, 내리겠다고, 내릴, 늦추어질, 다가올, 돌아올 -->
+    <feat name="Tense" value="Fut" upos="ADJ,AUX,PART,VERB">32</feat><!-- 될, 일어날, 있을, 나갈, 날, 내리겠다고, 내릴, 늦추어질, 다가올, 돌아올 -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,PART,VERB">641</feat><!-- 이었다, 되었다, 였다, 있었다, 했다, 않았다, 된, 못했다, 받았다, 한 -->
     <feat name="VerbForm" value="Fin" upos="ADJ,AUX,DET,PART,VERB">762</feat><!-- 이다, 있다, 이었다, 되었다, 한다, 이라, 였다, 있었다, 했다, 않았다 -->
     <feat name="VerbForm" value="Ger" upos="ADJ,AUX,PART,VERB">79</feat><!-- 있기, 있었기, 만들기, 이기, 있음을, 그럼에, 그렇기, 높기, 벗어나기, 않기로 -->
