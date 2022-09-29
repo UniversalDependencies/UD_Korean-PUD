@@ -106,18 +106,18 @@
 6	경기장에	경기장	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=경기장-에|Translit=.gyeong.gi.jang.e|LTranslit=.gyeong.gi.jang
 7	모인	_	VERB	VV	Form=Adn|Voice=Pass	8	acl:relcl	_	Translit=.mo.in
 8	군중에게	군중	NOUN	NN+CM	Polite=Form	21	obl	_	MSeg=군중-에게|Translit=.gun.jung.e.ge|LTranslit=.gun.jung
-9	“	“	PUNCT	``	_	18	punct	_	SpaceAfter=No|Translit=“|LTranslit=“
+9	“	“	PUNCT	``	_	17	punct	_	SpaceAfter=No|Translit=“|LTranslit=“
 10	부담	_	NOUN	NN	_	11	obj	_	Translit=.bu.dam
 11	주기	_	VERB	VV	VerbForm=Ger	12	csubj	_	Translit=.ju.gi
-12	싫지만	_	ADJ	JJ	Form=Compl	18	advcl	_	Translit=.sirh.ji.man
+12	싫지만	_	ADJ	JJ	Form=Compl	17	advcl	_	Translit=.sirh.ji.man
 13	국가의	국가	NOUN	NN+CM	Case=Gen|Polite=Form	14	nmod:poss	_	MSeg=국가-의|Translit=.gug.ga.yi|LTranslit=.gug.ga
-14	운명이	운명	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj	_	MSeg=운명-이|Translit=.un.myeong.i|LTranslit=.un.myeong
+14	운명이	운명	NOUN	NN+CM	Case=Nom|Polite=Form	17	nsubj	_	MSeg=운명-이|Translit=.un.myeong.i|LTranslit=.un.myeong
 15	여러분의	여러분	PRON	PRP+CM	Case=Gen|Person=2|Polite=Form	16	nmod:poss	_	MSeg=여러분-의|Translit=.yeo.reo.bun.yi|LTranslit=.yeo.reo.bun
-16	어깨에	어깨	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=어깨-에|Translit=.eo.ggae.e|LTranslit=.eo.ggae
+16	어깨에	어깨	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=어깨-에|Translit=.eo.ggae.e|LTranslit=.eo.ggae
 17	달려	_	VERB	VV	Form=Aux	21	advcl	_	Translit=.dal.ryeo
 18	있습니다	_	AUX	VX	Mood=Ind|VerbForm=Fin	17	aux	_	SpaceAfter=No|Translit=.iss.seub.ni.da
-19	”	”	PUNCT	''	_	18	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
-20	라고	라고	PART	QP	_	18	case	_	Translit=.ra.go|LTranslit=.ra.go
+19	”	”	PUNCT	''	_	17	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
+20	라고	라고	PART	QP	_	17	case	_	Translit=.ra.go|LTranslit=.ra.go
 21	말했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
 
