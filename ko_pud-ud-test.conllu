@@ -2099,7 +2099,7 @@
 # ToDoOrigText = 그는 또한 클레인이 말이 없고 비협조적인 사람이며 법정 심리에 참석하려면 법원 청사 감방에서 나와야 하는데 나오려 하지 않는다고 말했다.
 1	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	21	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
 2	또한	_	ADV	RB	_	21	advmod	_	Translit=.ddo.han
-3	클레인이	클레인	PROPN	NNP+CM	Case=Nom|Polite=Form	20	nsubj	_	MSeg=클레인-이|Translit=.keul.re.in.i|LTranslit=.keul.re.in
+3	클레인이	클레인	PROPN	NNP+CM	Case=Nom|Polite=Form	18	nsubj	_	MSeg=클레인-이|Translit=.keul.re.in.i|LTranslit=.keul.re.in
 4	말이	말	NOUN	NN+CM	Case=Nom|Polite=Form	5	nsubj	_	MSeg=말-이|Translit=.mal.i|LTranslit=.mal
 5	없고	_	ADJ	JJ	Form=Compl	20	advcl	_	Translit=.eobs.go
 6	비협조적	_	NOUN	NN	_	8	acl:relcl	_	SpaceAfter=No|Translit=.bi.hyeob.jo.jeog
@@ -2108,15 +2108,15 @@
 9	이며	_	AUX	VC	Form=Compl	8	cop	_	Translit=.i.myeo
 10	법정	_	NOUN	NN	_	11	compound	_	Translit=.beob.jeong
 11	심리에	심리	NOUN	NN+CM	Polite=Form	12	obl	_	MSeg=심리-에|Translit=.sim.ri.e|LTranslit=.sim.ri
-12	참석하려면	_	NOUN	NN	_	17	advcl	_	SpaceAfter=No|Translit=.cham.seog.ha.ryeo.myeon
+12	참석하려면	_	NOUN	NN	_	18	advcl	_	SpaceAfter=No|Translit=.cham.seog.ha.ryeo.myeon
 13	법원	_	NOUN	NN	_	14	compound	_	Proper=True|Translit=.beob.weon
 14	청사	_	NOUN	NN	_	15	compound	_	Translit=.cheong.sa
-15	감방에서	감방	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=감방-에서|Translit=.gam.bang.e.seo|LTranslit=.gam.bang
-16	나와야	_	VERB	VV	Form=Aux	20	advcl	_	Translit=.na.wa.ya
+15	감방에서	감방	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=감방-에서|Translit=.gam.bang.e.seo|LTranslit=.gam.bang
+16	나와야	_	VERB	VV	Form=Aux	18	advcl	_	Translit=.na.wa.ya
 17	하는데	_	AUX	VX	Form=Compl	16	aux	_	Translit=.ha.neun.de
-18	나오려	_	VERB	VV	Form=Aux	20	aux	_	Translit=.na.o.ryeo
+18	나오려	_	VERB	VV	Form=Aux	21	advcl	_	Translit=.na.o.ryeo
 19	하지	_	AUX	VX	Form=Aux	18	aux	_	Translit=.ha.ji
-20	않는다고	않는다	PART	VX+QP	Mood=Ind|VerbForm=Fin	21	advcl	_	MSeg=않는다-고|Translit=.anh.neun.da.go|LTranslit=.anh.neun.da
+20	않는다고	_	AUX	VX+QP	Mood=Ind|VerbForm=Fin	18	aux	_	MSeg=않는다-고|Translit=.anh.neun.da.go|LTranslit=.anh.neun.da
 21	말했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da
 22	.	.	PUNCT	.	_	21	punct	_	Translit=.|LTranslit=.
 
@@ -2828,7 +2828,7 @@
 # translit = .geu.reo.na .ib.beob.jeog.gi.teul.eul .gaj.chu.ji .anh.eun .chae .gi.bun.e .yeong.hyang.eul .ju.neun .ma.ri.hwa.na.ga .min.gan .yo.beob .yag.pum.eu.ro .ji.yeog.e.seo .pul.bbu.ri .san.eob.eu.ro .saeng.san.doe.go.iss.neun .sang.hwang.e.seo .hoe.sa.deul.eun .ib.jang.eul .hwag.sil.hi .jeong.ha.ji .mos.ha.go .iss.da.
 # text_en = But without a legislative framework, and with the grassroots origins of pot as a mood-altering folk remedy, companies are left guessing.
 # ToDoOrigText = 그러나 입법적 기틀을 갖추지 않은 채 기분에 영향을 주는 마리화나가 민간 요법 약품으로 지역에서 풀뿌리 산업으로 생산되고 있는 상황에서 회사들은 입장을 확실히 정하지 못하고 있다.
-1	그러나	_	CCONJ	CC	_	25	advmod	_	Translit=.geu.reo.na
+1	그러나	_	CCONJ	CC	_	23	advmod	_	Translit=.geu.reo.na
 2	입법적	_	NOUN	NN	_	3	compound	_	SpaceAfter=No|Translit=.ib.beob.jeog
 3	기틀을	기틀	NOUN	NN+CM	Case=Acc|Polite=Form	5	obj	_	MSeg=기틀-을|Translit=.gi.teul.eul|LTranslit=.gi.teul
 4	갖추지	_	VERB	VV	Form=Aux	6	acl:relcl	_	Translit=.gaj.chu.ji
@@ -2846,14 +2846,14 @@
 16	산업으로	산업	NOUN	NN+CM	Polite=Form	18	obl	_	MSeg=산업-으로|Translit=.san.eob.eu.ro|LTranslit=.san.eob
 17	생산되고	_	NOUN	NN	_	18	obl	_	OrigDeprel=aux|SpaceAfter=No|Translit=.saeng.san.doe.go
 18	있는	_	VERB	VX	Form=Adn	19	acl:relcl	_	Translit=.iss.neun
-19	상황에서	상황	NOUN	NN+CM	Polite=Form	25	obl	_	MSeg=상황-에서|Translit=.sang.hwang.e.seo|LTranslit=.sang.hwang
-20	회사들은	회사들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	25	nsubj	_	MSeg=회사들-은|Translit=.hoe.sa.deul.eun|LTranslit=.hoe.sa.deul
-21	입장을	입장	NOUN	NN+CM	Case=Acc|Polite=Form	25	obj	_	MSeg=입장-을|Translit=.ib.jang.eul|LTranslit=.ib.jang
-22	확실히	_	ADV	RB	_	25	advmod	_	Translit=.hwag.sil.hi
-23	정하지	_	VERB	VV	Form=Aux	25	aux	_	Translit=.jeong.ha.ji
+19	상황에서	상황	NOUN	NN+CM	Polite=Form	23	obl	_	MSeg=상황-에서|Translit=.sang.hwang.e.seo|LTranslit=.sang.hwang
+20	회사들은	회사들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	23	nsubj	_	MSeg=회사들-은|Translit=.hoe.sa.deul.eun|LTranslit=.hoe.sa.deul
+21	입장을	입장	NOUN	NN+CM	Case=Acc|Polite=Form	23	obj	_	MSeg=입장-을|Translit=.ib.jang.eul|LTranslit=.ib.jang
+22	확실히	_	ADV	RB	_	23	advmod	_	Translit=.hwag.sil.hi
+23	정하지	_	VERB	VV	Form=Aux	0	root	_	Translit=.jeong.ha.ji
 24	못하고	_	AUX	VX	Form=Aux	23	aux	_	Translit=.mos.ha.go
-25	있다	_	VERB	VX	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.iss.da
-26	.	.	PUNCT	.	_	25	punct	_	Translit=.|LTranslit=.
+25	있다	_	AUX	VX	Mood=Ind|VerbForm=Fin	23	aux	_	SpaceAfter=No|Translit=.iss.da
+26	.	.	PUNCT	.	_	23	punct	_	Translit=.|LTranslit=.
 
 # sent_id = n01050006
 # text = 철분은 산소를 체내 조직에 운반하는역할을 하는 적혈구 단백질인 헤모글로빈을 생성하기위해 반드시 필요한체내 필수 요소이다.
@@ -3432,7 +3432,7 @@
 # text_en = And, she granted, “you have to look at where she has acknowledged that we need to do something different—we can do better—and where she has expressed regret.”
 # ToDoOrigText = 그리고 “뭔가 다른 일, 더 잘 할 수 있는 일을 해야 한다는 것을 그녀가 인정한 부분과 유감의 뜻을 표현한 부분을 눈 여겨 보셔야 합니다”라고 그녀는 인정했다.
 1	그리고	_	CCONJ	CC	_	30	advmod	_	Translit=.geu.ri.go
-2	“	“	PUNCT	``	_	26	punct	_	SpaceAfter=No|Translit=“|LTranslit=“
+2	“	“	PUNCT	``	_	23	punct	_	SpaceAfter=No|Translit=“|LTranslit=“
 3	뭔	_	PRON	WP	_	5	csubj	_	SpaceAfter=No|Translit=.mweon
 4	가	_	AUX	VC	PronType=Int|VerbForm=Fin	3	cop	_	Translit=.ga
 5	다른	_	ADJ	JJ	Form=Adn	6	acl:relcl	_	Translit=.da.reun
@@ -3448,17 +3448,17 @@
 15	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	17	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
 16	그녀가	그녀	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	17	nsubj	_	MSeg=그녀-가|Translit=.geu.nyeo.ga|LTranslit=.geu.nyeo
 17	인정한	_	NOUN	NN	_	18	acl:relcl	_	SpaceAfter=No|Translit=.in.jeong.han
-18	부분과	부분	NOUN	NN+CP	Polite=Form	26	obj	_	MSeg=부분-과|Translit=.bu.bun.gwa|LTranslit=.bu.bun
+18	부분과	부분	NOUN	NN+CP	Polite=Form	23	obj	_	MSeg=부분-과|Translit=.bu.bun.gwa|LTranslit=.bu.bun
 19	유감의	유감	NOUN	NN+CM	Case=Gen|Polite=Form	20	nmod:poss	_	MSeg=유감-의|Translit=.yu.gam.yi|LTranslit=.yu.gam
 20	뜻을	뜻	NOUN	NN+CM	Case=Acc|Polite=Form	21	obj	_	MSeg=뜻-을|Translit=.ddeus.eul|LTranslit=.ddeus
 21	표현한	_	NOUN	NN	_	22	acl:relcl	_	SpaceAfter=No|Translit=.pyo.hyeon.han
 22	부분을	부분	NOUN	NN+CM	Case=Acc|Polite=Form	18	conj	_	MSeg=부분-을|Translit=.bu.bun.eul|LTranslit=.bu.bun
-23	눈	_	VERB	VV	Form=Aux|Polite=Form	26	aux	_	Translit=.nun
+23	눈	_	VERB	VV	Form=Aux|Polite=Form	30	advcl	_	Translit=.nun
 24	여겨	_	VERB	_	_	23	goeswith	_	Translit=.yeo.gyeo
 25	보셔야	_	VERB	_	_	23	goeswith	_	Translit=.bo.syeo.ya
-26	합니다	_	VERB	VX	Mood=Ind|VerbForm=Fin	30	advcl	_	SpaceAfter=No|Translit=.hab.ni.da
-27	”	”	PUNCT	''	_	26	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
-28	라고	라고	PART	QP	_	26	case	_	Translit=.ra.go|LTranslit=.ra.go
+26	합니다	_	AUX	VX	Mood=Ind|VerbForm=Fin	23	aux	_	SpaceAfter=No|Translit=.hab.ni.da
+27	”	”	PUNCT	''	_	23	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
+28	라고	라고	PART	QP	_	23	case	_	Translit=.ra.go|LTranslit=.ra.go
 29	그녀는	그녀	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	30	nsubj	_	MSeg=그녀-는|Translit=.geu.nyeo.neun|LTranslit=.geu.nyeo
 30	인정했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.in.jeong.haess.da
 31	.	.	PUNCT	.	_	30	punct	_	Translit=.|LTranslit=.
@@ -3546,9 +3546,9 @@
 2	대개	_	ADV	RB	_	8	advmod	_	Translit=.dae.gae
 3	많은	_	ADJ	JJ	Form=Adn	4	amod	_	Translit=.manh.eun
 4	일들을	일들	NOUN	NN+CM	Case=Acc|Number=Plur|Polite=Form	7	obj	_	MSeg=일들-을|Translit=.il.deul.eul|LTranslit=.il.deul
-5	하고	_	VERB	VV	Form=Aux	7	aux	_	Translit=.ha.go
+5	하고	_	VERB	VV	Form=Aux	8	acl:relcl	_	Translit=.ha.go
 6	싶어	_	AUX	JX	Form=Aux	5	aux	_	SpaceAfter=No|Translit=.sip.eo
-7	하는	_	VERB	VX	Form=Adn	8	acl:relcl	_	Translit=.ha.neun
+7	하는	_	AUX	VX	Form=Adn	5	aux	_	Translit=.ha.neun
 8	아티스트들	_	NOUN	NN	Number=Plur	0	root	_	SpaceAfter=No|Translit=.a.ti.seu.teu.deul
 9	이다	_	AUX	VC	Mood=Ind|VerbForm=Fin	8	cop	_	SpaceAfter=No|Translit=.i.da
 10	.	.	PUNCT	.	_	8	punct	_	Translit=.|LTranslit=.
@@ -5857,19 +5857,19 @@
 # text_en = Ms Hopley added: “The spike in political risk should not go unnoticed.”
 # ToDoOrigText = 호플리는 "정치적 위험이 급증한 것을 사람들이 눈치채지 못하게 해야 한다.”라고 덧붙여 말했다.
 1	호플리는	호플리	PROPN	NNP+CM	Case=Nom|Polite=Form	16	nsubj	_	MSeg=호플리-는|Translit=.ho.peul.ri.neun|LTranslit=.ho.peul.ri
-2	"	"	PUNCT	``	_	1	punct	_	SpaceAfter=No|Translit="|LTranslit="
+2	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No|Translit="|LTranslit="
 3	정치적	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=.jeong.chi.jeog
 4	위험이	위험	NOUN	NN+CM	Case=Nom|Polite=Form	5	nsubj	_	MSeg=위험-이|Translit=.wi.heom.i|LTranslit=.wi.heom
 5	급증한	_	NOUN	NN	_	6	dep	_	SpaceAfter=No|Translit=.geub.jeung.han
-6	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	11	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
-7	사람들이	사람들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	11	nsubj	_	MSeg=사람들-이|Translit=.sa.ram.deul.i|LTranslit=.sa.ram.deul
-8	눈치채지	_	VERB	VV	Form=Aux	10	aux	_	Translit=.nun.chi.chae.ji
+6	것을	것	NOUN	NNB+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=것-을|Translit=.geos.eul|LTranslit=.geos
+7	사람들이	사람들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	8	nsubj	_	MSeg=사람들-이|Translit=.sa.ram.deul.i|LTranslit=.sa.ram.deul
+8	눈치채지	_	VERB	VV	Form=Aux	16	advcl	_	Translit=.nun.chi.chae.ji
 9	못하게	_	AUX	VX	Form=Aux	8	aux	_	Translit=.mos.ha.ge
-10	해야	_	VERB	VX	Form=Aux	16	advcl	_	Translit=.hae.ya
-11	한다	_	AUX	VX	Mood=Ind|VerbForm=Fin	10	aux	_	SpaceAfter=No|Translit=.han.da
-12	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
-13	”	”	PUNCT	''	_	14	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
-14	라고	라고	PART	QP	_	11	case	_	Translit=.ra.go|LTranslit=.ra.go
+10	해야	_	AUX	VX	Form=Aux	8	aux	_	Translit=.hae.ya
+11	한다	_	AUX	VX	Mood=Ind|VerbForm=Fin	8	aux	_	SpaceAfter=No|Translit=.han.da
+12	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+13	”	”	PUNCT	''	_	8	punct	_	SpaceAfter=No|Translit=”|LTranslit=”
+14	라고	라고	PART	QP	_	8	case	_	Translit=.ra.go|LTranslit=.ra.go
 15	덧붙여	_	VERB	VV	Form=Compl|Voice=Cau	16	advcl	_	Translit=.deos.but.yeo
 16	말했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.mal.haess.da
 17	.	.	PUNCT	.	_	16	punct	_	Translit=.|LTranslit=.
@@ -7335,9 +7335,9 @@
 1	투자자들이	투자자들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	6	nsubj	_	MSeg=투자자들-이|Translit=.tu.ja.ja.deul.i|LTranslit=.tu.ja.ja.deul
 2	정부	_	NOUN	NN	_	3	compound	_	Translit=.jeong.bu
 3	채권을	채권	NOUN	NN+CM	Case=Acc|Polite=Form	6	obj	_	MSeg=채권-을|Translit=.chae.gweon.eul|LTranslit=.chae.gweon
-4	팔아	_	VERB	VV	Form=Aux	6	aux	_	Translit=.pal.a
+4	팔아	_	VERB	VV	Form=Aux	16	advcl	_	Translit=.pal.a
 5	치우고	_	AUX	VX	Form=Aux	4	aux	_	Translit=.chi.u.go
-6	있으며	_	VERB	VX	Form=Compl	16	advcl	_	Translit=.iss.eu.myeo
+6	있으며	_	AUX	VX	Form=Compl	4	aux	_	Translit=.iss.eu.myeo
 7	그	_	NOUN	NN	_	12	obl	_	Translit=.geu
 8	중	_	NOUN	_	_	7	goeswith	_	SpaceAfter=No|Translit=.jung
 9	에서	에서	PART	CM	Polite=Form	7	case	_	Translit=.e.seo|LTranslit=.e.seo
@@ -8321,9 +8321,9 @@
 13	자들이	자들	NOUN	NN+CM	Case=Nom|Number=Plur|Polite=Form	18	nsubj	_	MSeg=자들-이|Translit=.ja.deul.i|LTranslit=.ja.deul
 14	죽은	_	VERB	VV	Form=Adn	15	acl:relcl	_	Translit=.jug.eun
 15	자들을	자들	NOUN	NN+CM	Case=Acc|Number=Plur|Polite=Form	18	obj	_	MSeg=자들-을|Translit=.ja.deul.eul|LTranslit=.ja.deul
-16	잊지	_	VERB	VV	Form=Aux	18	aux	_	Translit=.ij.ji
+16	잊지	_	VERB	VV	Form=Aux	19	acl:relcl	_	Translit=.ij.ji
 17	않게	_	AUX	VX	Form=Aux	16	aux	_	Translit=.anh.ge
-18	하는	_	VERB	VX	Form=Adn	19	acl:relcl	_	Translit=.ha.neun
+18	하는	_	AUX	VX	Form=Adn	16	aux	_	Translit=.ha.neun
 19	데	_	NOUN	NNB	_	21	obl	_	Translit=.de
 20	도움이	도움	NOUN	NN+CM	Polite=Form	21	compound:lvc	_	MSeg=도움-이|Translit=.do.um.i|LTranslit=.do.um
 21	된다	_	VERB	VV	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.doen.da
@@ -16485,8 +16485,8 @@
 # ToDoOrigText = 이번엔 그에게 접근했지만 그는 그녀가 더 이상 그와 결혼하고 싶지 않다는 사실을 믿으려 하지 않았다.
 1	이번엔	이번	NOUN	NN+CM	Polite=Form	3	obl	_	MSeg=이번-엔|Translit=.i.beon.en|LTranslit=.i.beon
 2	그에게	그	PRON	PRP+CM	Person=3|Polite=Form	3	obl	_	MSeg=그-에게|Translit=.geu.e.ge|LTranslit=.geu
-3	접근했지만	_	NOUN	NN	_	15	advcl	_	SpaceAfter=No|Translit=.jeob.geun.haess.ji.man
-4	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	15	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
+3	접근했지만	_	NOUN	NN	_	13	advcl	_	SpaceAfter=No|Translit=.jeob.geun.haess.ji.man
+4	그는	그	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	13	nsubj	_	MSeg=그-는|Translit=.geu.neun|LTranslit=.geu
 5	그녀가	그녀	PRON	PRP+CM	Case=Nom|Person=3|Polite=Form	11	nsubj	_	MSeg=그녀-가|Translit=.geu.nyeo.ga|LTranslit=.geu.nyeo
 6	더	_	ADV	RB	_	7	advmod	_	Translit=.deo
 7	이상	_	NOUN	NN	_	11	obl	_	Translit=.i.sang
@@ -16494,11 +16494,11 @@
 9	결혼하고	결혼	NOUN	NN+SFV	Form=Aux	10	obl	_	MSeg=결혼-하고|OrigDeprel=aux|Translit=.gyeol.hon.ha.go|LTranslit=.gyeol.hon
 10	싶지	_	ADJ	JX	Form=Aux	12	acl:relcl	_	Translit=.sip.ji
 11	않다는	_	AUX	JX	Form=Adn	10	aux	_	Translit=.anh.da.neun
-12	사실을	사실	NOUN	NN+CM	Case=Acc|Polite=Form	15	obj	_	MSeg=사실-을|Translit=.sa.sil.eul|LTranslit=.sa.sil
-13	믿으려	_	VERB	VV	Form=Aux	15	aux	_	Translit=.mid.eu.ryeo
+12	사실을	사실	NOUN	NN+CM	Case=Acc|Polite=Form	13	obj	_	MSeg=사실-을|Translit=.sa.sil.eul|LTranslit=.sa.sil
+13	믿으려	_	VERB	VV	Form=Aux	0	root	_	Translit=.mid.eu.ryeo
 14	하지	_	AUX	VX	Form=Aux	13	aux	_	Translit=.ha.ji
-15	않았다	_	VERB	VX	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=.anh.ass.da
-16	.	.	PUNCT	.	_	15	punct	_	Translit=.|LTranslit=.
+15	않았다	_	AUX	VX	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No|Translit=.anh.ass.da
+16	.	.	PUNCT	.	_	13	punct	_	Translit=.|LTranslit=.
 
 # sent_id = w01149002
 # text = 라이트는 도셋의 풀에서 태어났지만 주로 서머싯 웰스에서 성장했다.
@@ -17694,10 +17694,10 @@
 # ToDoOrigText = 그러므로 귀찮은 신호가 완전히 사라지지는 않을 것인데, 디피에이(DPA) 뉴스 통신사로부터 입수한 정보에 따르면, 예를 들어 아티스트나 레코드 라벨이 GEMA 소속이 아니며 유튜브와 계약이 안 되어 있는 경우에만 신호가 작동할 거라고 한다.
 1	그러므로	_	ADV	RB	_	7	advmod	_	Translit=.geu.reo.meu.ro
 2	귀찮은	_	ADJ	JJ	Form=Adn	3	amod	_	Translit=.gwi.chanh.eun
-3	신호가	신호	NOUN	NN+CM	Case=Nom|Polite=Form	6	nsubj	_	MSeg=신호-가|Translit=.sin.ho.ga|LTranslit=.sin.ho
-4	완전히	_	ADV	RB	_	6	advmod	_	Translit=.wan.jeon.hi
-5	사라지지는	사라지지	PART	VV+AP	Form=Aux	6	aux	_	MSeg=사라지지-는|Translit=.sa.ra.ji.ji.neun|LTranslit=.sa.ra.ji.ji
-6	않을	_	VERB	VV	Form=Adn|Tense=Fut	7	dep	_	Translit=.anh.eul
+3	신호가	신호	NOUN	NN+CM	Case=Nom|Polite=Form	5	nsubj	_	MSeg=신호-가|Translit=.sin.ho.ga|LTranslit=.sin.ho
+4	완전히	_	ADV	RB	_	5	advmod	_	Translit=.wan.jeon.hi
+5	사라지지는	사라지지	PART	VV+AP	Form=Aux	7	dep	_	MSeg=사라지지-는|Translit=.sa.ra.ji.ji.neun|LTranslit=.sa.ra.ji.ji
+6	않을	_	AUX	VV	Form=Adn|Tense=Fut	5	aux	_	Translit=.anh.eul
 7	것	_	NOUN	NNB	_	37	advcl	_	SpaceAfter=No|Translit=.geos
 8	인데	_	AUX	VC	Form=Compl	7	cop	_	SpaceAfter=No|Translit=.in.de
 9	,	,	PUNCT	,	_	7	punct	_	Translit=,|LTranslit=,
