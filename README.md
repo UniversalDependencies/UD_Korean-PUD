@@ -105,6 +105,7 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
   * Fixed: adverbially used nominals are obl, not advmod.
   * Fixed: adverbially used verbs are advcl, not advmod.
   * Fixed auxiliaries.
+  * Fixed: function words should be leaves.
 * 2020-05-15 v2.8
   * Removed undocumented Case values Advb and Comp. They are not used in
     the other Korean treebanks.
