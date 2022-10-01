@@ -18702,14 +18702,14 @@
 # text_en = This morning, Pope Francis met Mark Zuckerberg and his wife at Casa Santa Marta.
 1	오늘	_	NOUN	NN	_	2	compound	_	Translit=.o.neul
 2	아침	_	NOUN	NN	_	13	obl	_	Translit=.a.chim
-3	프란치스코	_	PROPN	NNP	_	4	compound	_	Translit=.peu.ran.chi.seu.ko
+3	프란치스코	프란치스코	PROPN	NNP	_	4	compound	_	Translit=.peu.ran.chi.seu.ko|LTranslit=.peu.ran.chi.seu.ko
 4	교황은	교황	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj	_	MSeg=교황-은|Translit=.gyo.hwang.eun|LTranslit=.gyo.hwang
-5	카사	_	PROPN	NNP	_	13	obl	_	Translit=.ka.sa
-6	산타	_	PROPN	NNP	_	5	flat:name	_	Translit=.san.ta
-7	마르타	_	NOUN	_	_	5	goeswith	_	SpaceAfter=No|Translit=.ma.reu.ta
+5	카사	카사	PROPN	NNP	_	13	obl	_	Translit=.ka.sa|LTranslit=.ka.sa
+6	산타	산타	PROPN	NNP	_	5	flat:name	_	Translit=.san.ta|LTranslit=.san.ta
+7	마르타	마르타	PROPN	NNP	_	5	flat:name	_	SpaceAfter=No|Translit=.ma.reu.ta|LTranslit=.ma.reu.ta
 8	에서	에서	PART	CM	Polite=Form	5	case	_	Translit=.e.seo|LTranslit=.e.seo
-9	마크	_	PROPN	NNP	_	13	obj	_	Translit=.ma.keu
-10	주커버그	_	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No|Translit=.ju.keo.beo.geu
+9	마크	마크	PROPN	NNP	_	13	obj	_	Translit=.ma.keu|LTranslit=.ma.keu
+10	주커버그	주커버그	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No|Translit=.ju.keo.beo.geu|LTranslit=.ju.keo.beo.geu
 11	와	와	PART	CP	Polite=Form	9	case	_	Translit=.wa|LTranslit=.wa
 12	아내를	아내	NOUN	NN+CM	Case=Acc|Polite=Form	9	conj	_	MSeg=아내-를|Translit=.a.nae.reul|LTranslit=.a.nae
 13	예방했다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.ye.bang.haess.da
