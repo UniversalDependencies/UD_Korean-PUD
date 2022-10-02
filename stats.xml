@@ -10,27 +10,27 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>16584</tokens><words>16584</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2609" /><!-- ., ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 이, 고, 자신, 1 -->
+  <lemmas unique="2615" /><!-- ., ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 이, 고, 자신, 1 -->
   <forms unique="8258" /><!-- ., ,, 인, 년, 그, 수, ", 는, 이다, (, ), 있다, 것, 이, 있는 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
-    <tag name="ADJ">632</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
-    <tag name="ADV">529</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
+    <tag name="ADJ">629</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
+    <tag name="ADV">528</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
     <tag name="AUX">663</tag><!-- _ -->
     <tag name="CCONJ">125</tag><!-- _ -->
-    <tag name="DET">465</tag><!-- _, 있는가, 총 -->
-    <tag name="NOUN">8082</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
+    <tag name="DET">464</tag><!-- _, 있는가, 총 -->
+    <tag name="NOUN">8052</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
     <tag name="NUM">513</tag><!-- 1, _, 10, 3, 2, 4, 6, 20, 8, 5 -->
     <tag name="PART">478</tag><!-- 는, 의, 고, 에, 도, 라고, 가, 와, 에서, 이 -->
     <tag name="PRON">374</tag><!-- 그, 그녀, 자신, 그것, _, 그들, 이, 나, 우리, 이것 -->
-    <tag name="PROPN">1676</tag><!-- _, 중국, 영국, 미국, 러시아, 마케도니아, 유럽, 프랑스, 그리스, 독일 -->
+    <tag name="PROPN">1677</tag><!-- _, 중국, 영국, 미국, 러시아, 마케도니아, 유럽, 프랑스, 그리스, 독일 -->
     <tag name="PUNCT">1595</tag><!-- ., ,, ", (, ), “, ”, ', -, ? -->
-    <tag name="VERB">1449</tag><!-- _ -->
-    <tag name="X">3</tag><!-- _ -->
+    <tag name="VERB">1439</tag><!-- _ -->
+    <tag name="X">47</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="22">
+  <feats unique="23">
     <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN">1006</feat><!-- 것을, 를, 영향을, 을, 모습을, 일을, 역할을, 이를, %를, 강을 -->
     <feat name="Case" value="Gen" upos="NOUN,PART,PRON,PROPN">656</feat><!-- 의, 자신의, 그의, 지역의, 명의, 개의, 그녀의, 중국의, 다수의, 그들의 -->
     <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PART,PRON,PROPN">1525</feat><!-- 그는, 는, 가, 그녀는, 나는, 것이, 것은, 은, 이, 그것은 -->
@@ -49,6 +49,7 @@
     <feat name="PronType" value="Int" upos="AUX,DET,PART,VERB">22</feat><!-- 가, 인가, 있는가, 나뉘어졌는가를, 나왔나요, 되었나, 아닌가, 어떠한가, 어떤가, 일까 -->
     <feat name="Tense" value="Fut" upos="ADJ,AUX,PART,VERB">32</feat><!-- 될, 일어날, 있을, 나갈, 날, 내리겠다고, 내릴, 늦추어질, 다가올, 돌아올 -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,PART,VERB">641</feat><!-- 이었다, 되었다, 였다, 있었다, 했다, 않았다, 된, 못했다, 받았다, 한 -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADV,DET,NOUN,PROPN,VERB">43</feat><!-- 그, 이, 지난, 한, 북, 북서, 주고, 그만, 남, 년 -->
     <feat name="VerbForm" value="Fin" upos="ADJ,AUX,DET,PART,VERB">762</feat><!-- 이다, 있다, 이었다, 되었다, 한다, 이라, 였다, 있었다, 했다, 않았다 -->
     <feat name="VerbForm" value="Ger" upos="ADJ,AUX,PART,VERB">79</feat><!-- 있기, 있었기, 만들기, 이기, 있음을, 그럼에, 그렇기, 높기, 벗어나기, 않기로 -->
     <feat name="Voice" value="Cau" upos="PART,VERB">44</feat><!-- 남겨, 남긴, 덧붙였다, 보였다, 세웠다, 태우고, 끝냈으며, 날리게, 낮추거나, 낮추는 -->
@@ -76,8 +77,8 @@
     <dep name="discourse">1</dep>
     <dep name="fixed">4</dep>
     <dep name="flat">61</dep>
-    <dep name="flat:name">269</dep>
-    <dep name="goeswith">45</dep>
+    <dep name="flat:name">270</dep>
+    <dep name="goeswith">44</dep>
     <dep name="iobj">23</dep>
     <dep name="nmod:poss">655</dep>
     <dep name="nsubj">1546</dep>
