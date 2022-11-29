@@ -10,14 +10,14 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>16584</tokens><words>16584</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2615" /><!-- ., 이, ,, 것, 그, ", 는, (, ), 지역, 그녀, 의, 고, 자신, 1 -->
+  <lemmas unique="2619" /><!-- ., 이, ,, 것, 그, ", 는, (, ), 있, 지역, 그녀, 의, 않, 고 -->
   <forms unique="8258" /><!-- ., ,, 인, 년, 그, 수, ", 는, 이다, (, ), 있다, 것, 이, 있는 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
     <tag name="ADJ">629</tag><!-- _, 있다, 그럼, 같다, 같아, 놀랍게, 놀랍기, 놀랍다, 많다, 밤늦게 -->
     <tag name="ADV">528</tag><!-- _, 없이, 지금, 너무, 당분간, 때로, 불과했어, 불행히, 아직, 이제 -->
-    <tag name="AUX">663</tag><!-- _, 이 -->
+    <tag name="AUX">663</tag><!-- _, 이, 있, 않, 하, 싶 -->
     <tag name="CCONJ">125</tag><!-- _ -->
     <tag name="DET">464</tag><!-- _, 있는가, 총 -->
     <tag name="NOUN">8052</tag><!-- _, 것, 지역, 년, 사람들, 때문, 명, 사이, %, 정부 -->
