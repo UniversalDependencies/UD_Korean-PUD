@@ -99,6 +99,8 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Added lemmas of copulas.
 * 2022-11-15 v2.11
   * Fixed right-headed apposition and non-projective punctuation.
   * Fixed: DET can be attached as det but not as nummod.
