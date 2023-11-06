@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Korean-PUD:
-commit bfffdc1a679b83d5e76d078c54e96ee4bbaffefd
-Merge: e778589 24f761e
+commit fd7df99eb8a311c4f092c9424fa243b14e021ac1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:21:21 2023 +0200
 Size: counted 16584 of 16584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.61687675026696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -35,7 +35,9 @@ Genres: found 2 out of 17 known.
 [Line 1981 Sent n01034033 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [10, 14] not subtyped as ':outer'.
 [Line 2088 Sent n01035025 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [2, 11] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 20317 Sent w02019048 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '사적으로 * 아니라'
 Syntax errors: 71
+Warnings: 1
 *** FAILED *** with 71 errors
 Exit code: 1
 Validity: 0.01
