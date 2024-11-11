@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Korean-PUD:
-commit 0d67bab3608690de01e56c03f9db1ffb9c9dc1d3
+commit 48a011133201f59fc86154d0efe62c901e237c84
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:33:59 2023 +0100
+Date:   Sun May 5 12:59:04 2024 +0200
 Size: counted 16584 of 16584 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.61687675026696.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,9 +25,13 @@ Udapi: found 2270 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16584 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-PUD/ko_pud-ud-test.conllu
+[Line 325 Sent n01005023 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:만:det --> 16:억:nummod)
+[Line 326 Sent n01005023 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:만:det --> 17:370:nummod)
 [Line 704 Sent n01015033 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [4, 11] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 747 Sent n01015036 Node 37]: [L3 Syntax too-many-subjects] Multiple subjects [32, 35] not subtyped as ':outer'.
 [Line 870 Sent n01017008 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [3, 25] not subtyped as ':outer'.
+[Line 1267 Sent n01022016 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:십억:det --> 12:백:nummod)
+[Line 1268 Sent n01022016 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:십억:det --> 13:1:nummod)
 [Line 1364 Sent n01023043 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [5, 14] not subtyped as ':outer'.
 [Line 1572 Sent n01027030 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [5, 6] not subtyped as ':outer'.
 [Line 1602 Sent n01027049 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'.
@@ -36,9 +40,15 @@ Genres: found 2 out of 17 known.
 [Line 2088 Sent n01035025 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [2, 11] not subtyped as ':outer'.
 [Line 2185 Sent n01036033 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
-[Line 20317 Sent w02019048 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] '사적으로 * 아니라'
+[Line 2480 Sent n01043005 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:만:det --> 8:150:nummod)
+[Line 2508 Sent n01043014 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:억:det --> 3:14:nummod)
+[Line 2562 Sent n01043027 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:만:det --> 7:150:nummod)
+[Line 5923 Sent n01107006 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:억:det --> 16:160:nummod)
+[Line 6202 Sent n01111021 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:억:det --> 13:20:nummod)
+[Line 6205 Sent n01111021 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:억:det --> 16:14:nummod)
+...suppressing further errors regarding Warning
 Syntax errors: 71
-Warnings: 1
+Warnings: 26
 *** FAILED *** with 71 errors
 Exit code: 1
 Validity: 0.01
