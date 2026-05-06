@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Korean-PUD:
-commit 660ac9e3314a9915f53310dcefaef7d55dd1304f
-Merge: 9bc99c2 e942f9c
+commit 08bed65942007f7e9f24dd5c70587543b566e3de
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:10:59 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ko_pud'
 Language code (from CoNLL-U file name) = 'ko'
@@ -25,34 +25,39 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-PUD/ko_pud-ud-test.conllu
-[Line 48 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word '이것은 .i.geos.eun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 75 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word '자신이 .ja.sin.i' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 105 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word '그는 .geu.neun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 119 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word '여러분의 .yeo.reo.bun.yi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 147 Sent n01002058]: [L3 Warning pron-det-without-prontype] The word '그녀가 .geu.nyeo.ga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 150 Sent n01002058]: [L3 Warning pron-det-without-prontype] The word '그녀가 .geu.nyeo.ga' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 230 Sent n01003012]: [L3 Warning pron-det-without-prontype] The word '그 .geu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 233 Sent n01003012]: [L3 Warning pron-det-without-prontype] The word '몇 .myeoch' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 301 Sent n01004017]: [L3 Warning pron-det-without-prontype] The word '그들은 .geu.deul.eun' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 323 Sent n01005023]: [L3 Warning pron-det-without-prontype] The word '그에 .geu.e' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 338 Sent n01005023]: [L3 Syntax leaf-det] 'det' not expected to have children (18:만:det --> 16:억:nummod)
-[Line 339 Sent n01005023]: [L3 Syntax leaf-det] 'det' not expected to have children (18:만:det --> 17:370:nummod)
-[Line 733 Sent n01015033]: [L3 Syntax too-many-subjects] Multiple subjects [4, 11] ('이름은 .i.reum.eun', '것이 .geos.i') under the predicate '분명하다 .bun.myeong.ha.da' not subtyped as ':outer'.
+[Line 48 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word '이것은 .i.geos.eun' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 75 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word '자신이 .ja.sin.i' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 105 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word '그는 .geu.neun' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 119 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word '여러분의 .yeo.reo.bun.yi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 147 Sent n01002058]: [L3 WARNING pron-det-without-prontype] The word '그녀가 .geu.nyeo.ga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 150 Sent n01002058]: [L3 WARNING pron-det-without-prontype] The word '그녀가 .geu.nyeo.ga' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 230 Sent n01003012]: [L3 WARNING pron-det-without-prontype] The word '그 .geu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 233 Sent n01003012]: [L3 WARNING pron-det-without-prontype] The word '몇 .myeoch' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 301 Sent n01004017]: [L3 WARNING pron-det-without-prontype] The word '그들은 .geu.deul.eun' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 323 Sent n01005023]: [L3 WARNING pron-det-without-prontype] The word '그에 .geu.e' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 338 Sent n01005023]: [L3 SYNTAX leaf-det] 'det' not expected to have children (18:만:det --> 16:억:nummod)
+[Line 339 Sent n01005023]: [L3 SYNTAX leaf-det] 'det' not expected to have children (18:만:det --> 17:370:nummod)
+[Line 733 Sent n01015033]: [L3 SYNTAX too-many-subjects] Multiple subjects [4, 11] ('이름은 .i.reum.eun', '것이 .geos.i') under the predicate '분명하다 .bun.myeong.ha.da' not subtyped as ':outer'.
 
 Outer subjects are allowed if a clause acts as the predicate of another clause.
 
-[Line 777 Sent n01015036]: [L3 Syntax too-many-subjects] Multiple subjects [32, 35] ('케이라가 .ke.i.ra.ga', '배 .bae') under the predicate '많았다 .manh.ass.da' not subtyped as ':outer'.
-[Line 905 Sent n01017008]: [L3 Syntax too-many-subjects] Multiple subjects [3, 25] ('항공 .hang.gong', '수 .su') under the predicate '있을지 .iss.eul.ji' not subtyped as ':outer'.
-[Line 1318 Sent n01022016]: [L3 Syntax leaf-det] 'det' not expected to have children (14:십억:det --> 12:백:nummod)
-[Line 1319 Sent n01022016]: [L3 Syntax leaf-det] 'det' not expected to have children (14:십억:det --> 13:1:nummod)
-[Line 1419 Sent n01023043]: [L3 Syntax too-many-subjects] Multiple subjects [5, 14] ('것은 .geos.eun', '수 .su') under the predicate '있다 .iss.da' not subtyped as ':outer'.
-[Line 1637 Sent n01027030]: [L3 Syntax too-many-subjects] Multiple subjects [5, 6] ('주제는 .ju.je.neun', '대부분이 .dae.bu.bun.i') under the predicate '것 .geos' not subtyped as ':outer'.
-[Line 1669 Sent n01027049]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] ('모두가 .mo.du.ga', '수 .su') under the predicate '있는 .iss.neun' not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
-Syntax errors: 98
-Warnings: 914
-*** FAILED *** with 98 errors
+[Line 777 Sent n01015036]: [L3 SYNTAX too-many-subjects] Multiple subjects [32, 35] ('케이라가 .ke.i.ra.ga', '배 .bae') under the predicate '많았다 .manh.ass.da' not subtyped as ':outer'.
+[Line 905 Sent n01017008]: [L3 SYNTAX too-many-subjects] Multiple subjects [3, 25] ('항공 .hang.gong', '수 .su') under the predicate '있을지 .iss.eul.ji' not subtyped as ':outer'.
+[Line 1318 Sent n01022016]: [L3 SYNTAX leaf-det] 'det' not expected to have children (14:십억:det --> 12:백:nummod)
+[Line 1319 Sent n01022016]: [L3 SYNTAX leaf-det] 'det' not expected to have children (14:십억:det --> 13:1:nummod)
+[Line 1339 Sent n01022027]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] '기여도는 .gi.yeo.do.neun') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1379 Sent n01023034]: [L3 WARNING fixed-without-extpos] Fixed expression '공룡뿐 아니라' does not have the 'ExtPos' feature
+[Line 1419 Sent n01023043]: [L3 SYNTAX too-many-subjects] Multiple subjects [5, 14] ('것은 .geos.eun', '수 .su') under the predicate '있다 .iss.da' not subtyped as ':outer'.
+[Line 1637 Sent n01027030]: [L3 SYNTAX too-many-subjects] Multiple subjects [5, 6] ('주제는 .ju.je.neun', '대부분이 .dae.bu.bun.i') under the predicate '것 .geos' not subtyped as ':outer'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 3241 Sent n01053041]: [L3 WARNING fixed-without-extpos] Fixed expression '말 그대로' does not have the 'ExtPos' feature
+[Line 18553 Sent n02082017]: [L3 WARNING fixed-without-extpos] Fixed expression '뿐 아니라' does not have the 'ExtPos' feature
+[Line 21240 Sent w02019048]: [L3 WARNING fixed-without-extpos] Fixed expression '사적으로 아니라' does not have the 'ExtPos' feature
+[Line 21240 Sent w02019048]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 3] '사적으로 * 아니라'
+Warnings: 887
+SYNTAX errors: 124
+*** FAILED *** with 124 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.4) = 0.0444444444444444
