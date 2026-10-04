@@ -56,7 +56,7 @@
     <feat name="Voice" value="Pass" upos="PART,VERB">64</feat><!-- 열린, 보인다, 낮아지게, 놓여, 되었고, 만들어졌다, 보였던, 걸러졌고, 걸린, 꾸며져 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
+  <deps unique="37">
     <dep name="acl:relcl">1188</dep>
     <dep name="advcl">999</dep>
     <dep name="advmod">593</dep>
@@ -80,14 +80,16 @@
     <dep name="flat:name">270</dep>
     <dep name="goeswith">44</dep>
     <dep name="iobj">23</dep>
+    <dep name="nmod">19</dep>
     <dep name="nmod:poss">655</dep>
+    <dep name="nmod:tmod">8</dep>
     <dep name="nsubj">1478</dep>
     <dep name="nsubj:outer">63</dep>
     <dep name="nsubj:pass">157</dep>
     <dep name="nummod">487</dep>
     <dep name="obj">1030</dep>
-    <dep name="obl">1877</dep>
-    <dep name="obl:tmod">104</dep>
+    <dep name="obl">1858</dep>
+    <dep name="obl:tmod">96</dep>
     <dep name="orphan">4</dep>
     <dep name="punct">1595</dep>
     <dep name="root">1000</dep>

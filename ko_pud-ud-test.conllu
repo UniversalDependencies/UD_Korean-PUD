@@ -1336,7 +1336,7 @@
 6	멋진	_	ADJ	JJ	Form=Adn	7	amod	_	Translit=.meos.jin
 7	일	_	NOUN	NN	_	18	advcl	_	SpaceAfter=No|Translit=.il
 8	이지만	이	AUX	VC	Form=Compl	7	cop	_	Translit=.i.ji.man|LTranslit=.i
-9	지금까지	지금	NOUN	NN+AP	_	12	obl	_	MSeg=지금-까지|Translit=.ji.geum.gga.ji|LTranslit=.ji.geum
+9	지금까지	지금	NOUN	NN+AP	_	12	nmod	_	MSeg=지금-까지|Translit=.ji.geum.gga.ji|LTranslit=.ji.geum
 10	각국의	각국	NOUN	NN+CM	Case=Gen|Polite=Form	12	nmod:poss	_	MSeg=각국-의|Translit=.gag.gug.yi|LTranslit=.gag.gug
 11	감축	_	NOUN	NN	_	12	compound	_	Translit=.gam.chug
 12	기여도는	기여도	NOUN	NN+CM	Case=Nom|Polite=Form	18	nsubj	_	MSeg=기여도-는|Translit=.gi.yeo.do.neun|LTranslit=.gi.yeo.do
@@ -2320,7 +2320,7 @@
 1	길비울트는	길비울트	PROPN	NNP+CM	Case=Nom|Polite=Form	25	nsubj	_	MSeg=길비울트-는|Translit=.gil.bi.ul.teu.neun|LTranslit=.gil.bi.ul.teu
 2	현재	_	ADV	RB	_	23	advmod	_	Translit=.hyeon.jae
 3	많은	_	ADJ	JJ	Form=Adn	4	amod	_	Translit=.manh.eun
-4	나라들과	나라들	NOUN	NN+CP	Number=Plur|Polite=Form	16	obl	_	MSeg=나라들-과|Translit=.na.ra.deul.gwa|LTranslit=.na.ra.deul
+4	나라들과	나라들	NOUN	NN+CP	Number=Plur|Polite=Form	16	nmod	_	MSeg=나라들-과|Translit=.na.ra.deul.gwa|LTranslit=.na.ra.deul
 5	특히	_	ADV	RB	_	16	advmod	_	Translit=.teug.hi
 6	브라질	_	PROPN	NNP	_	13	obl	_	SpaceAfter=No|Translit=.beu.ra.jil
 7	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=,
@@ -2476,7 +2476,7 @@
 # translit = .ma.il.ri.seu.neun .mog.yo.il CBC News.wa.yi .in.teo.byu.e.seo .i.geos.eun .tong.jeung .hwan.ja.deul.e.ge .jae.ang.i.ra.go .mal.haess.da.
 # text_en = "This is a disaster for pain patients," Mailis said in an interview Thursday with CBC News.
 1	마일리스는	마일리스	PROPN	NNP+CM	Case=Nom|Polite=Form	13	nsubj	_	MSeg=마일리스-는|Translit=.ma.il.ri.seu.neun|LTranslit=.ma.il.ri.seu
-2	목요일	_	NOUN	NN	_	6	obl:tmod	_	Translit=.mog.yo.il
+2	목요일	_	NOUN	NN	_	6	nmod:tmod	_	Translit=.mog.yo.il
 3	CBC	_	PROPN	NNP	_	4	compound	_	Translit=CBC
 4	News와	News	NOUN	NN+CM	Polite=Form	6	nmod:poss	_	SpaceAfter=No|Proper=True|MSeg=News-와|Translit=News.wa|LTranslit=News
 5	의	의	PART	CM	Case=Gen|Polite=Form	4	case	_	Translit=.yi|LTranslit=.yi
@@ -3668,7 +3668,7 @@
 # translit = 2016.nyeon .dae.tong.ryeong .seon.geo.yi .yeol.gi.ga .geug.do.ro .go.jo.doe.myeon.seo, .heo.teun.so.ri.bo.da.neun .gol.chi .a.peun .wi.hyeob.i .ka.rel.yi .noe.ri.reul .ddeo.na.ji .anh.ass.da.
 # text_en = As the hysteria of the 2016 Presidential election intensifies, a more troubling threat than bullshit preoccupies Karel.
 1	2016	2016	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=2016|LTranslit=2016
-2	년	_	NOUN	NNB	_	4	obl:tmod	_	Translit=.nyeon
+2	년	_	NOUN	NNB	_	4	nmod:tmod	_	Translit=.nyeon
 3	대통령	_	NOUN	NN	_	4	compound	_	Translit=.dae.tong.ryeong
 4	선거의	선거	NOUN	NN+CM	Case=Gen|Polite=Form	5	nmod:poss	_	MSeg=선거-의|Translit=.seon.geo.yi|LTranslit=.seon.geo
 5	열기가	열기	NOUN	NN+CM	Case=Nom|Polite=Form	7	nsubj:pass	_	MSeg=열기-가|Translit=.yeol.gi.ga|LTranslit=.yeol.gi
@@ -5839,7 +5839,7 @@
 3	1997	1997	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No|Translit=1997|LTranslit=1997
 4	년	_	NOUN	NNB	_	8	obl:tmod	_	Translit=.nyeon
 5	홍콩이	홍콩	PROPN	NNP+CM	Case=Nom|Polite=Form	8	nsubj:pass	_	MSeg=홍콩-이|Translit=.hong.kong.i|LTranslit=.hong.kong
-6	영국에서	영국	PROPN	NNP+CM	Polite=Form	7	obl	_	MSeg=영국-에서|Translit=.yeong.gug.e.seo|LTranslit=.yeong.gug
+6	영국에서	영국	PROPN	NNP+CM	Polite=Form	7	nmod	_	MSeg=영국-에서|Translit=.yeong.gug.e.seo|LTranslit=.yeong.gug
 7	중국으로	중국	PROPN	NNP+CM	Polite=Form	8	obl	_	MSeg=중국-으로|Translit=.jung.gug.eu.ro|LTranslit=.jung.gug
 8	이양된	_	NOUN	NN	_	9	acl:relcl	_	SpaceAfter=No|Translit=.i.yang.doen
 9	후	_	NOUN	NN	_	12	obl	_	Translit=.hu
@@ -6422,7 +6422,7 @@
 # text_en = The money invested in Premium Bonds, and in other National Savings & Investments accounts, is used to help fund Government spending.
 # ToDoOrigText = 할증금 부채권과 다른 영국국민저축투자연합회 계좌에 투자된 돈은 정부 지출에 대한 자금 지원에 사용된다.
 1	할증금	_	NOUN	NN	_	2	compound	_	Translit=.hal.jeung.geum
-2	부채권과	부채권	NOUN	NN+CP	Polite=Form	9	obl	_	MSeg=부채권-과|Translit=.bu.chae.gweon.gwa|LTranslit=.bu.chae.gweon
+2	부채권과	부채권	NOUN	NN+CP	Polite=Form	9	nmod	_	MSeg=부채권-과|Translit=.bu.chae.gweon.gwa|LTranslit=.bu.chae.gweon
 3	다른	_	DET	DT	_	9	det	_	Translit=.da.reun
 4	영국	_	PROPN	NNP	_	8	compound	_	SpaceAfter=No|Translit=.yeong.gug
 5	국민	_	NOUN	NN	_	7	compound	_	SpaceAfter=No|Proper=True|Translit=.gug.min
@@ -7668,7 +7668,7 @@
 4	팔아	_	VERB	VV	Form=Aux	16	advcl	_	Translit=.pal.a
 5	치우고	_	AUX	VX	Form=Aux	4	aux	_	Translit=.chi.u.go
 6	있으며	있	AUX	VX	Form=Compl	4	aux	_	Translit=.iss.eu.myeo|LTranslit=.iss
-7	그	_	NOUN	NN	Typo=Yes	12	obl	_	Translit=.geu
+7	그	_	NOUN	NN	Typo=Yes	12	nmod	_	Translit=.geu
 8	중	_	X	_	_	7	goeswith	_	SpaceAfter=No|Translit=.jung
 9	에서	에서	PART	CM	Polite=Form	7	case	_	Translit=.e.seo|LTranslit=.e.seo
 10	미국과	미국	PROPN	NNP+CP	Polite=Form	12	compound	_	MSeg=미국-과|Translit=.mi.gug.gwa|LTranslit=.mi.gug
@@ -8789,7 +8789,7 @@
 # translit = 2019.nyeon .dong.gye .yu.ni.beo.si.a.deu.neun .keu.ra.seu.no.ya.reu.seu.keu.e.seo .gae.choe.doen.da.
 # text_en = The 2019 Winter Universiade will be hosted by Krasnoyarsk.
 1	2019	2019	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Proper=True|Translit=2019|LTranslit=2019
-2	년	_	NOUN	NNB	_	4	obl:tmod	_	Proper=True|Translit=.nyeon
+2	년	_	NOUN	NNB	_	4	nmod:tmod	_	Proper=True|Translit=.nyeon
 3	동계	_	NOUN	NN	_	4	compound	_	Proper=True|Translit=.dong.gye
 4	유니버시아드는	유니버시아드	PROPN	NNP+CM	Case=Nom|Polite=Form	6	nsubj:pass	_	MSeg=유니버시아드-는|Translit=.yu.ni.beo.si.a.deu.neun|LTranslit=.yu.ni.beo.si.a.deu
 5	크라스노야르스크에서	크라스노야르스크	PROPN	NNP+CM	Polite=Form	6	obl	_	MSeg=크라스노야르스크-에서|Translit=.keu.ra.seu.no.ya.reu.seu.keu.e.seo|LTranslit=.keu.ra.seu.no.ya.reu.seu.keu
@@ -9502,7 +9502,7 @@
 9	년	_	NOUN	NNB	_	11	obl:tmod	_	Proper=True|Translit=.nyeon
 10	하계	_	NOUN	NN	_	11	compound	_	Proper=True|Translit=.ha.gye
 11	올림픽	_	PROPN	NNP	_	12	compound	_	Translit=.ol.rim.pig
-12	당시	_	NOUN	NN	_	15	obl	_	Translit=.dang.si
+12	당시	_	NOUN	NN	_	15	nmod	_	Translit=.dang.si
 13	중국의	중국	PROPN	NNP+CM	Case=Gen|Polite=Form	15	nmod:poss	_	MSeg=중국-의|Translit=.jung.gug.yi|LTranslit=.jung.gug
 14	강우량	_	NOUN	NN	_	15	compound	_	Translit=.gang.u.ryang
 15	정책이	정책	NOUN	NN+CM	Case=Nom|Polite=Form	16	nsubj	_	MSeg=정책-이|Translit=.jeong.chaeg.i|LTranslit=.jeong.chaeg
@@ -10272,7 +10272,7 @@
 6	다양한	_	NOUN	NN	_	7	acl:relcl	_	SpaceAfter=No|Translit=.da.yang.han
 7	녹색을	녹색	NOUN	NN+CM	Case=Acc|Polite=Form	8	obj	_	MSeg=녹색-을|Translit=.nog.saeg.eul|LTranslit=.nog.saeg
 8	보였는데	_	VERB	VV	Form=Compl|Tense=Past|Voice=Cau	13	acl:relcl	_	Translit=.bo.yeoss.neun.de
-9	노란색에서	노란색	NOUN	NN+CM	Polite=Form	10	obl	_	MSeg=노란색-에서|Translit=.no.ran.saeg.e.seo|LTranslit=.no.ran.saeg
+9	노란색에서	노란색	NOUN	NN+CM	Polite=Form	10	nmod	_	MSeg=노란색-에서|Translit=.no.ran.saeg.e.seo|LTranslit=.no.ran.saeg
 10	파란색까지	파란색	NOUN	NN+AP	_	13	obl	_	MSeg=파란색-까지|Translit=.pa.ran.saeg.gga.ji|LTranslit=.pa.ran.saeg
 11	그	_	DET	DT	_	12	det	_	Translit=.geu
 12	범위가	범위	NOUN	NN+CM	Case=Nom|Polite=Form	13	nsubj	_	MSeg=범위-가|Translit=.beom.wi.ga|LTranslit=.beom.wi
@@ -11291,7 +11291,7 @@
 6	방문한	_	NOUN	NN	_	7	acl:relcl	_	SpaceAfter=No|Translit=.bang.mun.han
 7	유럽인들은	유럽인들	PROPN	NNP+CM	Case=Nom|Number=Plur|Polite=Form	33	nsubj	_	MSeg=유럽인들-은|Translit=.yu.reob.in.deul.eun|LTranslit=.yu.reob.in.deul
 8	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No|Translit="|LTranslit="
-9	북해	_	PROPN	NNP	_	21	obl	_	SpaceAfter=No|Translit=.bug.hae
+9	북해	_	PROPN	NNP	_	21	nmod	_	SpaceAfter=No|Translit=.bug.hae
 10	"	"	PUNCT	''	_	9	punct	_	SpaceAfter=No|Translit="|LTranslit="
 11	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
 12	카리브	_	PROPN	NNP	_	13	compound	_	SpaceAfter=No|Translit=.ka.ri.beu
@@ -11443,7 +11443,7 @@
 # text_en = By mid-1962, Brooks and Carson had largely finished the editing, and were laying the groundwork for promoting the book by sending the manuscript out to select individuals for final suggestions.
 # ToDoOrigText = 1962년 중반까지 브룩스와 카슨은 편집의 대부분을 끝냈으며 최종 제안으로 자신이 선택한 사람들에게 필사본을 보냄으로써 책을 홍보하기 위한 기반을 다져 놓는 중이었다.
 1	1962	1962	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=1962|LTranslit=1962
-2	년	_	NOUN	NNB	_	3	obl:tmod	_	Translit=.nyeon
+2	년	_	NOUN	NNB	_	3	nmod:tmod	_	Translit=.nyeon
 3	중반까지	중반	NOUN	NN+AP	_	22	obl	_	MSeg=중반-까지|Translit=.jung.ban.gga.ji|LTranslit=.jung.ban
 4	브룩스와	브룩스	PROPN	NNP+CP	Polite=Form	22	nsubj	_	MSeg=브룩스-와|Translit=.beu.rug.seu.wa|LTranslit=.beu.rug.seu
 5	카슨은	카슨	PROPN	NNP+CM	Case=Nom|Polite=Form	4	conj	_	MSeg=카슨-은|Translit=.ka.seun.eun|LTranslit=.ka.seun
@@ -11618,7 +11618,7 @@
 # text_en = With the fall of the Qing dynasty in 1911, Mongolia under the Bogd Khaan declared independence.
 # ToDoOrigText = 1911년청 왕조의 몰락과 함께 복드 칸이 지배하던 몽골은 독립을 선언하였다.
 1	1911	1911	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=1911|LTranslit=1911
-2	년	_	NOUN	NNB	_	5	obl:tmod	_	SpaceAfter=No|Translit=.nyeon
+2	년	_	NOUN	NNB	_	5	nmod:tmod	_	SpaceAfter=No|Translit=.nyeon
 3	청	_	PROPN	NNP	_	4	compound	_	Translit=.cheong
 4	왕조의	왕조	NOUN	NN+CM	Case=Gen|Polite=Form	5	nmod:poss	_	Proper=True|MSeg=왕조-의|Translit=.wang.jo.yi|LTranslit=.wang.jo
 5	몰락과	몰락	NOUN	NN+CM	Polite=Form	6	obl	_	MSeg=몰락-과|Translit=.mol.rag.gwa|LTranslit=.mol.rag
@@ -11996,7 +11996,7 @@
 7	이탈리아	_	PROPN	NNP	_	8	compound	_	Translit=.i.tal.ri.a
 8	전역으로	전역	NOUN	NN+CM	Polite=Form	9	obl	_	MSeg=전역-으로|Translit=.jeon.yeog.eu.ro|LTranslit=.jeon.yeog
 9	퍼진	_	VERB	VV	Form=Adn|Tense=Past	10	dep	_	Translit=.peo.jin
-10	것과	것	NOUN	NNB+CM	Polite=Form	11	obl	_	MSeg=것-과|Translit=.geos.gwa|LTranslit=.geos
+10	것과	것	NOUN	NNB+CM	Polite=Form	11	nmod	_	MSeg=것-과|Translit=.geos.gwa|LTranslit=.geos
 11	마찬가지로	마찬가지	NOUN	NN+CM	Polite=Form	15	obl	_	MSeg=마찬가지-로|Translit=.ma.chan.ga.ji.ro|LTranslit=.ma.chan.ga.ji
 12	지중해	_	PROPN	NNP	_	13	compound	_	Translit=.ji.jung.hae
 13	지역	_	NOUN	NN	_	14	compound	_	Translit=.ji.yeog
@@ -12794,7 +12794,7 @@
 # text_en = Its struggle against the Ottoman Empire in the Mediterranean Sea put serious limits on the military power it could deploy against the rebels in the Netherlands.
 # ToDoOrigText = 지중해 지역에서 오스만 제국과의 대결로 인해 네덜란드에서 일어난 반란을 진압할 수 있는 병력에 심각한 한계가 생기게 되었다.
 1	지중해	_	PROPN	NNP	_	2	compound	_	Translit=.ji.jung.hae
-2	지역에서	지역	NOUN	NN+CM	Polite=Form	6	obl	_	MSeg=지역-에서|Translit=.ji.yeog.e.seo|LTranslit=.ji.yeog
+2	지역에서	지역	NOUN	NN+CM	Polite=Form	6	nmod	_	MSeg=지역-에서|Translit=.ji.yeog.e.seo|LTranslit=.ji.yeog
 3	오스만	_	PROPN	NNP	_	4	compound	_	Translit=.o.seu.man
 4	제국과	제국	NOUN	NN+CM	Polite=Form	6	nmod:poss	_	SpaceAfter=No|Proper=True|MSeg=제국-과|Translit=.je.gug.gwa|LTranslit=.je.gug
 5	의	의	PART	CM	Case=Gen|Polite=Form	4	case	_	Translit=.yi|LTranslit=.yi
@@ -16214,11 +16214,11 @@
 1	톰슨이	톰슨	PROPN	NNP+CM	Case=Nom|Polite=Form	2	nsubj	_	MSeg=톰슨-이|Translit=.tom.seun.i|LTranslit=.tom.seun
 2	기고한	_	NOUN	NN	_	3	acl:relcl	_	SpaceAfter=No|Translit=.gi.go.han
 3	논문은	논문	NOUN	NN+CM	Case=Nom|Polite=Form	17	nsubj	_	MSeg=논문-은|Translit=.non.mun.eun|LTranslit=.non.mun
-4	마야인에게	마야인	PROPN	NNP+CM	Polite=Form	8	obl	_	MSeg=마야인-에게|Translit=.ma.ya.in.e.ge|LTranslit=.ma.ya.in
+4	마야인에게	마야인	PROPN	NNP+CM	Polite=Form	8	nmod	_	MSeg=마야인-에게|Translit=.ma.ya.in.e.ge|LTranslit=.ma.ya.in
 5	방어물이	방어물	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=방어물-이|Translit=.bang.eo.mul.i|LTranslit=.bang.eo.mul
 6	눈에	눈	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=눈-에|Translit=.nun.e|LTranslit=.nun
 7	띄게	_	VERB	VV	Form=Compl	8	advcl	_	Translit=.ddyi.ge
-8	부족했다는	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=.bu.jog.haess.da.neun
+8	부족했다는	_	NOUN	NN	_	9	nmod	_	SpaceAfter=No|Translit=.bu.jog.haess.da.neun
 9	측면에서	측면	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=측면-에서|Translit=.cheug.myeon.e.seo|LTranslit=.cheug.myeon
 10	그들이	그들	PRON	PRP+CM	Case=Nom|Number=Plur|Person=3|Polite=Form	14	nsubj	_	MSeg=그들-이|Translit=.geu.deul.i|LTranslit=.geu.deul
 11	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No|Translit="|LTranslit="
@@ -16245,7 +16245,7 @@
 7	텍스트에는	텍스트	NOUN	NN+CM	Polite=Form	6	conj	_	MSeg=텍스트-에는|Translit=.teg.seu.teu.e.neun|LTranslit=.teg.seu.teu
 8	나타나지	_	VERB	VV	Form=Aux	21	advcl	_	Translit=.na.ta.na.ji
 9	않으며	않	AUX	VX	Form=Compl	8	aux	_	Translit=.anh.eu.myeo|LTranslit=.anh
-10	대신	_	NOUN	NN	_	12	obl	_	Translit=.dae.sin
+10	대신	_	NOUN	NN	_	12	nmod	_	Translit=.dae.sin
 11	고대	_	NOUN	NN	_	12	compound	_	Translit=.go.dae
 12	마야에서	마야	PROPN	NNP+CM	Polite=Form	21	obl	_	SpaceAfter=No|MSeg=마야-에서|Translit=.ma.ya.e.seo|LTranslit=.ma.ya
 13	는	는	PART	AP	_	12	case	_	Translit=.neun|LTranslit=.neun
@@ -16340,7 +16340,7 @@
 8	마지막	_	NOUN	NN	_	10	compound	_	Translit=.ma.ji.mag
 9	15	15	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No|Translit=15|LTranslit=15
 10	년간은	년간	NOUN	NNB+AP	_	17	obl	_	MSeg=년간-은|Translit=.nyeon.gan.eun|LTranslit=.nyeon.gan
-11	일주일에	일주일	NOUN	NN+CM	Polite=Form	13	obl	_	MSeg=일주일-에|Translit=.il.ju.il.e|LTranslit=.il.ju.il
+11	일주일에	일주일	NOUN	NN+CM	Polite=Form	13	nmod	_	MSeg=일주일-에|Translit=.il.ju.il.e|LTranslit=.il.ju.il
 12	세	_	DET	DT	_	13	det	_	OrigDeprel=nummod|Translit=.se
 13	번씩	_	NOUN	NNB	_	17	obl	_	Translit=.beon.ssig
 14	계속	_	NOUN	NN	_	17	obl	_	Translit=.gye.sog
@@ -16406,7 +16406,7 @@
 13	토마스가	토마스	PROPN	NNP+CM	Case=Nom|Polite=Form	11	flat:name	_	MSeg=토마스-가|Translit=.to.ma.seu.ga|LTranslit=.to.ma.seu
 14	함께	_	ADV	RB	_	15	advmod	_	Translit=.ham.gge
 15	연기한	_	NOUN	NN	_	22	acl:relcl	_	SpaceAfter=No|Translit=.yeon.gi.han
-16	사막에서	사막	NOUN	NN+CM	Polite=Form	18	obl	_	Proper=True|MSeg=사막-에서|Translit=.sa.mag.e.seo|LTranslit=.sa.mag
+16	사막에서	사막	NOUN	NN+CM	Polite=Form	18	nmod	_	Proper=True|MSeg=사막-에서|Translit=.sa.mag.e.seo|LTranslit=.sa.mag
 17	연어	_	NOUN	NN	_	18	compound	_	Proper=True|Translit=.yeon.eo
 18	낚시	_	NOUN	NN	_	19	obl	_	SpaceAfter=No|Proper=True|Translit=.nagg.si
 19	라는	_	VERB	VV	Form=Adn	22	acl:relcl	_	Translit=.ra.neun
@@ -16998,7 +16998,7 @@
 6	카터	_	PROPN	NNP	_	5	flat:name	_	Translit=.ka.teo
 7	사이의	사이	NOUN	NN+CM	Case=Gen|Polite=Form	11	nmod:poss	_	MSeg=사이-의|Translit=.sa.i.yi|LTranslit=.sa.i
 8	1980	1980	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No|Translit=1980|LTranslit=1980
-9	년	_	NOUN	NNB	_	11	obl:tmod	_	Translit=.nyeon
+9	년	_	NOUN	NNB	_	11	nmod:tmod	_	Translit=.nyeon
 10	대통령	_	NOUN	NN	_	11	compound	_	Translit=.dae.tong.ryeong
 11	선거는	선거	NOUN	NN+CM	Case=Nom|Polite=Form	19	nsubj:pass	_	MSeg=선거-는|Translit=.seon.geo.neun|LTranslit=.seon.geo
 12	국내	_	NOUN	NN	_	13	compound	_	Translit=.gug.nae
@@ -18517,7 +18517,7 @@
 25	GEMA	_	NOUN	NN	_	26	compound	_	Proper=True|Translit=GEMA
 26	소속이	소속	NOUN	NN+CM	Polite=Form	27	compound:lvc	_	MSeg=소속-이|Translit=.so.sog.i|LTranslit=.so.sog
 27	아니며	_	ADJ	JJ	Form=Compl	33	acl:relcl	_	Translit=.a.ni.myeo
-28	유튜브와	유튜브	NOUN	NN+CM	Polite=Form	29	obl	_	MSeg=유튜브-와|Translit=.yu.tyu.beu.wa|LTranslit=.yu.tyu.beu
+28	유튜브와	유튜브	NOUN	NN+CM	Polite=Form	29	nmod	_	MSeg=유튜브-와|Translit=.yu.tyu.beu.wa|LTranslit=.yu.tyu.beu
 29	계약이	계약	NOUN	NN+CM	Case=Nom|Polite=Form	31	nsubj	_	MSeg=계약-이|Translit=.gye.yag.i|LTranslit=.gye.yag
 30	안	_	ADV	RB	Polarity=Neg	31	advmod	_	Translit=.an
 31	되어	_	VERB	VV	Form=Aux	27	conj	_	Translit=.doe.eo
@@ -19952,7 +19952,7 @@
 1	다수의	다수	NOUN	NN+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=다수-의|Translit=.da.su.yi|LTranslit=.da.su
 2	기타	_	NOUN	NN	_	4	compound	_	Translit=.gi.ta
 3	사회	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=.sa.hoe
-4	주의자와	주의자	NOUN	NN+CM	Polite=Form	5	obl	_	MSeg=주의자-와|Translit=.ju.yi.ja.wa|LTranslit=.ju.yi.ja
+4	주의자와	주의자	NOUN	NN+CM	Polite=Form	5	nmod	_	MSeg=주의자-와|Translit=.ju.yi.ja.wa|LTranslit=.ju.yi.ja
 5	마찬가지로	마찬가지	NOUN	NN+CM	Polite=Form	17	obl	_	MSeg=마찬가지-로|Translit=.ma.chan.ga.ji.ro|LTranslit=.ma.chan.ga.ji
 6	페드로	_	PROPN	NNP	_	17	obl	_	Translit=.pe.deu.ro
 7	산체스	_	PROPN	NNP	_	6	flat:name	_	SpaceAfter=No|Translit=.san.che.seu
@@ -20588,7 +20588,7 @@
 # translit = 2010.nyeon .chong.seon.e.seo, .no.dong.dang.i .il.gob .gae .tu.pyo.gu.e.seo .mo.du .seung.ri.haess.da.
 # text_en = During the 2010 general election, the Labor Party was able to win all seven voting districts.
 1	2010	2010	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No|Translit=2010|LTranslit=2010
-2	년	_	NOUN	NNB	_	3	obl:tmod	_	Translit=.nyeon
+2	년	_	NOUN	NNB	_	3	nmod:tmod	_	Translit=.nyeon
 3	총선에서	총선	NOUN	NN+CM	Polite=Form	10	obl	_	SpaceAfter=No|Proper=True|MSeg=총선-에서|Translit=.chong.seon.e.seo|LTranslit=.chong.seon
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
 5	노동당이	노동당	PROPN	NNP+CM	Case=Nom|Polite=Form	10	nsubj	_	MSeg=노동당-이|Translit=.no.dong.dang.i|LTranslit=.no.dong.dang
@@ -20720,7 +20720,7 @@
 1	남유럽에서	남유럽	PROPN	NNP+CM	Polite=Form	2	obl	_	MSeg=남유럽-에서|Translit=.nam.yu.reob.e.seo|LTranslit=.nam.yu.reob
 2	발견된	_	NOUN	NN	_	4	acl:relcl	_	SpaceAfter=No|Translit=.bal.gyeon.doen
 3	대다수의	대다수	NOUN	NN+CM	Case=Gen|Polite=Form	4	nmod:poss	_	MSeg=대다수-의|Translit=.dae.da.su.yi|LTranslit=.dae.da.su
-4	유적지와	유적지	NOUN	NN+CM	Polite=Form	5	obl	_	MSeg=유적지-와|Translit=.yu.jeog.ji.wa|LTranslit=.yu.jeog.ji
+4	유적지와	유적지	NOUN	NN+CM	Polite=Form	5	nmod	_	MSeg=유적지-와|Translit=.yu.jeog.ji.wa|LTranslit=.yu.jeog.ji
 5	마찬가지로	마찬가지	NOUN	NN+CM	Polite=Form	12	obl	_	MSeg=마찬가지-로|Translit=.ma.chan.ga.ji.ro|LTranslit=.ma.chan.ga.ji
 6	이	_	DET	DT	_	7	det	_	Translit=.i
 7	유적지도	유적지	NOUN	NN+AP	_	12	nsubj	_	MSeg=유적지-도|Translit=.yu.jeog.ji.do|LTranslit=.yu.jeog.ji
@@ -21327,7 +21327,7 @@
 1	카르카손의	카르카손	PROPN	NNP+CM	Case=Gen|Polite=Form	2	nmod:poss	_	MSeg=카르카손-의|Translit=.ka.reu.ka.son.yi|LTranslit=.ka.reu.ka.son
 2	역사는	역사	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj:outer	_	MSeg=역사-는|Translit=.yeog.sa.neun|LTranslit=.yeog.sa
 3	강화된	_	NOUN	NN	_	4	acl:relcl	_	SpaceAfter=No|Translit=.gang.hwa.doen
-4	도시와	도시	NOUN	NN+CM	Polite=Form	7	obl	_	MSeg=도시-와|Translit=.do.si.wa|LTranslit=.do.si
+4	도시와	도시	NOUN	NN+CM	Polite=Form	7	nmod	_	MSeg=도시-와|Translit=.do.si.wa|LTranslit=.do.si
 5	직접적	_	NOUN	NN	_	7	acl:relcl	_	SpaceAfter=No|Translit=.jig.jeob.jeog
 6	인	이	AUX	VC	Form=Adn	5	cop	_	Translit=.in|LTranslit=.i
 7	관련이	관련	NOUN	NN+CM	Case=Nom|Polite=Form	8	nsubj	_	MSeg=관련-이|Translit=.gwan.ryeon.i|LTranslit=.gwan.ryeon
@@ -21369,7 +21369,7 @@
 8	살해당했다는	_	NOUN	NN	_	9	acl:relcl	_	SpaceAfter=No|Translit=.sal.hae.dang.haess.da.neun
 9	내용의	내용	NOUN	NN+CM	Case=Gen|Polite=Form	13	nmod:poss	_	MSeg=내용-의|Translit=.nae.yong.yi|LTranslit=.nae.yong
 10	2008	2008	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No|Translit=2008|LTranslit=2008
-11	년	_	NOUN	NNB	_	13	obl:tmod	_	Translit=.nyeon
+11	년	_	NOUN	NNB	_	13	nmod:tmod	_	Translit=.nyeon
 12	신문	_	NOUN	NN	_	13	compound	_	Translit=.sin.mun
 13	기사를	기사	NOUN	NN+CM	Case=Acc|Polite=Form	14	obj	_	MSeg=기사-를|Translit=.gi.sa.reul|LTranslit=.gi.sa
 14	인용하였다	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=.in.yong.ha.yeoss.da
